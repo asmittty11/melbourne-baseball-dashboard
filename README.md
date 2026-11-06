@@ -9,7 +9,7 @@ Public, browser-based analytics for Melbourne Baseball Club (VSBL Premier 1, 202
 - `index.html`: responsive, interactive dashboard with overview, player statistics access, searchable/sortable Sandringham batting data, searchable pitching data, reports panel, and data notes.
 - `data/dashboard.json`: 15 Sandringham hitters, 5 pitchers, and scouting/report metadata.
 - `data/melbourne_batting_source.txt` and `data/melbourne_pitching_source.txt`: six-game Melbourne reference data.
-- `.github/workflows/pages.yml`: automatic Pages deployment on commits to `main`.
+- GitHub Pages is configured to build from the repository branch; updates are published through GitHub's existing Pages build and deployment workflow.
 
 ## Original PDF reports
 
