@@ -1,16 +1,26 @@
-# Melbourne Baseball Club — Public Analytics Dashboard
+# Melbourne Baseball Club — Web Scouting Dashboard
 
-Public browser-based VSBL Premier 1 baseball analytics and advance scouting.
+Public, browser-based analytics for Melbourne Baseball Club (VSBL Premier 1, 2026–27).
 
-## Website
-Once GitHub Pages is enabled for the main branch at the repository root, the site URL will be:
+**Website:** https://asmittty11.github.io/melbourne-baseball-dashboard/
 
-https://asmittty11.github.io/melbourne-baseball-dashboard/
+## Included in this repository
 
-## Publish the complete dashboard
-The full dashboard ZIP provided in ChatGPT includes `index.html`, `data/`, and `reports/`. To publish the complete interactive version, extract that ZIP and upload its contents to the root of this repository, replacing the preliminary `index.html` file. Keep the relative directory structure.
+- `index.html`: responsive, interactive dashboard with overview, player statistics access, searchable/sortable Sandringham batting data, searchable pitching data, reports panel, and data notes.
+- `data/dashboard.json`: 15 Sandringham hitters, 5 pitchers, and scouting/report metadata.
+- `data/melbourne_batting_source.txt` and `data/melbourne_pitching_source.txt`: six-game Melbourne reference data.
+- `.github/workflows/pages.yml`: automatic Pages deployment on commits to `main`.
 
-Then go to **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save**.
+## Original PDF reports
 
-## Notes
-The preliminary homepage uses a historical snapshot through Melbourne's sixth game. Source data and reports should be verified before being treated as current.
+**Pending upload:** the five original PDF files referenced by the dashboard in the `reports/` directory have *not* been transferred yet. PDF viewer/download links will not work until those exact originals are present. Please do not interpret these missing files as published reports.
+
+The original PDFs are available in the dashboard archive created in ChatGPT. This repository currently contains the interactive website and text data. No PDF substitutes have been silently published.
+
+## Data accuracy
+
+Figures are historical snapshots, not live league results. Qualification thresholds and data-quality exceptions are explained in the source notes. The Melbourne six-game reference is not a fully reconciled game-level database.
+
+## Maintenance
+
+GitHub Pages publishes automatically when files are committed to the default branch. Report filenames used by the dashboard are in `data/dashboard.json`.
