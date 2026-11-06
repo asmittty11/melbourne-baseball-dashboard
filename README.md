@@ -1,26 +1,29 @@
-# Melbourne Baseball Club — Web Scouting Dashboard
-
-Public, browser-based analytics for Melbourne Baseball Club (VSBL Premier 1, 2026–27).
+# Melbourne Baseball Club — Public Scouting Dashboard
 
 **Website:** https://asmittty11.github.io/melbourne-baseball-dashboard/
 
-## Included in this repository
+This is a static, responsive, browser-based conversion of the Melbourne Baseball Club (VSBL Premier 1) scouting dashboard, requiring no RStudio, R Shiny, or server account.
 
-- `index.html`: responsive, interactive dashboard with overview, player statistics access, searchable/sortable Sandringham batting data, searchable pitching data, reports panel, and data notes.
-- `data/dashboard.json`: 15 Sandringham hitters, 5 pitchers, and scouting/report metadata.
-- `data/melbourne_batting_source.txt` and `data/melbourne_pitching_source.txt`: six-game Melbourne reference data.
-- GitHub Pages is configured to build from the repository branch; updates are published through GitHub's existing Pages build and deployment workflow.
+## Live dashboard contents
 
-## Original PDF reports
+- **Overview:** six-game Melbourne and five-game Sandringham snapshots, plus report links.
+- **Melbourne Players:** original supplied Melbourne season statistics PDF.
+- **Opponent Batting:** searchable and sortable Sandringham batting statistics, including classifications and qualification handling.
+- **Opponent Pitching:** searchable Sandringham pitching statistics and scouting classifications.
+- **Advance Reports:** original five PDF reports, stored in `reports/` and readable in the embedded viewer or as separate files.
+- **Data Notes:** historical data provenance and limitations.
 
-**Pending upload:** the five original PDF files referenced by the dashboard in the `reports/` directory have *not* been transferred yet. PDF viewer/download links will not work until those exact originals are present. Please do not interpret these missing files as published reports.
+## Files
 
-The original PDFs are available in the dashboard archive created in ChatGPT. This repository currently contains the interactive website and text data. No PDF substitutes have been silently published.
-
-## Data accuracy
-
-Figures are historical snapshots, not live league results. Qualification thresholds and data-quality exceptions are explained in the source notes. The Melbourne six-game reference is not a fully reconciled game-level database.
+- `index.html` — full interactive dashboard.
+- `data/dashboard.json` — Sandringham cumulative batting/pitching and report manifest.
+- `data/melbourne_batting_source.txt`, `data/melbourne_pitching_source.txt` — Melbourne cumulative sources.
+- `reports/` — five original PDF reports, unchanged from the supplied package.
+- `assets/Melbourne_Baseball_Web_Dashboard.zip` — complete source archive.
+- `.github/workflows/extract-assets.yml` — reproducible extraction from the source archive.
 
 ## Maintenance
 
-GitHub Pages publishes automatically when files are committed to the default branch. Report filenames used by the dashboard are in `data/dashboard.json`.
+Update `index.html`, `data/`, or `reports/` through GitHub. GitHub Pages uses the repository's branch publication process. Updating the ZIP triggers the extraction workflow and can overwrite these files with the archive versions.
+
+**Important:** All statistics are historical snapshots, not automatically updated official league data. Player data and historical appearances have not been fully reconciled and the reports should be interpreted with their respective date and source limitations.
