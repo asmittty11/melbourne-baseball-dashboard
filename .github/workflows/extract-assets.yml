@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html data/ reports/
+          git add index.html data/ reports/ text_reports/
           if ! git diff --cached --quiet; then
             git commit -m "Extract complete dashboard and original five PDF reports"
             git push origin HEAD:main
