@@ -31,4 +31,6 @@ Last compiled: November 6, 2026.
 Melbourne player and team season statistics are updated in the sortable tables shortly after each game's verified stats are uploaded into the system. Opponent data is updated only when a new advance scouting report is published for that opponent, generally in preparation for an upcoming rematch. These updates are manual-upload-driven and not an automatic live GameDay synchronization.
 
 ## Table sorting and pitching display
-ERA and WHIP default to ascending order (lowest first) when selected, including on initial ERA-based views; AVG remains descending. Melbourne pitching does not display games/appearances, and unverified throwing handedness is blank. The Melbourne batting table does not display RBI.
+ERA and WHIP default to ascending order (lowest first) when selected, including on initial ERA-based views; AVG remains descending. Melbourne pitching displays neither Throws nor games/appearances. The Melbourne batting table does not display RBI.
+
+The package extraction workflow refreshes archived reports only; it deliberately avoids overwriting independently maintained dashboard code or statistical tables.
