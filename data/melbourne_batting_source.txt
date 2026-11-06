@@ -9,7 +9,6 @@ H
 2B
 3B
 HR
-RBI
 BB
 SO
 AVG
