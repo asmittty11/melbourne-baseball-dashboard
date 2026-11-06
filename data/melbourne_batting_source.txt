@@ -9,6 +9,7 @@ H
 2B
 3B
 HR
+RBI
 BB
 SO
 AVG
@@ -265,3 +266,4 @@ TEAM TOTAL
 .114
 12.4%
 2
+RBI DATA NOTE: RBI was not present in the verified six-game cumulative batting source. All individual and team RBI values remain unverified (blank in dashboard), pending game-by-game uploads. Do not infer season RBI from selected Round 5 commentary.
