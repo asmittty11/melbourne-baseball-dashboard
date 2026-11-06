@@ -361,7 +361,6 @@
     ],
     "pitching": [
       {
-        "Throws": "",
         "IP": "0.1",
         "H": "0",
         "BB": "0",
@@ -378,7 +377,6 @@
         "Team Total": false
       },
       {
-        "Throws": "",
         "IP": "2.2",
         "H": "5",
         "BB": "1",
@@ -395,7 +393,6 @@
         "Team Total": false
       },
       {
-        "Throws": "R",
         "IP": "14.1",
         "H": "22",
         "BB": "4",
@@ -412,7 +409,6 @@
         "Team Total": false
       },
       {
-        "Throws": "R",
         "IP": "18.1",
         "H": "27",
         "BB": "14",
@@ -429,7 +425,6 @@
         "Team Total": false
       },
       {
-        "Throws": "",
         "IP": "5.1",
         "H": "5",
         "BB": "10",
@@ -446,7 +441,6 @@
         "Team Total": false
       },
       {
-        "Throws": "",
         "IP": "2.1",
         "H": "6",
         "BB": "1",
@@ -463,7 +457,6 @@
         "Team Total": false
       },
       {
-        "Throws": "",
         "IP": "1.1",
         "H": "4",
         "BB": "1",
@@ -480,7 +473,6 @@
         "Team Total": false
       },
       {
-        "Throws": "",
         "IP": "0.2",
         "H": "2",
         "BB": "2",
