@@ -1,16 +1,239 @@
 MELBOURNE BASEBALL CLUB | PITCHING TENDENCIES
 PITCHING | SIX-GAME CUMULATIVE | IP notation is full innings plus outs
-Pitcher|Throws|G|IP|H|BB|SO|ER|ERA|WHIP|K/9|BB/9|K/BB
-Simon Fitzmaurice|||0.1|0|0|0|0|0.00*|0.00|0.00|0.00|—
-Angus Saggers|||2.2|5|1|1|2|6.75*|2.25|3.38|3.38|1.00
-Taylor Perrett|R||14.1|22|4|19|14|8.79|1.81|11.93|2.51|4.75
-Joey White|R||18.1|27|14|20|18|8.84|2.24|9.82|6.87|1.43
-Charles Chislett|||5.1|5|10|1|9|15.19|2.81|1.69|16.88|0.10
-Max Saggers|||2.1|6|1|2|4|15.43*|3.00|7.71|3.86|2.00
-Christian Caminiti|||1.1|4|1|0|3|20.25*|3.75|0.00|6.75|0.00
-Henry Mcintyre|||0.2|2|2|0|2|27.00*|6.00|0.00|27.00|0.00
-TEAM TOTAL|||45.1|71|33|43|52|10.32|2.29|8.54|6.55|1.30
-* ERA: fewer than 0.67 IP (two outs) per team game; fewer than 4.0 IP through six games. All pitchers listed. G pitching appearances are unknown pending game-by-game reconciliation.
+Pitcher
+Throws
+G
+IP
+H
+BB
+SO
+ER
+ERA
+WHIP
+K/9
+BB/9
+K/BB
+Simon Fitzmaurice
+—
+—
+0.1
+0
+0
+0
+0
+0.00*
+0.00
+0.00
+0.00
+—
+Angus Saggers
+—
+—
+2.2
+5
+1
+1
+2
+6.75*
+2.25
+3.38
+3.38
+1.00
+Taylor Perrett
+R
+—
+14.1
+22
+4
+19
+14
+8.79
+1.81
+11.93
+2.51
+4.75
+Joey White
+R
+—
+18.1
+27
+14
+20
+18
+8.84
+2.24
+9.82
+6.87
+1.43
+Charles Chislett
+—
+—
+5.1
+5
+10
+1
+9
+15.19
+2.81
+1.69
+16.88
+0.10
+Max Saggers
+—
+—
+2.1
+6
+1
+2
+4
+15.43*
+3.00
+7.71
+3.86
+2.00
+Christian Caminiti
+—
+—
+1.1
+4
+1
+0
+3
+20.25*
+3.75
+0.00
+6.75
+0.00
+Henry Mcintyre
+—
+—
+0.2
+2
+2
+0
+2
+27.00*
+6.00
+0.00
+27.00
+0.00
+Pitcher
+Throws
+IP
+H
+BB
+SO
+ER
+ERA
+WHIP
+K/9
+BB/9
+K/BB
+Simon Fitzmaurice
+0.1
+0
+0
+0
+0
+0.00*
+0.00
+0.00
+0.00
+—
+Angus Saggers
+2.2
+5
+1
+1
+2
+6.75*
+2.25
+3.38
+3.38
+1.00
+Taylor Perrett
+R
+14.1
+22
+4
+19
+14
+8.79
+1.81
+11.93
+2.51
+4.75
+Joey White
+R
+18.1
+27
+14
+20
+18
+8.84
+2.24
+9.82
+6.87
+1.43
+Charles Chislett
+5.1
+5
+10
+1
+9
+15.19
+2.81
+1.69
+16.88
+0.10
+Max Saggers
+2.1
+6
+1
+2
+4
+15.43*
+3.00
+7.71
+3.86
+2.00
+Christian Caminiti
+1.1
+4
+1
+0
+3
+20.25*
+3.75
+0.00
+6.75
+0.00
+Henry Mcintyre
+0.2
+2
+2
+0
+2
+27.00*
+6.00
+0.00
+27.00
+0.00
+* ERA: fewer than 0.67 IP (two outs) per team game, i.e. fewer than 4.0 IP through six games. All pitchers remain listed.
+G (pitching appearances): left blank pending verified game-by-game appearance reconciliation; cumulative pitching totals cannot establish appearances. Game 1 pitching lines were added for Chislett, Mcintyre, White, and Perrett.
+LINEUP & COACHING USAGE | UPDATED
+1 Blake Mitchell — on-base value; source discrepancy in Game 1 hit-type breakdown needs verification.
+2 Ben Aslett — collegiate experience and patience; Game 1 included.
+3 Joshua Hendricks — early power and production; Game 1 home run included.
+4 William Kent — recent contact and run production.
+5 Wade Mcconnon — patience and doubles profile.
+6 Oscar Hargreaves — walk-driven on-base contribution.
+7 Lochlann O'Connor — situational on-base value.
+8 Harvey Chinn — continue monitoring contact and strikeouts.
+9 Lachlan Brennan — continue monitoring contact.
+Pitching: Perrett’s latest three scoreless innings remain encouraging. White and Caminiti should be assessed for command and fatigue. Keep all player and staff usage assessments provisional pending verified complete game logs.
+* ERA: fewer than 0.67 IP (two outs) per team game; fewer than 4.0 IP through six games. All pitchers listed.
+Pitching appearances not verified; G column omitted. Unknown throwing hands left blank.
 LINEUP & COACHING USAGE | UPDATED THROUGH SIX GAMES
 1 Blake Mitchell - strongest established on-base profile (.375 OBP, five BB); monitor recent contact (0-for-3).
 2 William Kent - 3-for-5 in Round 4 and scored the lone run in the latest game; recent contact merits top-order look.
@@ -23,3 +246,14 @@ LINEUP & COACHING USAGE | UPDATED THROUGH SIX GAMES
 9 Lachlan Brennan - limited .091 sample; use defensive fit and availability to guide selection.
 PITCHING: Perrett (3 scoreless IP latest) is trending up; White allowed 8 R in 2 IP and Caminiti 3 R in 0.2 IP.
 Review command, workload and opponent fit. All lineup/role suggestions remain provisional.
+TEAM TOTAL
+45.1
+71
+33
+43
+52
+10.32
+2.29
+8.54
+6.55
+1.30
