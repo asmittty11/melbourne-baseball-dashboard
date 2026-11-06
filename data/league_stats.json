@@ -25,7 +25,8 @@
         "Position": "10th",
         "Source": "Melbourne_vs_Sandringham_Advance_Scouting_Nov10_2026_Riley_Trad_Attack.pdf"
       }
-    ]
+    ],
+    "melbourne_rbi_status": "Season RBI totals unavailable in the supplied six-game source report; blank means unverified, not zero."
   },
   "melbourne": {
     "batting": [
@@ -49,7 +50,8 @@
         "Bats": "R",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "3",
@@ -71,7 +73,8 @@
         "Bats": "R",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "19",
@@ -93,7 +96,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "25",
@@ -115,7 +119,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "20",
@@ -137,7 +142,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "23",
@@ -159,7 +165,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "23",
@@ -181,7 +188,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "20",
@@ -203,7 +211,8 @@
         "Bats": "L",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "12",
@@ -225,7 +234,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "20",
@@ -247,7 +257,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "11",
@@ -269,7 +280,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "1",
@@ -291,7 +303,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "2",
@@ -313,7 +326,8 @@
         "Bats": "R",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "PA": "3",
@@ -335,7 +349,8 @@
         "Bats": "",
         "Team": "Melbourne",
         "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
-        "Team Total": false
+        "Team Total": false,
+        "RBI": ""
       },
       {
         "Player": "TEAM TOTAL",
@@ -356,7 +371,8 @@
         "ISO": ".114",
         "BB%": "12.4%",
         "SB": "2",
-        "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf"
+        "Source": "Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf",
+        "RBI": ""
       }
     ],
     "pitching": [
