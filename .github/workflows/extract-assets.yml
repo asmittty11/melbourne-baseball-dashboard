@@ -16,9 +16,9 @@ jobs:
           persist-credentials: true
       - name: Extract full dashboard package
         run: |
-          unzip -oq assets/Melbourne_Baseball_Web_Dashboard.zip -d .
+          unzip -oq assets/Melbourne_Baseball_Web_Dashboard.zip 'reports/*' 'text_reports/*' -d .
           test -f index.html
-          test -f data/dashboard.json
+          test -f data/league_stats.json
           test -f reports/Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf
           test -f reports/Melbourne_vs_Sandringham_Advance_Scouting_Nov10_2026_Riley_Trad_Attack.pdf
           echo "All dashboard files extracted."
@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html data/ reports/ text_reports/
+          git add reports/ text_reports/
           if ! git diff --cached --quiet; then
             git commit -m "Extract complete dashboard and original five PDF reports"
             git push origin HEAD:main
