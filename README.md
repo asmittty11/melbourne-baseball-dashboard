@@ -6,7 +6,7 @@ This is a static, browser-based VSBL Premier 1 analytics and advance scouting da
 
 ## Interactive views
 - **Overview:** Melbourne's six-game season snapshot.
-- **Melbourne Players:** sortable six-game batting and pitching data, with source team totals separated.
+- **Melbourne Players:** sortable six-game batting and pitching data (including RBI column), with source team totals separated. Existing cumulative RBI is blank until verified from game-level uploads.
 - **Opponent Batting / Opponent Pitching:** filter by all uploaded opponents or a specific club; search and sort columns; export filtered CSV.
 - **League Comparison:** combined Melbourne, Doncaster, Upwey FTG and Sandringham player tables for cross-team comparisons.
 - **Report Text:** searchable, plain-text versions of all five original PDFs.
@@ -26,3 +26,6 @@ Data windows differ: Melbourne six games, Doncaster five, Upwey FTG four, Sandri
 The `.github/workflows/extract-assets.yml` workflow extracts the dashboard archive into the repository and commits the website, data, PDFs, and text reports. GitHub Pages builds from the `main` branch.
 
 Last compiled: November 6, 2026.
+
+## Data refresh policy
+Melbourne player and team season statistics are updated in the sortable tables shortly after each game's verified stats are uploaded into the system. Opponent data is updated only when a new advance scouting report is published for that opponent, generally in preparation for an upcoming rematch. These updates are manual-upload-driven and not an automatic live GameDay synchronization. RBI must be included in all future Melbourne batting stat reports; do not fill missing historical RBI with zero.
