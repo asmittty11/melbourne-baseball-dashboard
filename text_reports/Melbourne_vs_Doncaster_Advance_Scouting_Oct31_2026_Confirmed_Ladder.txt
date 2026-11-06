@@ -1,0 +1,208 @@
+--- PAGE 1 ---
+DONCASTER | ADVANCE SCOUTING
+
+  Melbourne Baseball Club @ Doncaster | Saturday 31 October 2026 | Five-game cumulative report
+
+ VSBL DIVISION 1 | LADDER SNAPSHOT
+
+  Team                                   Position        GP          W–L–T              Runs for               Runs against             Run differential
+
+   Doncaster                                 8th               5             2–2–1                 23                      38                             ·15
+
+   Melbourne                               11th              5             2–3–0                 25                      41                        −16
+
+  Doncaster ladder: 8th, 2·2·1, 23 RF, 38 RA, ·15 differential (confirmed). Melbourne ladder: 11th, 2·3·0, 25 RF, 41 RA, ·16 differential.
+
+ BATTING | CUMULATIVE THROUGH ROUND 5
+
+   Batter                              Bats    AB     H       2B      3B     HR     BB     SO     AVG       OBP*       RBI     SCOUTING READ
+
+   Jean Alvarado                  R        11       8        0        1        1        3        1         .727         .786        2        PRIORITY
+
+   Callum Lethborg                               6        3        1        0        1        1        0         .500         .571        3        LIMITED
+
+   Takuya Takahashi                              2        1        0        0        0        0        0         .500         .500        0        LIMITED
+
+   Gage Mason                                  7        3        1        0        0        0        3         .429         .429        1        LIMITED
+
+   Blake Exizian                  R        18       7        3        0        0        1        2         .389         .421        2        PRIORITY
+
+   Fernando Figueroa                             17       6        1        0        0        1        1         .353         .389        6        PRIORITY
+
+   Kycen Dowling                                15       5        2        0        0        4        2         .333         .474        1       CAUTION
+
+   Rolando Curiel                                3        1        0        0        0        0        2         .333         .333        0        LIMITED
+
+   Shorato Morimoto                              19       4        2        0        1        2        7         .211         .286        2       CAUTION
+
+   Tye Wilson                                   6        1        1        0        0        2        3         .167         .375        1        LIMITED
+
+   Brian Chen                                   13       2        0        1        0        2        1         .154         .267        2       ATTACK
+
+   Jax Clarke                                    13       2        0        0        0        2        6         .154         .267        3       ATTACK
+
+ R = right-handed batting, blank = not independently verified. Scouting reads: red priority; yellow caution; green attack; gray limited sample.
+
+
+
+MELBOURNE BASEBALL CLUB | OPPONENT ADVANCE | 31 OCT 2026                                                                                                                                          1
+
+--- PAGE 2 ---
+DONCASTER | BATTING CONTINUED
+
+
+   Batter                              Bats    AB     H       2B      3B     HR     BB     SO     AVG       OBP*       RBI     SCOUTING READ
+
+   Edward Mateo                                 5        0        0        0        0        1        0         .000         .167        1        LIMITED
+
+   Liam Robertson                                2        0        0        0        0        0        0         .000         .000        0        LIMITED
+
+   Max Vetter                                    2        0        0        0        0        0        2         .000         .000        0        LIMITED
+
+   Daniel Bebbere                                1        0        0        0        0        0        0         .000         .000        0        LIMITED
+
+   Dakota Gibson                                1        0        0        0        0        0        1         .000         .000        0        LIMITED
+
+   Taiyo Honda                                  1        0        0        0        0        0        0         .000         .000        0        LIMITED
+
+    Kris Nankivell                                 0        0        0        0        0        0        0         .000         .000        0        LIMITED
+
+ OBP* is estimated from (H + BB) / (AB + BB), because complete historical HBP/SF data are not available. Blank handedness is intentionally unverified.
+
+ VERIFIED HIGHER-LEVEL PLAYING EXPERIENCE
+
+ Jean Alvarado (R/R): Doncaster identifies a professional playing career in Venezuela. MLB and Baseball-Reference list a Jean Alvarado who played for the Baltimore Orioles’ Dominican
+ Summer League affiliate in 2016 (29 games). Name and club background support the match, but confirm full identity before treating the minor-league entry as definitive.
+
+ Blake Exizian (R/R): Four-year U.S. college player, including Spartanburg Methodist College and NAIA Appalachian Athletic Conference competition; named to the 2026 All-Conference First
+ Team. Also competed in U.S. collegiate summer leagues and at Frankston before signing with Doncaster.
+
+ Other players: No additional current report player could be confidently linked to higher-level experience and handedness in the checked sources. Angus Stals has documented U.S. college
+ experience at Three Rivers but is not listed in this report’s five-game player tables.
+
+  Sources: Baseball Jobs Overseas player profile and Oct. 21, 2026 story; Doncaster Baseball Club Aug. 12, 2026 announcement; MLB.com Jean Alvarado player profile; Baseball-Reference register; Baseball Victoria college players
+  directory.
+
+ DONCASTER | TEAM BATTING TOTAL · FIVE GAMES
+
+ AB 142  H 43  2B 11  3B 2  HR 3  BB 19  SO 31  RBI 24  AVG .303  OBP* .385
+
+ Aggregated from all 19 listed player rows; OBP* is an estimate excluding historical HBP/SF. RBI may not reconcile to official runs scored. Team totals are not an additional player.
+
+
+
+
+
+MELBOURNE BASEBALL CLUB | OPPONENT ADVANCE | 31 OCT 2026                                                                                                                                          2
+
+--- PAGE 3 ---
+DONCASTER | PITCHING & STAFF READ
+
+
+   Pitcher                        Throws     IP       H       BB      SO      ER      ERA        WHIP         K/9          BB/9       SCOUTING READ
+
+   Gage Mason                                      8.2        6         10        14        7          7.27           1.85           14.5           10.4        ATTACK
+
+   Blake Exizian                R           7.0        7         8         6         2          2.57           2.14           7.7            10.3        CAUTION
+
+   Kycen Dowling                                    4.2        8         10        5         7          13.50         3.86           9.6            19.3        ATTACK
+
+   Luke Utting                                       4.0        4         6         3         4          9.00           2.50           6.8            13.5        ATTACK
+
+   Takuya Takahashi                                 8.0        12        1         8         3          3.38           1.62           9.0            1.1         CAUTION
+
+   Taiyo Honda                                      2.1        3         1         3         3          11.57         1.71           11.6           3.9         ATTACK
+
+ BLAKE EXIZIAN | CAUTION
+
+  Exizian’s 2.57 ERA across 7.0 IP warrants CAUTION rather than ATTACK. His 8 walks and 2.14 WHIP still support disciplined at-bats; avoid interpreting those command concerns as evidence
+  that he is easy to score against.
+
+ ROUND 5 PITCHING NOTES
+
+ Takuya Takahashi: 4.0 IP, 3 H, 6 K, 1 BB, 0 ER. Season 8.0 IP, 3.38 ERA, 1.62 WHIP. Better command profile than the other reported options.
+
+ Gage Mason: 1.0 IP, 1 H, 3 K, 0 BB, 0 ER. Season 8.2 IP, 14 K, 10 BB. Strikeout threat, but season-long walk risk remains.
+
+  Pitcher handedness: Exizian throws right-handed per his own published player profile. Other pitchers are left blank pending an identity-matched source.
+
+
+ DONCASTER | TEAM PITCHING TOTAL · FIVE GAMES
+
+ IP 34.2  H 40  BB 36  SO 39  ER 26  ERA 6.75  WHIP 2.19  K/9 10.1  BB/9 9.3
+
+  Strike-throwing is a major team-wide concern: 36 walks in 34.2 innings (9.3 BB/9), including 35 walks from five pitchers other than Takahashi. Prioritize disciplined at-bats; do not assume every pitcher lacks
+ command.
+
+
+
+
+
+MELBOURNE BASEBALL CLUB | OPPONENT ADVANCE | 31 OCT 2026                                                                                                                                          3
+
+--- PAGE 4 ---
+DONCASTER | MATCHUP & LINEUP PLAN
+
+ TOP OFFENSIVE THREATS
+
+ Jean Alvarado (R): 8-for-11, .727 AVG, prior extra-base production; highest contact priority. Avoid free passes ahead of him.
+
+ Blake Exizian (R): 7-for-18, three doubles. Right-handed gap-power threat and collegiate All-Conference player.
+
+ Fernando Figueroa: 6-for-17, six RBI. Handedness unverified; focus on traffic ahead of him.
+
+ Shorato Morimoto: Round 5 home run and two RBI; avoid mistakes in damage counts despite modest cumulative average.
+
+ Kycen Dowling: .474 estimated OBP, two doubles, four walks. Caution on base-reaching ability.
+
+ MELBOURNE PITCHING PLAN
+
+ Avoid multi-run innings created by walks before Alvarado, Exizian and Figueroa. Set defensive alignment from verified swing tendencies and live-game observation, not presumed pull
+ tendencies or unverified handedness.
+
+ RUNNING GAME & DEFENSE
+
+ No verified pitcher delivery times, catcher pop times, or opponent stolen-base success rates were supplied. Assess opportunities live.
+
+ RECENT GAME CONTEXT
+
+ Doncaster reported a 2–0 win against Blackburn. Supplied player runs appear inconsistent with that score; keep the previously supplied five-game ladder RF 23, RA 38 and RD −15 provisional
+  until reconciled.
+
+
+
+
+
+MELBOURNE BASEBALL CLUB | OPPONENT ADVANCE | 31 OCT 2026                                                                                                                                          4
+
+--- PAGE 5 ---
+DONCASTER | MELBOURNE ATTACK PLAN
+
+ OFFENSIVE APPROACH | PATIENCE WITH SELECTIVE AGGRESSION
+
+ Work counts against walk-prone options, particularly Dowling, Utting and Mason. Against Exizian, remain disciplined but recognize his 2.57 ERA and treat him as CAUTION, not a favorable
+ matchup. Do not automatically take hittable strikes.
+
+ Takahashi’s six-strikeout, one-walk Round 5 appearance suggests a different approach: prioritize contact quality and situational execution rather than relying on free passes.
+
+ MAKE RELIEF TRANSITIONS MATTER
+
+ Build pitch counts and maintain disciplined at-bats through pitching changes. Mason’s three-strikeout, zero-walk inning shows that his swing-and-miss ability must still be respected.
+
+ PREGAME VERIFICATION CHECKLIST
+
+ Confirm probable starter and recent workloads; Doncaster official RF/RA; Blackburn score versus supplied player runs; missing handedness and player identity matches; full historical HBP/SF;
+ lineup assignments and available video.
+
+ SOURCE & IDENTITY NOTES
+
+ Handedness and playing experience sourced from publicly accessible player/club profiles. Sources: baseballjobsoverseas.com/players/blake-exizian/ ; baseballjobsoverseas.com/blake-exizian-baseball-story/ ;
+  doncasterbaseball.com/2026/08/12/jean-papi-alvarado-appointed-as-mens-head-coach-for-season-2026-27/ ; mlb.com/player/jean-alvarado-666605 ; baseball-reference.com/register/player.fcgi?id=alvara000jea .
+
+  All five-game statistical totals are carried from the previous cumulative scouting report. New web research verifies only the identified handedness/experience; it does not independently audit the player statistics.
+
+
+
+
+
+MELBOURNE BASEBALL CLUB | OPPONENT ADVANCE | 31 OCT 2026                                                                                                                                          5

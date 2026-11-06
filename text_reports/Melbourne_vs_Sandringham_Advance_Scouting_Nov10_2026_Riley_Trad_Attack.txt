@@ -1,0 +1,105 @@
+--- PAGE 1 ---
+MELBOURNE BASEBALL CLUB | ADVANCE SCOUTING
+
+Sandringham vs Melbourne | Tuesday 10 November 2026 | Melbourne away | VSBL Premier 1 First Nine
+
+MATCHUP SNAPSHOT | OFFICIAL LADDER BEFORE 7 NOVEMBER
+
+ TEAM                      POS     GP     W        L       D        RF        RA        RUN DIFF         RF/G          RA/G
+
+ Sandringham                       10         5          2          3          0          30           40           −10                  6.00             8.00
+
+ Melbourne                        11         6          2          4          0          26           52           −26                  4.33             8.67
+
+Data window: five supplied Sandringham game-by-game exports. Sandringham’s November 7 game is not included; the ladder and opponent totals may change before November 10.
+
+BATTING | FIVE-GAME CUMULATIVE
+
+  Batter                                    Bats   G    PA   AB   H     2B    3B    HR    RBI   BB   SO    AVG   OBP   SLG   OPS     ISO    BB%     SB            SCOUTING READ
+
+ Joshua Meyer                                   5     21    17     8      3      0      1      8      4      4       .471     .571     .824     1.395     .353    19.0%     0            THREAT
+
+ Chase Hodkinson                                4     17    14     6      0      0      0      1      2      0       .429     .471     .429     .899      .000    11.8%     0            THREAT
+
+  Declan Ferguson                                 5     18    14     5      1      0      0      1      2      3       .357     .471     .429     .899      .071    11.1%     0            THREAT
+
+  Mitchell Denny                                   5     21    19     7      1      0      0      2      1      6       .368     .400     .421     .821      .053    4.8%      0            THREAT
+
+ Matthew Wilson                                  5     21    16     3      2      0      0      2      3      8       .188     .333     .312     .646      .125    14.3%     2             CAUTION
+
+ Sam Trend-Beacom                              3     14    13     3      1      0      0      2      0      1       .231     .231     .308     .538      .077    0.0%      0            ATTACK
+
+  Harrison Wills                                   4     19    13     1      0      0      0      1      6      4       .077     .368     .077     .445      .000    31.6%     2             CAUTION
+
+  William Tucker                                   3     11    7      0      0      0      0      0      3      4       .000     .300     .000     .300      .000    27.3%     0            ATTACK
+
+  Jordan Taylor Barnett                              5     21    19     1      0      0      0      1      0      10      .053     .143     .053     .195      .000    0.0%      0            ATTACK
+
+ Hamish Ferguson                                1     1     0      0      0      0      0      0      1      0        .000*    1.000    .000     1.000     .000    100.0%    0               LIMITED
+
+  Riley Trad                                      2     5     5      2      1      0      0      0      0      2        .400*    .400     .600     1.000     .200    0.0%      0               LIMITED
+
+  Timothy Lane                                   1     1     0      0      0      0      0      0      1      0        .000*    1.000    .000     1.000     .000    100.0%    0               LIMITED
+
+ Thomas Skinner                                 2     9     9      2      1      0      0      4      0      1        .222*    .222     .333     .556      .111    0.0%      0               LIMITED
+
+  Bodhi Evans                                    2     4     3      0      0      0      0      0      1      2        .000*    .250     .000     .250      .000    25.0%     0               LIMITED
+
+  Hunter Richardson                               1     1     1      0      0      0      0      0      0      1        .000*    .000     .000     .000      .000    0.0%      0               LIMITED
+
+ TEAM TOTAL                                 5     184   150   38    10    0     1      22     24    46      .253     .367     .340     .707      .087    13.0%    4
+
+--- PAGE 2 ---
+* AVG qualification: at least 2.0 PA per team game (10 PA through five games). OBP uses H, BB, HBP and SF from supplied exports; errors in source data can affect rates. Bats unknown left blank.
+
+BATTING APPROACH | LINEUP & DEFENSIVE NOTES
+Joshua Meyer: clear extra-base threat (one HR, three doubles); protect against damage with runners aboard.
+
+Chase Hodkinson and Declan Ferguson: reliable contact in supplied sample; prioritize clean defensive execution and limit free bases.
+
+Harrison Wills: walks and occasional running pressure; force strikes without giving up easy advancement.
+
+Jordan Taylor Barnett: elevated strikeout tendency; challenge in the zone.
+
+Overall: 30 runs in five ladder games (6.0/game) and a mixture of patient and aggressive hitters. Avoid treating Sandringham as a weak offense simply because its record is below .500.
+
+--- PAGE 3 ---
+SANDRINGHAM | PITCHING & MATCHUP PLAN
+
+PITCHING | FIVE-GAME CUMULATIVE
+
+ Pitcher                           Throws     G        IP         H         BB        SO         ER        ERA           WHIP            K/9            BB/9          SCOUTING READ
+
+ Matthew Wilson                                   4         28.0          36           7            20           15             4.82               1.54               6.4                2.2            CAUTION **
+
+ Chase Hodkinson                                  1         3.0           4            2            1            2              6.00               2.00               3.0                6.0            CAUTION
+
+ Joshua Meyer                                    2         3.0           4            5            1            3              9.00               3.00               3.0               15.0           ATTACK
+
+  Riley Trad                                        5         5.1           4            14           7            7              11.81             3.38               11.8              23.6          ATTACKCAUTION
+
+ Lachlan Jeffree                                   2         1.1           2            2            1            6              40.50*             3.00               6.8               13.5             LIMITED
+
+ TEAM TOTAL                                    5         40.2          50           30           30           33             7.30               1.97               6.6                6.6
+
+* ERA qualification: at least one out (0.1 IP) per team game; five outs (1.2 IP) through five games. IP uses baseball outs notation, not decimal fractions. Unknown throwing hands left blank.
+
+PITCHING MATCHUP | MELBOURNE HITTERS
+Matthew Wilson: primary**primaryinningsinningssourcesource(28.0(28.0IPIPin infourfourpitchingpitchingappearances);appearances);3636hits,hits,7 7walks,walks,2020strikeoutsstrikeoutsandand1515ERERin insuppliedsuppliedgames.games.BuildBuildpatient,patient,qualityqualityplateplateappearancesappearancesratherratherthanthanassuming
+earlyassumingbullpenearlyexposure.bullpen exposure.
+
+Riley Trad: 14 walks in 5.1 IP, with 7 strikeouts; strong incentive to take borderline pitches and force strikes.
+
+Joshua Meyer: limited pitching sample with five walks over 3.0 IP; stay selective.
+
+Chase Hodkinson: one three-inning appearance; avoid overinterpreting the limited sample.
+
+Lachlan Jeffree: 6 ER and 3 HBP in 1.1 IP; attack hittable strikes but be prepared for inconsistent command.
+
+Team approach: 30 walks and 50 hits allowed over 40.2 recorded innings. Make pitchers work, take free passes, and emphasize situational hitting with runners on base.
+
+SCOUTING READ LEGEND & SOURCE QUALITY
+RED = priority threat | YELLOW = caution | GREEN = favorable matchup / attack | GRAY = insufficient sample. Classifications are provisional and based on this five-game sample.
+
+Source: five game-by-game Sandringham player-stat tables supplied by the user; official ladder snapshot supplied by the user. Team player-run sum may differ from official RF, and pitching earned runs are not the same as total runs
+allowed. Handedness and higher-level playing experience have not been independently verified. November 7 results are pending.

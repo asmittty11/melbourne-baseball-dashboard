@@ -1,0 +1,86 @@
+--- PAGE 1 ---
+MELBOURNE BASEBALL CLUB | PLAYER TENDENCIES
+2026–27 season | Six supplied games | Official ladder: 11th, 2–4–0 | RF 26 | RA 52 | RD −26
+
+BATTING | SIX-GAME CUMULATIVE
+
+ Player                   Bats   PA   AB   H    2B   3B   HR   BB   SO   AVG    OBP     SLG     OPS      ISO     BB%    SB
+
+ Joshua Hendricks       R      20     18     7     2     0     2     1     3      .389       .421       .833       1.254      .444      5.0%           ·
+
+ Joey White           R      3      3      1     0     0     0     0     1      .333*      .333       .333       .667       .000      0.0%           ·
+
+  William Kent                     19     17     5     1     1     0     1     4      .294       .333       .471       .804       .176      5.3%           ·
+
+ Blake Mitchell                    25     19     4     3     1     0     5     3      .211       .375       .474       .849       .263      20.0%    2
+
+ Oscar Hargreaves                20     15     3     1     0     0     5     5      .200       .400       .267       .667       .067      25.0%         ·
+
+ Wade Mcconnon                 23     17     3     1     0     0     4     5      .176       .333       .235       .569       .059      17.4%         ·
+
+ Lochlann O'Connor               23     20     3     1     0     0     3     7      .150       .261       .200       .461       .050      13.0%         ·
+
+ Ben Aslett               L      20     14     2     0     0     0     2     1      .143       .250       .143       .393       .000      10.0%         ·
+
+ Zak Skinner                     12     8      1     0     0     0     3     2      .125       .364       .125       .489       .000      25.0%         ·
+
+ Harvey Chinn                    20     19     2     0     0     0     1     8      .105       .150       .105       .255       .000      5.0%           ·
+
+ Lachlan Brennan                 11     11     1     0     0     0     0     5      .091*      .091       .091       .182       .000      0.0%           ·
+
+ Angus Saggers                   1      1      0     0     0     0     0     1      .000*      .000       .000       .000       .000      0.0%           ·
+
+  Taylor Perrett          R      2      1      0     0     0     0     0     0      .000*      .000       .000       .000       .000      0.0%           ·
+
+ Lennard Pietersz                 3      3      0     0     0     0     0     0      .000*      .000       .000       .000       .000      0.0%           ·
+
+ TEAM TOTAL                     202    166    32     9      2      2      25     45      .193          •           .307          •           .114       12.4%     2
+
+
+* AVG: fewer than 2.0 PA per team game (fewer than 12 PA through six games). All players remain listed. OBP/OPS are provisional because earlier HBP and sacrifice components are incomplete. Asterisks apply to AVG only.
+
+Game 1 source note: the Blake Mitchell row reports zero hits despite listing a single and a triple; these conflicting source fields are not silently corrected. The cumulative H column uses the supplied H value. All Game 1 entries are counted once, not
+twice.
+
+--- PAGE 2 ---
+MELBOURNE BASEBALL CLUB | PITCHING TENDENCIES
+PITCHING | SIX-GAME CUMULATIVE | IP notation is full innings plus outs
+
+  PitcherPitcher                         Throws ThrowsG         IP  IP     H  H    BB  BB SO   SO ER    ERERA     ERAWHIP    WHIPK/9         K/9BB/9      BB/9K/BB      K/BB
+
+ SimonSimon FitzmauriceFitzmaurice         —      —        0.1 0.1     0   0     0    0    0      0  0       0 0.00*       0.00*0.00       0.000.00        0.000.00        0.00—     —
+
+ AngusAngus SaggersSaggers           —      —        2.2 2.2     5   5     1    1    1      1  2       2 6.75*       6.75*2.25       2.253.38        3.383.38        3.381.00        1.00
+
+  TaylorTaylor PerrettPerrett                R    R  —        14.114.1    22  22    4    4    19     19 14      148.79       8.79 1.81       1.8111.93       11.932.51        2.514.75        4.75
+
+ JoeyJoey WhiteWhite                  R    R  —        18.118.1    27  27    14   14   20     20 18      188.84       8.84 2.24       2.249.82        9.826.87        6.871.43        1.43
+
+  CharlesCharles ChislettChislett          —      —        5.1 5.1     5   5     10   10   1      1  9       9 15.19      15.192.81       2.811.69        1.6916.88       16.880.10        0.10
+
+ MaxMax SaggersSaggers            —      —        2.1 2.1     6   6     1    1    2      2  4       4 15.43*     15.43*3.00       3.007.71        7.713.86        3.862.00        2.00
+
+  ChristianChristian CaminitiCaminiti          —      —        1.1 1.1     4   4     1    1    0      0  3       3 20.25*     20.25*3.75       3.750.00        0.006.75        6.750.00        0.00
+
+ HenryHenry McintyreMcintyre           —      —        0.2 0.2     2   2     2    2    0      0  2       2 27.00*     27.00*6.00       6.000.00        0.0027.00       27.000.00        0.00
+
+ TEAM TOTAL                                             45.1        71        33         43         52          10.32          2.29           8.54         6.55          1.30
+
+** ERA:ERA:fewerfewerthanthan0.670.67IP IP(two(twoouts)outs)per teamper teamgame,game;i.e. fewerfewerthanthan4.0 4.0IP throughIP throughsix games.six games.All pitchersAll pitchersremain listed.listed.
+PitchingG (pitchingappearancesappearances):notleftverified;blank pendingG columnverifiedomitted.game-by-gameUnknownappearancethrowing handsreconciliation;left blank.cumulative pitching totals cannot establish appearances. Game 1 pitching lines were added for Chislett, Mcintyre, White, and Perrett.
+LINEUP & COACHING USAGE | UPDATED
+LINEUP & COACHING USAGE | UPDATED THROUGH SIX GAMES1 Blake Mitchell — on-base value; source discrepancy in Game 1 hit-type breakdown needs verification.
+12 BenBlakeAslettMitchell— collegiate- strongestexperienceestablishedand patience;on-baseGameprofile1 included.(.375 OBP, five BB); monitor recent contact (0-for-3).
+23 JoshuaWilliamHendricksKent - 3-for-5— earlyin powerRoundand4 andproduction;scored Gamethe lone1 homerun inruntheincluded.latest game; recent contact merits top-order look.
+34 WilliamJoshuaKentHendricks— recent- team-leadingcontact and run2 production.HR and .833 SLG; latest 0-for-4 is a single-game dip, not a lineup reset.
+
+45 WadeOscarMcconnonHargreaves— patience- five walksand doublesand .400profile.OBP; maintain RBI chances while monitoring strikeouts.
+56 OscarWadeHargreavesMcconnon—- .333walk-drivenOBP andon-basefour contribution.walks; two hits in Round 4, but hitless in latest game.
+67 LochlannBen AslettO'Connor- NCAA—tracksituationalrecordon-basesupportsvalue.patience, but .143 AVG warrants monitoring before moving higher.
+78 HarveyLochlannChinnO'Connor— continue- threemonitoringwalks andcontactsomeand gapstrikeouts.contact; recent 0-for-3 calls for selective approach.
+9 Lachlan Brennan — continue monitoring contact.8 Harvey Chinn - singles in recent games, but eight strikeouts overall; prioritize contact adjustments.
+Pitching: Perrett’s latest three scoreless innings remain encouraging. White and Caminiti should be assessed for command and fatigue. Keep all player and staff usage assessments provisional pending verified complete game logs.
+9 Lachlan Brennan - limited .091 sample; use defensive fit and availability to guide selection.
+
+PITCHING: Perrett (3 scoreless IP latest) is trending up; White allowed 8 R in 2 IP and Caminiti 3 R in 0.2 IP.
+Review command, workload and opponent fit. All lineup/role suggestions remain provisional.

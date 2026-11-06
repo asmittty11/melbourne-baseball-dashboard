@@ -1,0 +1,129 @@
+--- PAGE 1 ---
+MELBOURNE BASEBALL CLUB | WEEKLY TENDENCIES
+
+28 October 2026 | 2026–27 season | Through Round 5, including 27 October win over Cheltenham
+
+Record: 2–3. Consecutive wins over Williamstown (8–4) and Cheltenham (final score not supplied). Last verified pre-Cheltenham run totals: 18 for, 35 against, −17 differential. Updated run totals
+are pending final score.
+
+Round 5 offensive observations: Harvey Chinn went 2-for-3 with a double and home run (4 RBI); Joshua Hendricks went 2-for-3 with two singles and an RBI; Lachlan Brennan and Lennard
+Pietersz recorded singles. Mitchell scored three runs despite no hits, with a walk and hit-by-pitch; Hargreaves added a double. These are interpreted from the provided fixed column key.
+
+Round 5 pitching: Angus Saggers 2.2 IP, 5 H, 1 K, 1 BB, 2 ER; Max Saggers 2.1 IP, 6 H, 2 K, 1 BB, 4 ER; Simon Fitzmaurice 1 IP, 1 H, 0 K, 1 BB, 0 ER. The supplied IP values 2.66 and 2.33 are
+converted to baseball outs, not decimal innings.
+
+Coaching read: Hendricks remains a central run-production option. Chinn’s breakout warrants more opportunity, but his early strikeout history suggests monitoring contact consistency. Mitchell
+continues to offer on-base/run-scoring potential. Pitching depth has expanded, though White and Perrett remain the primary established length options; consider rest and availability.
+
+Data quality: Prior Round 4 batting OBP/OPS are approximations, carried forward from rounded values; they are not independently reconstructed from prior game HBP/SF. The export contains
+duplicate SB(B), B(P), and WP(P) labels; only the first SB(B) field is treated as stolen bases. Prior missing steals and handedness remain unverified. Wade/Will McConnon identity discrepancy
+remains unresolved. Cheltenham score and historical full-column exports are still needed for fully audited season totals.
+
+--- PAGE 2 ---
+MELBOURNE BASEBALL CLUB | PLAYER TENDENCIES
+
+BATTING | FIVE-GAME CUMULATIVE • Updated using supplied Cheltenham player lines
+
+ Player                           Bats G PA   AB   H    2B    3B   HR   BB   SO    AVG    OBPOBP     SLG     OPSOPS       ISO     BB%     SB
+
+ Joshua Hendricks             R    4  17     14    8     2      0     1     2      1        0.571      0.647       0.929      1.575       0.357      11.8%            ·
+
+ Joey White                 R    1  3      3     1     0      0     0     0      1         0.333*     0.333       0.333      0.666       0.000      0.0%              ·
+
+ Lennard Pietersz                     1  3      3     1     0      0     0     0      0         0.333*     0.333       0.333      0.667       0.000      0.0%              ·
+
+ Oscar Hargreaves                    5  17     13    4     2      0     0     3      4        0.308      0.471       0.462      0.932       0.154      17.6%            ·
+
+ Blake Mitchell                       5  21     15    4     3      0     0     4      0        0.267      0.477       0.467      0.943       0.200      19.0%      2
+
+ William Kent                        5  17     15    4     1      1     0     1      2        0.267      0.353       0.467      0.819       0.200      5.9%              ·
+
+ Lochlann O'Connor                   5  19     17    4     1      0     0     2      4        0.235      0.315       0.294      0.609       0.059      10.5%            ·
+
+ Wade Mcconnon                     5  19     14    3     1      0     0     3      5        0.214      0.421       0.286      0.707       0.071      15.8%            ·
+
+ Zak Skinner                         2  8      5     1     0      0     0     2      1         0.200*     0.500       0.200      0.700       0.000      25.0%            ·
+
+ Harvey Chinn                        4  17     15    3     1      0     1     2      6        0.200      0.294       0.467      0.761       0.267      11.8%            ·
+
+ Lachlan Brennan                     2  10     10    1     0      0     0     0      4        0.100      0.100       0.100      0.200       0.000      0.0%              ·
+
+ Ben Aslett                       L    5  17     12    1     0      0     0     2      1        0.083      0.353       0.083      0.436       0.000      11.8%            ·
+
+ Angus Saggers                      1  1      1     0     0      0     0     0      1         0.000*     0.000       0.000      0.000       0.000      0.0%              ·
+
+ Taylor Perrett                        1  2      1     0     0      0     0     0      0         0.000*     0.500       0.000      0.500       0.000      0.0%              ·
+
+ Max Saggers                        0  0      0     0     0      0     0     0      0         0.000*     0.000       0.000      0.000       0.000            ·                     ·
+
+ Simon Fitzmaurice                    0  0      0     0     0      0     0     0      0         0.000*     0.000       0.000      0.000       0.000            ·                     ·
+
+ TEAM TOTAL                              171    138    35     11     1      2      21     30        .254             ·            .391              ·            .138       12.3%      2+
+
+ * AVG qualification: fewer than 2.0 PA per team game (fewer than 10 PA through 5 games). All players remain listed.
+
+SB: 2 confirmed steals in supplied cumulative rows; unverified steals may be missing. Team OBP/OPS omitted due to incomplete historical HBP/SF.
+Team AVG, SLG, ISO and BB% are calculated from listed cumulative player totals; not independently audited official statistics.
+
+--- PAGE 3 ---
+MELBOURNE BASEBALL CLUB | PITCHING TENDENCIES
+
+PITCHING | FIVE-GAME CUMULATIVE • IP notation is innings and outs
+
+ Pitcher                                 Throws G   IP        H       BB      SO      ER       ERA         WHIP         K/9           BB/9          K/BB
+
+ Christian Caminiti                                1   0.2         0          0          0          0             0.00*            0.00           0.00             0.00                        ·
+
+ Simon Fitzmaurice                               1   1.0         1          1          0          0             0.00*            2.00           0.00             9.00              0.00
+
+ Joey White                         R      4   13.1        17         8          14         9             6.07             1.88           9.45             5.40              1.75
+
+ Angus Saggers                                  1   2.2         5          1          1          2           6.756.75*            2.25           3.38             3.38              1.00
+
+ Taylor Perrett                        R      4   9.2         19         4          13         14           13.03           2.38           12.10           3.72              3.25
+
+ Charles Chislett                                  3   4.1         4          9          1          7            14.54           3.00           2.08            18.69             0.11
+
+ Max Saggers                                   1   2.1         6          1          2          4           15.4315.43*           3.00           7.71             3.86              2.00
+
+ Henry Mcintyre                                  1   0.1         1          1          0          1             27.00*           6.00           0.00            27.00             0.00
+
+ TEAM TOTAL                                                  34.1         53         25         31         37            9.70             2.27            8.13             6.55              1.24
+
+ * ERA qualification: fewer than 0.33 IP (1 out) per team game (fewer than 1.2 IP through 5 games). All pitchers remain listed.
+
+Team totals sum the player lines; IP is baseball innings/outs. ERA, WHIP and rate statistics are recalculated from those totals.
+Round 5 mapping: IP 19, H 20, SO 21, BB 22, ER 25. Pitching totals are not independently verified official totals.
+
+ Pitching strategy: White and Perrett retain the strongest multi-inning sample. Angus Saggers and Fitzmaurice provide additional options, but single-game samples are insufficient to establish roles. Monitor Max
+Saggers traffic on the bases before assigning leverage innings. Chislett earlier walk rate remains a command concern.
+
+--- PAGE 4 ---
+MELBOURNE BASEBALL CLUB | LINEUP & USAGE
+
+PROPOSED BATTING ORDER • Subject to defensive assignments, availability and opponent matchups
+
+ Order           Hitter                                     Reasoning
+
+ 1             Blake Mitchell                                Run-scoring and on-base profile; 3 runs against Cheltenham
+
+ 2           Ben Aslett                                    Left-handed option; patience despite slow batting start
+
+ 3            Joshua Hendricks                            Sustained high-contact production and extra-base threat
+
+ 4            Harvey Chinn                               Four-RBI Cheltenham breakout; monitor strikeouts
+
+ 5              William Kent                                   Established extra-base contribution across prior rounds
+
+ 6            Oscar Hargreaves                         Walks and doubles; situational on-base value
+
+ 7          Wade Mcconnon                                  Prior run-production sample; identity needs reconciliation
+
+ 8            Lochlann O'Connor                             Contact-oriented lower-order option
+
+ 9             Lachlan Brennan                                     First hit this week; continue evaluating contact
+Other options: Lennard Pietersz recorded a single in his supplied Round 5 line; consider defensive fit and opportunity. Joey White remains a potential two-way contributor when available. The
+lineup is a coaching concept, not a projected starting nine.
+
+Source provenance: supplied Round 5 Cheltenham individual player export and user-provided fixed column key; prior four-game cumulative Melbourne tendencies PDF dated 27 October 2026.
+No unprovided final score or unverified handedness was inserted.

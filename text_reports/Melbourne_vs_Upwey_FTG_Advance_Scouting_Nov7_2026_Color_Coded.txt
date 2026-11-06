@@ -1,0 +1,118 @@
+--- PAGE 1 ---
+MELBOURNE vs UPWEY FTG | ADVANCE SCOUTING
+
+Saturday 7 November 2026 | 4:00 PM | Surrey Park Arthur Field | Preliminary, four supplied games
+
+VSBL DIVISION 1 | CONFIRMED OPPONENT LADDER
+
+
+ Team                                    Position         GP          W–L–D             Runs for             Runs against            Run differential             Win %
+
+ Upwey FTG                            15th               4              0–4–0                2                     55                       −53                            .000
+
+Upwey has scored 0.50 runs/game and conceded 13.75 runs/game. These are confirmed ladder figures supplied by the user; do not replace them with summed individual batting runs.
+
+BATTING | FOUR-GAME CUMULATIVE
+
+
+  Batter                                 Bats    G   PA   AB   H    2B   3B   HR   RBI   BB   SO   AVG    OBP     SLG     OPS     SCOUTING READ
+
+  Daniel Smith                                    3     8      6      3     0     0     0     1      2     2      .500       .750       .500       1.250    CAUTION
+
+  Jordan Elliott                                    4     10     6      2     0     0     0     0      3     1      .333       .600       .333       .933     CAUTION
+
+  Mark Jones                                     3     7      4      1     0     0     0     0      3     2      .250       .571       .250       .821     LIMITED
+
+  Ethan Jenkins                                   2     5      5      1     0     0     0     0      0     2      .200       .200       .200       .400     ATTACK
+
+  Michael Oxworth                                 4     12     9      1     0     0     0     0      3     3      .111       .333       .111       .444     ATTACK
+
+ Shaun Irvine                                    4     14     12     0     0     0     0     0      2     8      .000       .214       .000       .214     ATTACK
+
+  Manning Davison                                 4     9      9      0     0     0     0     0      0     7      .000       .000       .000       .000     ATTACK
+
+ Adam Schoppe                                  4     10     7      0     0     0     0     0      2     4      .000       .600       .000       .600     ATTACK
+
+  Matthew Brache                                 3     7      6      0     0     0     0     0      1     3      .000       .143       .000       .143     ATTACK
+
+  Keeley Ronalds-Greatbatch                        2     5      5      0     0     0     0     0      0     4      .000       .000       .000       .000     ATTACK
+
+  Tristan Mealey                                   2     5      5      0     0     0     0     0      0     5      .000       .000       .000       .000     ATTACK
+
+ Sam Griffiths                                    1     3      3      0     0     0     0     0      0     2      .000       .000       .000       .000     LIMITED
+
+ Thomas Hurley                                  1     1      1      0     0     0     0     0      0     1      .000       .000       .000       .000     LIMITED
+
+--- PAGE 2 ---
+  Batter                                 Bats    G   PA   AB   H    2B   3B   HR   RBI   BB   SO   AVG    OBP     SLG     OPS     SCOUTING READ
+
+ TEAM TOTAL                                         96     78     8     0     0     0     1      16    44     .103       .323       .103       .425
+
+Batting rate statistics are calculated from the supplied four game exports; OBP assumes no unlisted sacrifice flies. No handedness is asserted without verified player-specific evidence. All player rows retained.
+
+
+
+ SCOUTING CLASSIFICATION KEY
+
+       PRIORITY (red): Most dangerous verified hitter / difficult pitcher
+
+       CAUTION (yellow): Respect productive player or effective arm
+
+      ATTACK (green): Favorable matchup based on current statistical results
+
+       LIMITED (gray): Small sample; insufficient evidence for confident classification
+
+
+ PLAYER EXPERIENCE | PUBLIC-SOURCE CHECK
+
+  Baseball Victoria lists Mark Jones (Upwey FTG Black) and Adrian Rice (Upwey FTG Gold)
+  as 2025/26 Masters 38+ East award recipients. This confirms club-level recognition,
+  not collegiate, national-team, or professional experience; identity across divisions
+  should be confirmed before attributing those awards to these Firsts players.
+ No higher-level playing history could be confidently matched to the supplied
+  Firsts roster in the sources reviewed. Unknown handedness remains blank.
+  Source: Baseball Victoria, 2025/26 VSBL Season Award Winners (22 April 2026).
+
+--- PAGE 3 ---
+UPWEY FTG | PITCHING & MATCHUP PLAN
+
+PITCHING | FOUR-GAME CUMULATIVE
+
+
+  Pitcher                             Throws     G         IP        H       BB      SO      ER      ERA        WHIP          K/9           BB/9        SCOUTING READ
+
+  Mark Jones                                         3         3.2          1         1         0         0           0.00            0.55            0.0             2.5         CAUTION
+
+ Adam Schoppe                                      3         10.2         27        5         10        21         17.72           3.00            8.4             4.2         ATTACK
+
+  Adrian Rice                                         1         2.0          10        1         0         4           18.00           5.50            0.0             4.5         ATTACK
+
+  Daniel Smith                                        1         3.1          12        2         3         11         29.70           4.20            8.1             5.4         ATTACK
+
+  Manning Davison                                     1         1.1          5         1         3         5           33.75           4.50            20.2            6.8         ATTACK
+
+ TEAM TOTAL                                                      21.0         55        10        16        41         17.57           3.10            6.9             4.3
+
+Pitching IP uses baseball outs notation (e.g., 5.2 = five innings and two outs). Team pitching totals are sums of supplied player lines, not independently verified official totals.
+
+COACHING READ | OFFENSE
+
+The ladder indicates substantial Upwey run-prevention problems. Emphasize strike-zone discipline, putting the ball in play with runners on, and avoiding unnecessary outs on the bases. Adam
+Schoppe has handled the largest documented pitching workload; review recent pitch counts and availability before the game. Do not presume a specific starter.
+
+COACHING READ | DEFENSE
+
+The four supplied lineups show limited offensive production overall. Jordan Elliott and Daniel Smith recorded multiple hits in the supplied games; prioritize sound defensive positioning and avoid
+free baserunners. Batter handedness and verified higher-level experience remain unconfirmed in this preliminary edition.
+
+DATA QUALITY / NEXT VERIFICATION
+
+The supplied exports include individual appearances but no official game IDs or opponent/date mapping. Games played counts represent appearances in the four provided exports. The player batting runs and RBIs do
+not necessarily reconcile to the official 2-run ladder total; the ladder remains authoritative. Recheck any duplicate-name profiles before attributing handedness or higher-level experience. Pitching box scores may omit
+defensive substitutions and other fielding-only appearances.
+
+
+
+
+  TEAM-WIDE READ | VERY WEAK OFFENSE AND RUN PREVENTION
+   2 runs scored and 55 allowed in four games; defense includes pitching and fielding, with errors not isolated.
