@@ -1,29 +1,28 @@
-# Melbourne Baseball Club — Public Scouting Dashboard
+# Melbourne Baseball Club — Interactive League Scouting Dashboard
 
-**Website:** https://asmittty11.github.io/melbourne-baseball-dashboard/
+**Public dashboard:** https://asmittty11.github.io/melbourne-baseball-dashboard/
 
-This is a static, responsive, browser-based conversion of the Melbourne Baseball Club (VSBL Premier 1) scouting dashboard, requiring no RStudio, R Shiny, or server account.
+This is a static, browser-based VSBL Premier 1 analytics and advance scouting dashboard; no RStudio or Shiny server is required.
 
-## Live dashboard contents
+## Interactive views
+- **Overview:** Melbourne's six-game season snapshot.
+- **Melbourne Players:** sortable six-game batting and pitching data, with source team totals separated.
+- **Opponent Batting / Opponent Pitching:** filter by all uploaded opponents or a specific club; search and sort columns; export filtered CSV.
+- **League Comparison:** combined Melbourne, Doncaster, Upwey FTG and Sandringham player tables for cross-team comparisons.
+- **Report Text:** searchable, plain-text versions of all five original PDFs.
+- **Original PDFs:** original scouting and season reports preserved.
+- **Data Notes:** scope, source and missing-data cautions.
 
-- **Overview:** six-game Melbourne and five-game Sandringham snapshots, plus report links.
-- **Melbourne Players:** original supplied Melbourne season statistics PDF.
-- **Opponent Batting:** searchable and sortable Sandringham batting statistics, including classifications and qualification handling.
-- **Opponent Pitching:** searchable Sandringham pitching statistics and scouting classifications.
-- **Advance Reports:** original five PDF reports, stored in `reports/` and readable in the embedded viewer or as separate files.
-- **Data Notes:** historical data provenance and limitations.
+## Source data
+- `data/league_stats.json`: structured player rows and report references.
+- `data/dashboard.json`: earlier Sandringham scouting snapshot.
+- `text_reports/`: full text extracted from the five uploaded PDFs.
+- `reports/`: the unchanged original five PDFs.
+- `assets/Melbourne_Baseball_Web_Dashboard.zip`: complete dashboard source archive.
 
-## Files
+Data windows differ: Melbourne six games, Doncaster five, Upwey FTG four, Sandringham five. These are **all uploaded opponent teams**, not the entire VSBL. Some source reports omit PA, OPS, or pitching appearances; those fields are blank rather than invented. Team totals are displayed separately and are not ranked as players. The Melbourne Round 5 weekly report is archival and is not added again to six-game totals.
 
-- `index.html` — full interactive dashboard.
-- `data/dashboard.json` — Sandringham cumulative batting/pitching and report manifest.
-- `data/melbourne_batting_source.txt`, `data/melbourne_pitching_source.txt` — Melbourne cumulative sources.
-- `reports/` — five original PDF reports, unchanged from the supplied package.
-- `assets/Melbourne_Baseball_Web_Dashboard.zip` — complete source archive.
-- `.github/workflows/extract-assets.yml` — reproducible extraction from the source archive.
+## Publishing
+The `.github/workflows/extract-assets.yml` workflow extracts the dashboard archive into the repository and commits the website, data, PDFs, and text reports. GitHub Pages builds from the `main` branch.
 
-## Maintenance
-
-Update `index.html`, `data/`, or `reports/` through GitHub. GitHub Pages uses the repository's branch publication process. Updating the ZIP triggers the extraction workflow and can overwrite these files with the archive versions.
-
-**Important:** All statistics are historical snapshots, not automatically updated official league data. Player data and historical appearances have not been fully reconciled and the reports should be interpreted with their respective date and source limitations.
+Last compiled: November 6, 2026.
