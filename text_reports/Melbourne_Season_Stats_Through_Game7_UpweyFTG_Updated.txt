@@ -1,98 +1,378 @@
 --- PAGE 1 ---
-MELBOURNE BASEBALL CLUB
-2026–27 season | Seven-game cumulative
-
-
-Latest: 21–4 win over Upwey FTG | 7 games | Official ladder screenshot: 10th
-
-
-
-   Record                                 Standing                           Runs for / against                   Run differential                      Win percentage
- 3–4–0            10th             47 / 56              -9               42.86%
-
+MELBOURNE BASEBALL CLUB | PLAYER TENDENCIES
+2026-27 season | Seven supplied games | Official ladder: 10th, 3-4-0 | RF 47 | RA 56 | RD -9
 BATTING | SEVEN-GAME CUMULATIVE
+Player
+Bats
+PA
+AB
+H
+2B
+3B
+HR
+BB
+SO
+AVG
+OBP
+SLG
+OPS
+ISO
+BB%
+SB
+Joshua Hendricks
+R
+24
+20
+9
+2
+0
+4
+3
+3
+.450
+1.150
+.700
+12.5%
+·
+Joey White
+R
+3
+3
+1
+0
+0
+0
+0
+1
+.333*
+.333
+.333
+.667
+.000
+0.0%
+·
+Lennard Pietersz
+7
+6
+2
+1
+0
+0
+1
+0
+.333*
+.500
+.167
+14.3%
+·
+William Kent
+23
+19
+6
+1
+1
+0
+3
+4
+.316
+.474
+.158
+13.0%
+·
+Blake Mitchell
+30
+23
+7
+3
+1
+0
+6
+3
+.304
+.522
+.217
+20.0%
+6
+Oscar Hargreaves
+24
+18
+4
+1
+0
+0
+6
+5
+.222
+.278
+.056
+25.0%
+·
+Lochlann O'Connor
+27
+24
+5
+2
+0
+0
+3
+8
+.208
+.292
+.083
+11.1%
+·
+Lachlan Brennan
+15
+13
+2
+1
+0
+0
+2
+5
+.154
+.231
+.077
+13.3%
+·
+Wade Mcconnon
+27
+20
+3
+1
+0
+0
+4
+5
+.150
+.200
+.050
+14.8%
+·
+Ben Aslett
+L
+20
+14
+2
+0
+0
+0
+2
+1
+.143
+.250
+.143
+.393
+.000
+10.0%
+·
+Harvey Chinn
+25
+22
+3
+0
+0
+0
+3
+8
+.136
+.136
+.000
+12.0%
+1
+Zak Skinner
+12
+8
+1
+0
+0
+0
+3
+2
+.125*
+.364
+.125
+.489
+.000
+25.0%
+·
+Angus Saggers
+1
+1
+0
+0
+0
+0
+0
+1
+.000*
+.000
+.000
+0.0%
+·
+Taylor Perrett
+R
+2
+1
+0
+0
+0
+0
+0
+0
+.000*
+.000
+.000
+.000
+.000
+0.0%
+·
+TEAM TOTAL
+240
+192
+45
+12
+2
+4
+36
+46
+.234
+.380
+.146
+15.0%
+7
+* AVG: fewer than 2.0 PA per team game (fewer than 14 PA through seven games). All players remain listed. Asterisks apply to AVG only.
+OBP/OPS for hitters with new appearances are blank where historical HBP, SF and CI components remain incomplete; blanks do not indicate zero.
+Source: seven-game cumulative totals including the 21-4 win over Upwey FTG. RBI intentionally omitted from the batting table.
 
- Player                        PA     AB     H       2B      3B     HR     BB     SO     AVG     SLG       ISO     BB%      SB
-
- Joshua Hendricks                    24       20       9        2        0        4        3        3         .450        1.150       .700       12.5%             ·
-
- Joey White                         3        3        1        0        0        0        0        1         .333*       .333        .000       0.0%               ·
-
- Lennard Pietersz                     7        6        2        1        0        0        1        0         .333*       .500        .167       14.3%             ·
-
- William Kent                        23       19       6        1        1        0        3        4         .316        .474        .158       13.0%             ·
-
- Blake Mitchell                       30       23       7        3        1        0        6        3         .304        .522        .217       20.0%       6
-
- Oscar Hargreaves                    24       18       4        1        0        0        6        5         .222        .278        .056       25.0%             ·
-
- Lochlann O'Connor                   27       24       5        2        0        0        3        8         .208        .292        .083       11.1%             ·
-
- Lachlan Brennan                     15       13       2        1        0        0        2        5         .154        .231        .077       13.3%             ·
-
- Wade Mcconnon                     27       20       3        1        0        0        4        5         .150        .200        .050       14.8%             ·
-
- Ben Aslett                          20       14       2        0        0        0        2        1         .143        .143        .000       10.0%             ·
-
- Harvey Chinn                       25       22       3        0        0        0        3        8         .136        .136        .000       12.0%       1
-
- Zak Skinner                         12       8        1        0        0        0        3        2         .125*       .125        .000       25.0%             ·
-
- Angus Saggers                      1        1        0        0        0        0        0        1         .000*       .000        .000       0.0%               ·
-
- Taylor Perrett                       2        1        0        0        0        0        0        0         .000*       .000        .000       0.0%               ·
-
- TEAM TOTAL                       240      192      45       12       2        4        36       46        .234        .380        .146       15.0%       7
-
-* AVG: fewer than 14 PA (2.0 PA per seven team games). Player AVG/SLG/ISO recalculated from cumulative hits and total bases.
-OBP/OPS withheld for players with new appearances: older HBP/SF/CI totals are incomplete. Unchanged players retain prior provisional values in JSON.
-Game 7 batting totals: 38 PA, 26 AB, 21 R, 13 H, 3 doubles, 2 HR, 11 BB, 1 SO, 20 RBI (game only).
-
-
-                                                                                                                                                                       1 / 2
 --- PAGE 2 ---
-MELBOURNE BASEBALL CLUB
-PITCHING | SEVEN-GAME CUMULATIVE
+MELBOURNE BASEBALL CLUB | PITCHING TENDENCIES
+PITCHING | SEVEN-GAME CUMULATIVE | IP notation is full innings plus outs
+Pitcher
+Throws
+IP
+H
+BB
+SO
+ER
+ERA
+WHIP
+K/9
+BB/9
+K/BB
+Simon Fitzmaurice
+0.1
+0
+0
+0
+0
+0.00*
+0.00
+0.00
+0.00
+—
+Angus Saggers
+4.2
+7
+1
+1
+2
+3.86
+1.71
+1.93
+1.93
+1.00
+Taylor Perrett
+R
+14.1
+22
+4
+19
+14
+8.79
+1.81
+11.93
+2.51
+4.75
+Joey White
+R
+18.1
+27
+14
+20
+18
+8.84
+2.24
+9.82
+6.87
+1.43
+Max Saggers
+4.1
+10
+1
+5
+6
+12.46
+2.54
+10.38
+2.08
+5.00
+Charles Chislett
+6.1
+7
+10
+2
+9
+12.79
+2.68
+2.84
+14.21
+0.20
+Christian Caminiti
+1.1
+4
+1
+0
+3
+20.25*
+3.75
+0.00
+6.75
+0.00
+Henry Mcintyre
+0.2
+2
+2
+0
+2
+27.00*
+6.00
+0.00
+27.00
+0.00
+TEAM TOTAL
+50.1
+79
+33
+47
+54
+9.66
+2.23
+8.40
+5.90
+1.42
+* ERA: fewer than 1/3 IP per team game (fewer than 2.1 IP through seven games). All pitchers listed.
+Pitching appearances are unverified; G column omitted. Unknown throwing hands left blank.
+LINEUP & COACHING USAGE | UPDATED THROUGH SEVEN GAMES
+1 Joshua Hendricks - .450 AVG, 4 HR and 9 hits; two home runs and six RBI against Upwey FTG.
+2 William Kent - .316 AVG and 6 hits; remains a consistent contact option through seven games.
+3 Blake Mitchell - .304 AVG, 6 walks and 6 confirmed steals; 3 hits and 4 runs in the latest game.
+4 Oscar Hargreaves - 6 walks in 24 PA; continue tracking plate discipline and RBI opportunities.
+5 Lennard Pietersz - .333 AVG in 7 PA, including a double; small sample remains unqualified.
+6 Lochlann O'Connor - .208 AVG with 2 doubles and 5 hits; 2 hits against Upwey FTG.
+7 Lachlan Brennan - .154 AVG and a new double; 3 RBI in the latest game (game only).
+8 Harvey Chinn - .136 AVG with 8 strikeouts; prioritize contact and situational adjustments.
+9 Wade Mcconnon - .150 AVG and 4 walks; role review should consider opponent matchup and availability.
+PITCHING: Angus Saggers and Max Saggers worked 2.0 IP each; Charles Chislett worked 1.0 IP against Upwey FTG.
+DATA QUALITY: New pitcher R fields sum to 8, conflicting with the official 4 runs allowed. Pitching detail remains provisional.
 
-
-Innings displayed as baseball innings.outs | Sorting: ERA ascending
-
-
- Pitcher                                   IP       H      BB     SO      ER      ERA        WHIP         K/9          BB/9        K/BB
-
- Simon Fitzmaurice                        0.1        0         0         0         0          0.00*          0.00           0.00           0.00     —
-
- Angus Saggers                           4.2        7         1         1         2          3.86           1.71           1.93           1.93           1.00
-
- Taylor Perrett                           14.1       22        4         19        14         8.79           1.81          11.93         2.51           4.75
-
- Joey White                              18.1       27        14        20        18         8.84           2.24           9.82           6.87           1.43
-
- Max Saggers                             4.1        10        1         5         6          12.46         2.54          10.38         2.08           5.00
-
- Charles Chislett                           6.1        7         10        2         9          12.79         2.68           2.84          14.21         0.20
-
- Christian Caminiti                         1.1        4         1         0         3          20.25*         3.75           0.00           6.75           0.00
-
- Henry Mcintyre                           0.2        2         2         0         2          27.00*         6.00           0.00          27.00         0.00
-
- TEAM TOTAL                           50.1       79        33        47        54         9.66           2.23           8.40           5.90           1.42
-
-
-Pitching thresholds: * ERA when fewer than 7 outs (1/3 inning per team game). Unverified throwing hand and appearance columns omitted.
-
-New pitching data from supplied rows: Saggers 2.0 IP, Chislett 1.0 IP, Max Saggers 2.0 IP.
-
-
-  DATA QUALITY FLAG
-   The supplied pitcher R columns sum to 8; the verified final score is Upwey 4.
-   Standings and team RA use the verified score. Pitcher IP/H/BB/SO/ER are calculated from the supplied fixed-position export,
-   but pitching details should be cross-checked against the official box score when available.
-
-
-Source: user-supplied GameDay export and seven-game ladder screenshot. Earlier six-game totals retained as cumulative baseline.
-
-
-
-
-                                                                                                                                                                       2 / 2
