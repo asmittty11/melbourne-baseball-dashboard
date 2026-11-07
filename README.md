@@ -5,8 +5,8 @@
 This is a static, browser-based VSBL Premier 1 analytics and advance scouting dashboard; no RStudio or Shiny server is required.
 
 ## Interactive views
-- **Overview:** Melbourne's six-game season snapshot.
-- **Melbourne Players:** sortable six-game batting and pitching data, with source team totals separated.
+- **Overview:** Melbourne's seven-game season snapshot (3–4, 10th; 47 RF and 56 RA).
+- **Melbourne Players:** sortable seven-game batting and pitching data, with source team totals separated.
 - **Opponent Batting / Opponent Pitching:** filter by all uploaded opponents or a specific club; search and sort columns; export filtered CSV.
 - **League Comparison:** combined Melbourne, Doncaster, Upwey FTG and Sandringham player tables for cross-team comparisons.
 - **Report Text:** searchable, plain-text versions of all five original PDFs.
@@ -34,3 +34,8 @@ Melbourne player and team season statistics are updated in the sortable tables s
 ERA and WHIP default to ascending order (lowest first) when selected, including on initial ERA-based views; AVG remains descending. Melbourne pitching displays neither Throws nor games/appearances. The Melbourne batting table does not display RBI.
 
 The package extraction workflow refreshes archived reports only; it deliberately avoids overwriting independently maintained dashboard code or statistical tables.
+
+## Latest Melbourne result (uploaded November 7, 2026)
+21–4 win over Upwey FTG; official ladder snapshot: 10th place, 7 games, 3–4–0, 47 runs scored and 56 allowed, 42.86% won, run differential −9.
+
+New primary season PDF: `reports/Melbourne_Season_Stats_Through_Game7_UpweyFTG_Updated.pdf`. Previous six-game PDF preserved for audit. Season totals update from the supplied fixed-position game data. **Caution:** the new game's pitcher R fields total 8, conflicting with the official four runs allowed. Team record and RA use the final score. Pitching component metrics remain subject to game-level verification. OBP/OPS are omitted for affected hitters because incomplete old HBP/SF/CI totals prevent defensible recalculation; they are not zero. MLB-style innings notation is preserved. Melbourne's RBI column remains omitted at the user's request.
