@@ -16,7 +16,7 @@ jobs:
           persist-credentials: true
       - name: Extract full dashboard package
         run: |
-          unzip -oq assets/Melbourne_Baseball_Web_Dashboard.zip 'reports/*' 'text_reports/*' -d .
+          unzip -nq assets/Melbourne_Baseball_Web_Dashboard.zip 'reports/*' 'text_reports/*' -d .
           test -f index.html
           test -f data/league_stats.json
           test -f reports/Melbourne_Season_Stats_Through_Game6_With_Team_Totals.pdf
