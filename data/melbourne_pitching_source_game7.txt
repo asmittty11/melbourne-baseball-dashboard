@@ -1,0 +1,13 @@
+MELBOURNE BASEBALL CLUB | SEVEN-GAME CUMULATIVE PITCHING
+Record 3–4–0 | 10th | RF 47 | RA 56 | RD −9 | 42.86% | Upwey FTG W 21–4
+Player|IP|H|BB|SO|ER|ERA|WHIP|K/9|BB/9|K/BB
+Simon Fitzmaurice|0.1|0|0|0|0|0.00*|0.00|0.00|0.00|—
+Angus Saggers|4.2|7|1|1|2|3.86|1.71|1.93|1.93|1.00
+Taylor Perrett|14.1|22|4|19|14|8.79|1.81|11.93|2.51|4.75
+Joey White|18.1|27|14|20|18|8.84|2.24|9.82|6.87|1.43
+Max Saggers|4.1|10|1|5|6|12.46|2.54|10.38|2.08|5.00
+Charles Chislett|6.1|7|10|2|9|12.79|2.68|2.84|14.21|0.20
+Christian Caminiti|1.1|4|1|0|3|20.25*|3.75|0.00|6.75|0.00
+Henry Mcintyre|0.2|2|2|0|2|27.00*|6.00|0.00|27.00|0.00
+TEAM TOTAL|50.1|79|33|47|54|9.66|2.23|8.40|5.90|1.42
+NOTE: Pitcher R fields in user data sum to 8 although final score shows four runs allowed; pitching component fields should be checked against official box score.

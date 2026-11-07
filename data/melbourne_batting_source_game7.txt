@@ -1,0 +1,19 @@
+MELBOURNE BASEBALL CLUB | SEVEN-GAME CUMULATIVE BATTING
+Record 3–4–0 | 10th | RF 47 | RA 56 | RD −9 | 42.86% | Upwey FTG W 21–4
+Player|PA|AB|H|2B|3B|HR|BB|SO|AVG|OBP|SLG|OPS|ISO|BB%|SB
+Joshua Hendricks|24|20|9|2|0|4|3|3|.450||1.150||.700|12.5%|·
+Joey White|3|3|1|0|0|0|0|1|.333*|.333|.333|.667|.000|0.0%|·
+Lennard Pietersz|7|6|2|1|0|0|1|0|.333*||.500||.167|14.3%|·
+William Kent|23|19|6|1|1|0|3|4|.316||.474||.158|13.0%|·
+Blake Mitchell|30|23|7|3|1|0|6|3|.304||.522||.217|20.0%|6
+Oscar Hargreaves|24|18|4|1|0|0|6|5|.222||.278||.056|25.0%|·
+Lochlann O'Connor|27|24|5|2|0|0|3|8|.208||.292||.083|11.1%|·
+Lachlan Brennan|15|13|2|1|0|0|2|5|.154||.231||.077|13.3%|·
+Wade Mcconnon|27|20|3|1|0|0|4|5|.150||.200||.050|14.8%|·
+Ben Aslett|20|14|2|0|0|0|2|1|.143|.250|.143|.393|.000|10.0%|·
+Harvey Chinn|25|22|3|0|0|0|3|8|.136||.136||.000|12.0%|1
+Zak Skinner|12|8|1|0|0|0|3|2|.125*|.364|.125|.489|.000|25.0%|·
+Angus Saggers|1|1|0|0|0|0|0|1|.000*||.000||.000|0.0%|·
+Taylor Perrett|2|1|0|0|0|0|0|0|.000*|.000|.000|.000|.000|0.0%|·
+TEAM TOTAL|240|192|45|12|2|4|36|46|.234||.380||.146|15.0%|7
+NOTE: OBP/OPS for players with new PA are blank pending older full HBP/SF/CI source. RBI excluded by dashboard design; game-only RBI are present in input but not cumulative.
