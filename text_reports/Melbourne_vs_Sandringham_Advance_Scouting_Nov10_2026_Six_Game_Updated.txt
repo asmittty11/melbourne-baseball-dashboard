@@ -1,0 +1,37 @@
+SANDRINGHAM VS MELBOURNE | ADVANCE SCOUTING | 10 NOVEMBER 2026
+SIX-GAME SANDRINGHAM CUMULATIVE | updated after November 7 4-3 win
+LADDER: Sandringham 9th, GP6, 3-3-0, RF34 RA43 RD -9 | Melbourne 10th, GP7, 3-4-0, RF47 RA56 RD -9
+BATTING | 6 GAMES
+Player | G | PA | AB | H | 2B | 3B | HR | RBI | BB | SO | AVG | OBP~ | SLG | OPS~ | ISO | BB% | SB | SCOUTING READ
+Declan Ferguson | 6 | 23 | 19 | 10 | 1 | 0 | 0 | 5 | 2 | 3 | .526 | .571 | .579 | 1.150 | .053 | 8.7% | 1 | THREAT
+Joshua Meyer | 6 | 25 | 21 | 8 | 3 | 0 | 1 | 8 | 4 | 6 | .381 | .480 | .667 | 1.147 | .286 | 16.0% | 0 | THREAT
+Chase Hodkinson | 5 | 22 | 19 | 9 | 0 | 0 | 0 | 1 | 2 | 0 | .474 | .524 | .474 | .997 | .000 | 9.1% | 0 | THREAT
+Mitchell Denny | 6 | 26 | 24 | 7 | 1 | 0 | 0 | 2 | 1 | 8 | .292 | .320 | .333 | .653 | .042 | 3.8% | 0 | CAUTION
+Matthew Wilson | 6 | 26 | 20 | 4 | 2 | 0 | 0 | 2 | 4 | 8 | .200 | .333 | .300 | .633 | .100 | 15.4% | 2 | CAUTION
+Sam Trend-Beacom | 3 | 14 | 13 | 3 | 1 | 0 | 0 | 2 | 0 | 1 | .231 | .231 | .308 | .538 | .077 | 0.0% | 0 | ATTACK
+Harrison Wills | 4 | 19 | 13 | 1 | 0 | 0 | 0 | 1 | 6 | 4 | .077 | .368 | .077 | .445 | .000 | 31.6% | 2 | CAUTION
+William Tucker | 4 | 15 | 10 | 0 | 0 | 0 | 0 | 0 | 4 | 7 | .000 | .286 | .000 | .286 | .000 | 26.7% | 1 | ATTACK
+Jordan Taylor Barnett | 6 | 25 | 22 | 2 | 1 | 0 | 0 | 1 | 1 | 12 | .091 | .130 | .136 | .267 | .045 | 4.0% | 0 | ATTACK
+Hamish Ferguson | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | .000* | 1.000 | .000 | 1.000 | .000 | 100.0% | 0 | LIMITED
+Timothy Lane | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | .000* | 1.000 | .000 | 1.000 | .000 | 100.0% | 0 | LIMITED
+Riley Trad | 3 | 9 | 9 | 3 | 2 | 0 | 0 | 0 | 0 | 3 | .333* | .333 | .556 | .889 | .222 | 0.0% | 0 | LIMITED
+Thomas Skinner | 2 | 9 | 9 | 2 | 1 | 0 | 0 | 4 | 0 | 1 | .222* | .222 | .333 | .556 | .111 | 0.0% | 0 | LIMITED
+Bodhi Evans | 2 | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 1 | 2 | .000* | .250 | .000 | .250 | .000 | 25.0% | 0 | LIMITED
+Hunter Richardson | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | .000* | .000 | .000 | .000 | .000 | 0.0% | 0 | LIMITED
+TEAM TOTAL | 6 | 220 | 183 | 49 | 12 | 0 | 1 | 26 | 27 | 56 | .268 | .362 | .350 | .712 | .082 | 12.3% | 6 | 
+
+PITCHING | SIX-GAME CUMULATIVE
+Player | G | IP | H | BB | SO | ER | ERA | WHIP | K/9 | BB/9 | SCOUTING READ
+Matthew Wilson | 5 | 37.0 | 43 | 9 | 24 | 17 | 4.14 | 1.41 | 5.8 | 2.2 | CAUTION **
+Chase Hodkinson | 1 | 3.0 | 4 | 2 | 1 | 2 | 6.00 | 2.00 | 3.0 | 6.0 | CAUTION
+Joshua Meyer | 2 | 3.0 | 4 | 5 | 1 | 3 | 9.00 | 3.00 | 3.0 | 15.0 | ATTACK
+Riley Trad | 5 | 5.1 | 4 | 14 | 7 | 7 | 11.81 | 3.38 | 11.8 | 23.6 | ATTACK
+Lachlan Jeffree | 2 | 1.1 | 2 | 2 | 1 | 6 | 40.50* | 3.00 | 6.8 | 13.5 | LIMITED
+TEAM TOTAL | 6 | 49.2 | 57 | 32 | 34 | 35 | 6.34 | 1.79 | 6.2 | 5.8 | 
+
+KEY NOTES
+Declan Ferguson 5-for-5 with 4 RBI and a stolen base in latest game; 10-for-19 (.526) six games.
+Chase Hodkinson 3-for-5 in latest game; 9-for-19 (.474) six games.
+Joshua Meyer remains an extra-base threat despite 0-for-4 in latest game.
+Matthew Wilson threw 9.0 IP, 7 H, 2 BB, 4 K, 2 ER in latest win (132 pitches listed).
+Estimated OBP/OPS omit historical unknown HBP/SF/CI. Original five-game PDF archived.
