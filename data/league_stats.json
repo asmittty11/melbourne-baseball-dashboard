@@ -35,9 +35,9 @@
     "melbourneWinPct": 42.86,
     "lastMelbourneGame": "21–4 win vs Upwey FTG, game 7",
     "melbournePitchingSourceCaveat": "The uploaded game-row pitching R fields sum to 8, which conflicts with the final score of 4 runs allowed; team standings use the official final score. Pitching ER/H/BB/SO/IP are provisionally transcribed from the supplied row format.",
-    "melbourneBattingSourceCaveat": "Estimated OBP = (H + BB) / (AB + BB); missing historical HBP/SF/CI are not assumed to be known. OPS = estimated OBP + published SLG. These are estimates, not verified official OBP/OPS. All other player stats unchanged.",
+    "melbourneBattingSourceCaveat": "Estimated OBP = (H + BB)/(AB + BB); complete historical HBP/SF/CI are unavailable. Estimated OPS = unrounded estimated OBP + SLG calculated from total bases / AB; rounded to three decimals at the end. Values are estimates, not verified official OBP/OPS.",
     "melbourneStatPolicy": "Melbourne player and team stats refresh after verified game uploads. Opponent team stats refresh only when another advance scouting report is published.",
-    "melbourneOBPMethod": "Estimated from cumulative H, BB, AB, with unknown historical HBP, SF, CI excluded. Formula (H+BB)/(AB+BB)."
+    "melbourneOBPMethod": "OBP estimate (H+BB)/(AB+BB); OPS estimate (H+BB)/(AB+BB) + (H+2B+2*3B+3*HR)/AB. Historical HBP, SF, CI excluded because unavailable."
   },
   "melbourne": {
     "batting": [
@@ -75,7 +75,7 @@
         "AVG": ".333*",
         "OBP": ".333",
         "SLG": ".333",
-        "OPS": ".666",
+        "OPS": ".667",
         "ISO": ".000",
         "BB%": "0.0%",
         "SB": "·",
@@ -163,7 +163,7 @@
         "AVG": ".222",
         "OBP": ".417",
         "SLG": ".278",
-        "OPS": ".695",
+        "OPS": ".694",
         "ISO": ".056",
         "BB%": "25.0%",
         "SB": "·",
@@ -207,7 +207,7 @@
         "AVG": ".154",
         "OBP": ".267",
         "SLG": ".231",
-        "OPS": ".498",
+        "OPS": ".497",
         "ISO": ".077",
         "BB%": "13.3%",
         "SB": "·",
