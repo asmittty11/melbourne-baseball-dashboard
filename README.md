@@ -20,7 +20,7 @@ This is a static, browser-based VSBL Premier 1 analytics and advance scouting da
 - `reports/`: the unchanged original five PDFs.
 - `assets/Melbourne_Baseball_Web_Dashboard.zip`: complete dashboard source archive.
 
-Data windows differ: Melbourne six games, Doncaster five, Upwey FTG four, Sandringham five. These are **all uploaded opponent teams**, not the entire VSBL. Some source reports omit PA, OPS, or pitching appearances; those fields are blank rather than invented. Team totals are displayed separately and are not ranked as players. The Melbourne Round 5 weekly report is archival and is not added again to six-game totals.
+Data windows differ: Melbourne six games, Doncaster five, Upwey FTG four, Sandringham six. These are **all uploaded opponent teams**, not the entire VSBL. Some source reports omit PA, OPS, or pitching appearances; those fields are blank rather than invented. Team totals are displayed separately and are not ranked as players. The Melbourne Round 5 weekly report is archival and is not added again to six-game totals.
 
 ## Publishing
 The `.github/workflows/extract-assets.yml` workflow extracts the dashboard archive into the repository and commits the website, data, PDFs, and text reports. GitHub Pages builds from the `main` branch.
@@ -42,3 +42,6 @@ New primary season PDF: `reports/Melbourne_Season_Stats_Through_Game7_UpweyFTG_U
 
 ## Melbourne OBP and OPS estimates
 The sortable Melbourne player/team tables now display **estimated** OBP and OPS for every batter and the team total. OBP uses `(H+BB)/(AB+BB)` because full historical HBP, SF and CI are unavailable; OPS adds SLG calculated from cumulative total bases divided by AB before rounding. These are approximations rather than verified official OBP/OPS. Opponent scouting tables, reports, source windows and game totals remain unchanged.
+
+## Sandringham advance scouting — November 8, 2026 update
+New six-game report for the November 10 matchup incorporates the November 7 4–3 win: Sandringham 9th (3–3, RF 34, RA 43, RD −9), Melbourne 10th (3–4). Player batting and pitching tables now reflect six games. OBP and OPS are explicitly estimated due to incomplete historical HBP/SF/CI. Original five-game PDF remains archived. New PDF: `reports/Melbourne_vs_Sandringham_Advance_Scouting_Nov10_2026_Six_Game_Updated.pdf`.
