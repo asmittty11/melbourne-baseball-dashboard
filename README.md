@@ -45,3 +45,6 @@ The sortable Melbourne player/team tables now display **estimated** OBP and OPS 
 
 ## Sandringham advance scouting — November 8, 2026 update
 New six-game report for the November 10 matchup incorporates the November 7 4–3 win: Sandringham 9th (3–3, RF 34, RA 43, RD −9), Melbourne 10th (3–4). Player batting and pitching tables now reflect six games. OBP and OPS are explicitly estimated due to incomplete historical HBP/SF/CI. Original five-game PDF remains archived. New PDF: `reports/Melbourne_vs_Sandringham_Advance_Scouting_Nov10_2026_Six_Game_Updated.pdf`.
+
+## Waverley preliminary advance — November 14, 2026 away matchup
+Added preliminary Waverley scouting with four scored games (4–0, 54 RF, 8 RA, 3rd) and 13 batters, five pitchers. The games scheduled October 3, October 31 and November 7 are unreported and **not** included. Updated standings and player totals only after source verification. Original PDF and readable text are in `reports/` and `text_reports/`; source dataset is `data/waverley_preliminary_20261109.json`. Existing opponents and Melbourne data remain preserved.
