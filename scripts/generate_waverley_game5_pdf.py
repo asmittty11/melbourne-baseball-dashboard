@@ -41,9 +41,19 @@ bat_total['OBP']=f'{obp:.3f}'
 bat_total['OPS']=f'{obp+slg:.3f}'
 bat_total['ISO']=f'{slg-h/ab:.3f}' if ab else '—'
 bat_total['BB%']=f'{100*bb/sum(int(p.get("PA",0)) for p in d["batting"]):.1f}%'
-table(batrows+[bat_total],batcols,[110]+[31]*11+[38]*6+[77])
+table(batrows+[bat_total],batcols,[100]+[27]*11+[32]*6+[65])
 story.extend([Spacer(1,9),Paragraph('SCOUTING READ: red = priority threat; yellow = caution; green = attack; gray = insufficient sample. AVG asterisks only below 2 PA per team game (10 PA through five games). Unknown handedness is blank. Player totals incorporate available game records and may not cover all five official games.',styles['N']),PageBreak(),Paragraph('WAVERLEY PITCHING | MATCHUP PREPARATION',styles['H'])])
-table(d['pitching'],pitcols,[135,43]+[46]*10+[88])
+pit_total={'Player':'TEAM TOTAL'}
+for k in ['H','ER','BB','SO']:
+    pit_total[k]=sum(int(p.get(k,0)) for p in d['pitching'])
+outs=sum(int(p['IP'].split('.')[0])*3+int(p['IP'].split('.')[1]) for p in d['pitching'])
+ip=outs/3
+pit_total['IP']=f'{outs//3}.{outs%3}'
+pit_total['ERA']=f'{pit_total["ER"]*9/ip:.2f}'
+pit_total['WHIP']=f'{(pit_total["H"]+pit_total["BB"])/ip:.2f}'
+pit_total['K/9']=f'{pit_total["SO"]*9/ip:.2f}'
+pit_total['BB/9']=f'{pit_total["BB"]*9/ip:.2f}'
+table(d['pitching']+[pit_total],pitcols,[120,35]+[40]*10+[72])
 story.extend([Spacer(1,9),Paragraph('ERA asterisk only below one out per team game (1.2 IP through five games). New game pitching row was supplied without headings, so its mapping and derived rates are provisional. Previously verified Conor Myles throws left-handed; other unverified hands remain blank.',styles['N']),Paragraph('LINEUP & COACHING USAGE',styles['Heading2'])])
 notes=[
 'Waverley is unbeaten (5–0) with 58 runs scored and 11 allowed; the newest official ladder adds a 4–3 result. Do not equate this with a verified five-game individual-stat dataset.',
@@ -57,7 +67,7 @@ story.append(Paragraph('NOTABLE HIGHER-LEVEL PLAYING EXPERIENCE',styles['Heading
 for e in d['metadata'].get('higherExperience',[]):
     story.append(Paragraph(e['Player']+': '+e['Experience']+' ('+e['Source']+')',styles['N']))
 story.append(Paragraph('DATA QUALITY',styles['Heading2']))
-story.append(Paragraph('Official ladder five-game record, RF/RA and positions are verified from the supplied screenshot. New GameDay rows lack column headings; player-specific totals and classifications are provisional. The five named pitchers total 27.2 IP and 9 ER, an incomplete sample of five games. Missing pitching appearances remain unidentified. Earlier dataset had four reported games and does not necessarily reconcile to the five official games. No missing games were fabricated.',styles['N']))
+story.append(Paragraph('Official ladder five-game record, RF/RA and positions are verified from the supplied screenshot. New GameDay rows lack column headings; player-specific totals and classifications are provisional. The five named pitchers total 27.2 IP and 9 ER, an incomplete sample of five games. Missing pitching appearances remain unidentified. This may reflect human score-entry or reporting omissions, but the cause has not been confirmed; pitching totals and rates are not a full-season representation. Earlier dataset had four reported games and does not necessarily reconcile to the five official games. No missing games were fabricated.',styles['N']))
 SimpleDocTemplate(pdf,pagesize=landscape(A4),leftMargin=11*mm,rightMargin=11*mm,topMargin=11*mm,bottomMargin=11*mm).build(story)
 with open(txt,'w') as f:
  f.write('MELBOURNE vs WAVERLEY | 14 NOV 2026\nWaverley 3rd 5-0-0 58 RF 11 RA +47 | Melbourne 8th 4-4-0 52 RF 57 RA -5\nBATTING\n')
