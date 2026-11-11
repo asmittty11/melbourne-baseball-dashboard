@@ -18,6 +18,24 @@
       "Official ladder five-game totals provided November 11, 2026",
       "Latest individual GameDay row provided without column headers; game-field mapping provisional, especially pitching outs/BB/SO",
       "Earlier four-game stats are not necessarily complete for all five official games; do not claim full season coverage until missing games reconciled"
+    ],
+    "pitchingCoverage": "Five named pitchers total 27.2 IP (83 outs) and 9 ER. Official five-game 11 RA does not establish ER total. At least one game or pitching appearance is absent; missing pitcher identity cannot be determined from supplied rows.",
+    "higherExperience": [
+      {
+        "Player": "Conor Myles",
+        "Experience": "University of Texas at San Antonio (NCAA Division I); pitched in 2025 NCAA regional clincher against Texas",
+        "Source": "Baseball Victoria June 2025"
+      },
+      {
+        "Player": "Charlie Collins",
+        "Experience": "Odessa College and Southeastern University; Melbourne Aces ABL debut reported in 2021; Team Australia U15",
+        "Source": "Baseball Victoria"
+      },
+      {
+        "Player": "Benjamin Fierenzi",
+        "Experience": "Long Island University college baseball (listed as Ben Fierenzi; identity match to current player requires confirmation)",
+        "Source": "Baseball Victoria college players list"
+      }
     ]
   },
   "batting": [
@@ -571,7 +589,7 @@
     {
       "Player": "Kai Reum",
       "G": 4,
-      "IP": "10.2",
+      "IP": "12.0",
       "H": 14,
       "R": 6,
       "ER": 4,
@@ -579,10 +597,10 @@
       "SO": 11,
       "HBP": 0,
       "Pitches": 151,
-      "ERA": "3.38",
-      "WHIP": "1.59",
-      "K/9": "9.28",
-      "BB/9": "2.53",
+      "ERA": "3.00",
+      "WHIP": "1.42",
+      "K/9": "8.25",
+      "BB/9": "2.25",
       "K/BB": "3.67",
       "Throws": "",
       "Scouting Read": "CAUTION"
