@@ -1,0 +1,29 @@
+name: Publish Waverley updated advance scouting PDF
+on:
+  push:
+    paths:
+      - 'scripts/generate_waverley_game5_pdf.py'
+      - 'data/waverley_preliminary_20261109.json'
+      - '.github/workflows/publish-waverley-game5.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install reportlab
+      - run: python scripts/generate_waverley_game5_pdf.py
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/Melbourne_vs_Waverley_Advance_Scouting_Nov14_2026_Five_Game_Update.pdf text_reports/Melbourne_vs_Waverley_Advance_Scouting_Nov14_2026_Five_Game_Update.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish updated Waverley five-game advance scouting PDF"
+            git push
+          fi
