@@ -27,7 +27,21 @@ def table(rows,cols,widths):
         color={'THREAT':'#ffd1d1','CAUTION':'#ffe6a1','ATTACK':'#ccebd8','LIMITED':'#e3e6e9'}.get(c)
         if color:commands.append(('BACKGROUND',(-1,i),(-1,i),colors.HexColor(color)))
     t.setStyle(TableStyle(commands));story.append(t)
-table(sorted(d['batting'],key=lambda x:float(str(x.get('OPS','0')).replace('—','0')) if str(x.get('OPS','0'))!='—' else 0,reverse=True),batcols,[110]+[31]*11+[38]*6+[77])
+batrows=sorted(d['batting'],key=lambda x:float(str(x.get('OPS','0')).replace('—','0')) if str(x.get('OPS','0'))!='—' else 0,reverse=True)
+bat_total={'Player':'TEAM TOTAL'}
+for k in ['PA','AB','H','2B','3B','HR','RBI','BB','SO','SB']:
+    bat_total[k]=sum(int(p.get(k,0)) for p in d['batting'])
+ab=bat_total['AB'];h=bat_total['H'];bb=bat_total['BB']
+bat_total['AVG']=f'{h/ab:.3f}' if ab else '—'
+bat_total['SLG']=f'{(h+bat_total["2B"]+2*bat_total["3B"]+3*bat_total["HR"])/ab:.3f}' if ab else '—'
+den=ab+bb+sum(int(p.get('HBP',0))+int(p.get('SF',0)) for p in d['batting'])
+obp=(h+bb+sum(int(p.get('HBP',0)) for p in d['batting']))/den if den else 0
+slg=(h+bat_total["2B"]+2*bat_total["3B"]+3*bat_total["HR"])/ab if ab else 0
+bat_total['OBP']=f'{obp:.3f}'
+bat_total['OPS']=f'{obp+slg:.3f}'
+bat_total['ISO']=f'{slg-h/ab:.3f}' if ab else '—'
+bat_total['BB%']=f'{100*bb/sum(int(p.get("PA",0)) for p in d["batting"]):.1f}%'
+table(batrows+[bat_total],batcols,[110]+[31]*11+[38]*6+[77])
 story.extend([Spacer(1,9),Paragraph('SCOUTING READ: red = priority threat; yellow = caution; green = attack; gray = insufficient sample. AVG asterisks only below 2 PA per team game (10 PA through five games). Unknown handedness is blank. Player totals incorporate available game records and may not cover all five official games.',styles['N']),PageBreak(),Paragraph('WAVERLEY PITCHING | MATCHUP PREPARATION',styles['H'])])
 table(d['pitching'],pitcols,[135,43]+[46]*10+[88])
 story.extend([Spacer(1,9),Paragraph('ERA asterisk only below one out per team game (1.2 IP through five games). New game pitching row was supplied without headings, so its mapping and derived rates are provisional. Previously verified Conor Myles throws left-handed; other unverified hands remain blank.',styles['N']),Paragraph('LINEUP & COACHING USAGE',styles['Heading2'])])
@@ -39,13 +53,16 @@ notes=[
 'Melbourne should emphasize baserunner control, avoiding walks and limiting extra-base damage. Actual lineup positions and substitutions across five games are not fully verified.'
 ]
 for n in notes:story.append(Paragraph('• '+n,styles['N']))
+story.append(Paragraph('NOTABLE HIGHER-LEVEL PLAYING EXPERIENCE',styles['Heading2']))
+for e in d['metadata'].get('higherExperience',[]):
+    story.append(Paragraph(e['Player']+': '+e['Experience']+' ('+e['Source']+')',styles['N']))
 story.append(Paragraph('DATA QUALITY',styles['Heading2']))
-story.append(Paragraph('Official ladder five-game record, RF/RA and positions are verified from the supplied screenshot. New GameDay rows lack column headings; player-specific totals and classifications are provisional. Earlier dataset had four reported games and does not necessarily reconcile to the five official games. No missing games were fabricated.',styles['N']))
+story.append(Paragraph('Official ladder five-game record, RF/RA and positions are verified from the supplied screenshot. New GameDay rows lack column headings; player-specific totals and classifications are provisional. The five named pitchers total 27.2 IP and 9 ER, an incomplete sample of five games. Missing pitching appearances remain unidentified. Earlier dataset had four reported games and does not necessarily reconcile to the five official games. No missing games were fabricated.',styles['N']))
 SimpleDocTemplate(pdf,pagesize=landscape(A4),leftMargin=11*mm,rightMargin=11*mm,topMargin=11*mm,bottomMargin=11*mm).build(story)
 with open(txt,'w') as f:
  f.write('MELBOURNE vs WAVERLEY | 14 NOV 2026\nWaverley 3rd 5-0-0 58 RF 11 RA +47 | Melbourne 8th 4-4-0 52 RF 57 RA -5\nBATTING\n')
- for p in d['batting']:f.write(' | '.join(str(p.get(k,'')) for k in batcols)+'\n')
+ for p in d['batting']+[bat_total]:f.write(' | '.join(str(p.get(k,'')) for k in batcols)+'\n')
  f.write('PITCHING\n')
- for p in d['pitching']:f.write(' | '.join(str(p.get(k,'')) for k in pitcols)+'\n')
+ for p in d['pitching']+[pit_total]:f.write(' | '.join(str(p.get(k,'')) for k in pitcols)+'\n')
  f.write('COACHING\n'+'\n'.join(notes)+'\nUnheaded newest game rows; player components provisional.\n')
 print(pdf)
