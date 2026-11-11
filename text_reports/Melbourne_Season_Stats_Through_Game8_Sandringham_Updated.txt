@@ -1,0 +1,41 @@
+MELBOURNE BASEBALL CLUB | EIGHT-GAME PLAYER & TEAM STATS
+8th | 4-4-0 | RF 52 | RA 57 | RD -5 | Sandringham W 5-1
+
+BATTING
+Player | Bats | PA | AB | H | 2B | 3B | HR | BB | SO | AVG | OBP | SLG | OPS | ISO | BB% | SB
+Joshua Hendricks | R | 27 | 21 | 9 | 2 | 0 | 4 | 4 | 3 | .429 | .520 | 1.095 | 1.615 | .667 | 14.8% | ·
+Joey White | R | 3 | 3 | 1 | 0 | 0 | 0 | 0 | 1 | .333* | .333 | .333 | .667 | .000 | 0.0% | ·
+Lennard Pietersz |  | 10 | 9 | 3 | 1 | 0 | 0 | 1 | 1 | .333* | .400 | .444 | .844 | .111 | 10.0% | ·
+William Kent |  | 26 | 22 | 7 | 1 | 1 | 0 | 3 | 5 | .318 | .400 | .455 | .855 | .136 | 11.5% | ·
+Blake Mitchell |  | 34 | 26 | 7 | 3 | 1 | 0 | 7 | 3 | .269 | .424 | .462 | .886 | .192 | 20.6% | 6
+Oscar Hargreaves |  | 27 | 21 | 6 | 1 | 0 | 0 | 6 | 5 | .286 | .444 | .333 | .778 | .048 | 22.2% | ·
+Lochlann O'Connor |  | 30 | 27 | 5 | 2 | 0 | 0 | 3 | 9 | .185 | .267 | .259 | .526 | .074 | 10.0% | ·
+Lachlan Brennan |  | 18 | 16 | 3 | 2 | 0 | 0 | 2 | 6 | .188 | .278 | .313 | .590 | .125 | 11.1% | ·
+Wade Mcconnon |  | 30 | 23 | 4 | 1 | 0 | 0 | 4 | 6 | .174 | .296 | .217 | .514 | .043 | 13.3% | ·
+Ben Aslett | L | 20 | 14 | 2 | 0 | 0 | 0 | 2 | 1 | .143 | .250 | .143 | .393 | .000 | 10.0% | ·
+Harvey Chinn |  | 28 | 25 | 4 | 0 | 0 | 0 | 3 | 9 | .160 | .250 | .160 | .410 | .000 | 10.7% | 1
+Zak Skinner |  | 12 | 8 | 1 | 0 | 0 | 0 | 3 | 2 | .125* | .364 | .125 | .489 | .000 | 25.0% | ·
+Angus Saggers |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+Taylor Perrett | R | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+TEAM TOTAL |  | 268 | 217 | 52 | 13 | 2 | 4 | 38 | 52 | .240 | .353 | .373 | .726 | .134 | 14.2% | 7
+
+PITCHING
+Player | IP | H | BB | SO | ER | ERA | WHIP | K/9 | BB/9 | K/BB
+Simon Fitzmaurice | 0.1 | 0 | 0 | 0 | 0 | 0.00* | 0.00 | 0.00 | 0.00 | —
+Angus Saggers | 4.2 | 7 | 1 | 1 | 2 | 3.86 | 1.71 | 1.93 | 1.93 | 1.00
+Taylor Perrett | 20.1 | 26 | 5 | 26 | 14 | 6.20 | 1.52 | 11.51 | 2.21 | 5.20
+Joey White | 18.1 | 27 | 14 | 20 | 18 | 8.84 | 2.24 | 9.82 | 6.87 | 1.43
+Max Saggers | 4.1 | 10 | 1 | 5 | 6 | 12.46 | 2.54 | 10.38 | 2.08 | 5.00
+Charles Chislett | 6.1 | 7 | 10 | 2 | 9 | 12.79 | 2.68 | 2.84 | 14.21 | 0.20
+Christian Caminiti | 1.1 | 4 | 1 | 0 | 3 | 20.25* | 3.75 | 0.00 | 6.75 | 0.00
+Henry Mcintyre | 0.2 | 2 | 2 | 0 | 2 | 27.00* | 6.00 | 0.00 | 27.00 | 0.00
+TEAM TOTAL | 56.1 | 83 | 34 | 54 | 54 | 8.63 | 2.08 | 8.63 | 5.43 | 1.59
+
+NOTES
+Joshua Hendricks remains the primary power source (4 HR); maintain opportunities with runners on base. Oscar Hargreaves supplied two hits against Sandringham and retains a strong walk profile.
+William Kent continues to provide contact consistency; Blake Mitchell remains a baserunning asset with six previously confirmed steals. New stolen-base events are not assumed from the unheaded columns.
+Brennan, Pietersz, Mcconnon and Chinn contributed hits in the 5–1 win, supporting lineup depth. Avoid treating one game as a stable batting-order trend.
+Taylor Perrett handled six innings in the latest supplied game. The provisional pitching line points to strong strikeout and walk control; confirm details before changing role recommendations.
+Continue emphasizing free-base prevention and first-pitch strikes across the pitching staff. Historical player ER/H/BB figures and the Game 7 run discrepancy warrant verification.
+
+Game 8 columns unheaded: BB/SO and Perrett pitching components provisional. OBP/OPS estimated. Previous game pitching run discrepancy unresolved.
