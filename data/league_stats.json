@@ -31,7 +31,7 @@
         "Record": "5–0–0",
         "Position": "3rd",
         "Source": "Melbourne_vs_Waverley_Advance_Scouting_Nov14_2026_Five_Game_Update.pdf",
-        "Notes": "Official five-game ladder; individual stats provisional because latest row headers absent and earlier game coverage incomplete"
+        "Notes": "Five-game official ladder; only 27.2 pitcher innings identified, missing appearance(s). 9 ER in partial ledger; 11 official runs allowed. Player stats provisional."
       }
     ],
     "melbourneGames": 8,
@@ -2478,7 +2478,7 @@
         "K/BB": "2.00",
         "Throws": "L",
         "Scouting Read": "CAUTION",
-        "Source": "Waverley five-game provisional update"
+        "Source": "Waverley five-game partial pitching ledger"
       },
       {
         "Team": "Waverley",
@@ -2499,7 +2499,7 @@
         "K/BB": "6.00",
         "Throws": "",
         "Scouting Read": "CAUTION",
-        "Source": "Waverley five-game provisional update"
+        "Source": "Waverley five-game partial pitching ledger"
       },
       {
         "Team": "Waverley",
@@ -2520,13 +2520,13 @@
         "K/BB": "—",
         "Throws": "",
         "Scouting Read": "LIMITED",
-        "Source": "Waverley five-game provisional update"
+        "Source": "Waverley five-game partial pitching ledger"
       },
       {
         "Team": "Waverley",
         "Player": "Kai Reum",
         "G": 4,
-        "IP": "10.2",
+        "IP": "12.0",
         "H": 14,
         "R": 6,
         "ER": 4,
@@ -2534,14 +2534,14 @@
         "SO": 11,
         "HBP": 0,
         "Pitches": 151,
-        "ERA": "3.38",
-        "WHIP": "1.59",
-        "K/9": "9.28",
-        "BB/9": "2.53",
+        "ERA": "3.00",
+        "WHIP": "1.42",
+        "K/9": "8.25",
+        "BB/9": "2.25",
         "K/BB": "3.67",
         "Throws": "",
         "Scouting Read": "CAUTION",
-        "Source": "Waverley five-game provisional update"
+        "Source": "Waverley five-game partial pitching ledger"
       },
       {
         "Team": "Waverley",
@@ -2562,7 +2562,7 @@
         "K/BB": "2.75",
         "Throws": "",
         "Scouting Read": "ATTACK",
-        "Source": "Waverley five-game provisional update"
+        "Source": "Waverley five-game partial pitching ledger"
       }
     ]
   },
