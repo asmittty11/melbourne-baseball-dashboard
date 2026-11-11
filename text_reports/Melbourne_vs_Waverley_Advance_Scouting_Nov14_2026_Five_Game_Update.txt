@@ -18,12 +18,14 @@ Grant Karlsen | 1 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | .000* | .000 | .000 
 Jackson Burton | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | —* | — | — | — | — | 0.0% | LIMITED
 Kai Reum | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | —* | — | — | — | — | 0.0% | LIMITED
 Kynan Jones | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | —* | — | — | — | — | 0.0% | LIMITED
+TEAM TOTAL |  | 165 | 137 | 52 | 10 | 0 | 12 | 50 | 17 | 13 | 22 | 0.380 | 0.461 | 0.715 | 1.176 | 0.336 | 10.3% | 
 PITCHING
 Conor Myles | L | 1 | 1.0 | 0 | 0 | 1 | 2 | 0.00* | 1.00 | 18.00 | 9.00 | CAUTION
 Cooper Busch |  | 1 | 4.0 | 1 | 0 | 1 | 6 | 0.00 | 0.50 | 13.50 | 2.25 | CAUTION
 Josh White |  | 1 | 1.0 | 1 | 0 | 0 | 1 | 0.00* | 1.00 | 9.00 | 0.00 | LIMITED
-Kai Reum |  | 4 | 10.2 | 14 | 4 | 3 | 11 | 3.38 | 1.59 | 9.28 | 2.53 | CAUTION
+Kai Reum |  | 4 | 12.0 | 14 | 4 | 3 | 11 | 3.00 | 1.42 | 8.25 | 2.25 | CAUTION
 Kynan Jones |  | 3 | 9.2 | 12 | 5 | 4 | 11 | 4.66 | 1.66 | 10.24 | 3.72 | ATTACK
+TEAM TOTAL |  |  | 27.2 | 28 | 9 | 9 | 31 | 2.93 | 1.34 | 10.08 | 2.93 | 
 COACHING
 Waverley is unbeaten (5–0) with 58 runs scored and 11 allowed; the newest official ladder adds a 4–3 result. Do not equate this with a verified five-game individual-stat dataset.
 Cooper Busch, Damon Hill, Charlie Collins and Benjamin Fierenzi remain primary power/on-base concerns based on available cumulative data. Avoid predictable fastballs in damage counts.
