@@ -609,7 +609,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "25.0%"
       },
       {
         "Player": "Jordan Elliott",
@@ -632,7 +634,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "30.0%"
       },
       {
         "Player": "Mark Jones",
@@ -655,7 +659,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "42.9%"
       },
       {
         "Player": "Ethan Jenkins",
@@ -678,7 +684,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "0.0%"
       },
       {
         "Player": "Michael Oxworth",
@@ -701,7 +709,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "25.0%"
       },
       {
         "Player": "Shaun Irvine",
@@ -724,7 +734,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "14.3%"
       },
       {
         "Player": "Manning Davison",
@@ -747,7 +759,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "0.0%"
       },
       {
         "Player": "Adam Schoppe",
@@ -770,7 +784,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "20.0%"
       },
       {
         "Player": "Matthew Brache",
@@ -793,7 +809,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "14.3%"
       },
       {
         "Player": "Keeley Ronalds-Greatbatch",
@@ -816,7 +834,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "0.0%"
       },
       {
         "Player": "Tristan Mealey",
@@ -839,7 +859,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "0.0%"
       },
       {
         "Player": "Sam Griffiths",
@@ -862,7 +884,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "0.0%"
       },
       {
         "Player": "Thomas Hurley",
@@ -885,7 +909,9 @@
         "Team Total": false,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "ISO": ".000",
+        "BB%": "0.0%"
       },
       {
         "Player": "TEAM TOTAL",
@@ -905,7 +931,11 @@
         "Team Total": true,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "Scouting Read": "Weak",
+        "ISO": ".000",
+        "BB%": "16.7%",
+        "G": "4"
       },
       {
         "Player": "Jean Alvarado",
@@ -924,7 +954,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": "1.182",
+        "OPS": "1.968",
+        "ISO": ".455"
       },
       {
         "Player": "Callum Lethborg",
@@ -943,7 +976,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": "1.167",
+        "OPS": "1.738",
+        "ISO": ".667"
       },
       {
         "Player": "Takuya Takahashi",
@@ -962,7 +998,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".500",
+        "OPS": "1.000",
+        "ISO": ".000"
       },
       {
         "Player": "Gage Mason",
@@ -981,7 +1020,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".571",
+        "OPS": "1.000",
+        "ISO": ".143"
       },
       {
         "Player": "Blake Exizian",
@@ -1000,7 +1042,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".556",
+        "OPS": ".977",
+        "ISO": ".167"
       },
       {
         "Player": "Fernando Figueroa",
@@ -1019,7 +1064,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".412",
+        "OPS": ".801",
+        "ISO": ".059"
       },
       {
         "Player": "Kycen Dowling",
@@ -1038,7 +1086,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".467",
+        "OPS": ".940",
+        "ISO": ".133"
       },
       {
         "Player": "Rolando Curiel",
@@ -1057,7 +1108,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".333",
+        "OPS": ".667",
+        "ISO": ".000"
       },
       {
         "Player": "Shorato Morimoto",
@@ -1076,7 +1130,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".474",
+        "OPS": ".759",
+        "ISO": ".263"
       },
       {
         "Player": "Tye Wilson",
@@ -1095,7 +1152,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".333",
+        "OPS": ".708",
+        "ISO": ".167"
       },
       {
         "Player": "Brian Chen",
@@ -1114,7 +1174,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".308",
+        "OPS": ".574",
+        "ISO": ".154"
       },
       {
         "Player": "Jax Clarke",
@@ -1133,7 +1196,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".154",
+        "OPS": ".421",
+        "ISO": ".000"
       },
       {
         "Player": "Edward Mateo",
@@ -1152,7 +1218,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".000",
+        "OPS": ".167",
+        "ISO": ".000"
       },
       {
         "Player": "Liam Robertson",
@@ -1171,7 +1240,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".000",
+        "OPS": ".000",
+        "ISO": ".000"
       },
       {
         "Player": "Max Vetter",
@@ -1190,7 +1262,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".000",
+        "OPS": ".000",
+        "ISO": ".000"
       },
       {
         "Player": "Daniel Bebbere",
@@ -1209,7 +1284,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".000",
+        "OPS": ".000",
+        "ISO": ".000"
       },
       {
         "Player": "Dakota Gibson",
@@ -1228,7 +1306,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".000",
+        "OPS": ".000",
+        "ISO": ".000"
       },
       {
         "Player": "Taiyo Honda",
@@ -1247,7 +1328,10 @@
         "Team Total": false,
         "Team": "Doncaster",
         "Source": "Melbourne_vs_Doncaster_Advance_Scouting_Oct31_2026_Confirmed_Ladder.pdf",
-        "Games in source": "5"
+        "Games in source": "5",
+        "SLG": ".000",
+        "OPS": ".000",
+        "ISO": ".000"
       },
       {
         "Player": "Kris Nankivell",
@@ -1665,7 +1749,8 @@
         "Team": "Sandringham",
         "Source": "Melbourne_vs_Sandringham_Advance_Scouting_Nov10_2026_Six_Game_Updated.pdf",
         "Games in source": "6",
-        "Team Total": true
+        "Team Total": true,
+        "Scouting Read": "Average"
       },
       {
         "Team": "Waverley",
@@ -2210,7 +2295,7 @@
         "OPS": "1.250",
         "ISO": ".000",
         "BB%": "50.0%",
-        "Scouting Read": "INSUFFICIENT",
+        "Scouting Read": "LIMITED",
         "Team": "Moorabbin",
         "Bats": "",
         "G": "",
@@ -2266,7 +2351,7 @@
         "OPS": "2.000",
         "ISO": ".000",
         "BB%": "0.0%",
-        "Scouting Read": "INSUFFICIENT",
+        "Scouting Read": "LIMITED",
         "Team": "Moorabbin",
         "Bats": "",
         "G": "",
@@ -2294,7 +2379,7 @@
         "OPS": ".600",
         "ISO": ".200",
         "BB%": "0.0%",
-        "Scouting Read": "INSUFFICIENT",
+        "Scouting Read": "LIMITED",
         "Team": "Moorabbin",
         "Bats": "",
         "G": "",
@@ -2350,7 +2435,7 @@
         "OPS": ".762",
         "ISO": ".286",
         "BB%": "22.2%",
-        "Scouting Read": "INSUFFICIENT",
+        "Scouting Read": "LIMITED",
         "Team": "Moorabbin",
         "Bats": "",
         "G": "",
@@ -2490,7 +2575,7 @@
         "OPS": ".222",
         "ISO": ".000",
         "BB%": "11.1%",
-        "Scouting Read": "INSUFFICIENT",
+        "Scouting Read": "LIMITED",
         "Team": "Moorabbin",
         "Bats": "",
         "G": "",
@@ -2602,7 +2687,7 @@
         "OPS": ".762",
         "ISO": ".000",
         "BB%": "14.3%",
-        "Scouting Read": "INSUFFICIENT",
+        "Scouting Read": "LIMITED",
         "Team": "Moorabbin",
         "Bats": "",
         "G": "",
@@ -2636,6 +2721,63 @@
         "Scouting Read": "Strong",
         "Team Total": true,
         "Source": "Five supplied GameDay batches; not complete six-game season"
+      },
+      {
+        "Player": "TEAM TOTAL",
+        "Team": "Doncaster",
+        "G": "5",
+        "PA": "",
+        "Bats": "",
+        "AB": "142",
+        "H": "43",
+        "2B": "11",
+        "3B": "2",
+        "HR": "3",
+        "BB": "19",
+        "SO": "31",
+        "RBI": "24",
+        "AVG": ".303",
+        "OBP": ".385",
+        "SLG": ".472",
+        "OPS": ".857",
+        "ISO": ".169",
+        "BB%": "",
+        "SB": "",
+        "Scouting Read": "",
+        "Team Total": true,
+        "Source": "Five-game Doncaster source report; OBP/OPS estimated; PA, BB%, SB unknown"
+      },
+      {
+        "Player": "TEAM TOTAL",
+        "Team": "Waverley",
+        "G": "5",
+        "Bats": "",
+        "PA": "165",
+        "AB": "137",
+        "R": "58",
+        "H": "52",
+        "1B": "29",
+        "2B": "10",
+        "3B": "0",
+        "HR": "12",
+        "RBI": "50",
+        "BB": "17",
+        "SO": "13",
+        "SB": "22",
+        "HBP": "8",
+        "SF": "5",
+        "CI": "0",
+        "CS": "19",
+        "LOB": "23",
+        "AVG": ".380",
+        "OBP": ".461",
+        "SLG": ".715",
+        "OPS": "1.176",
+        "ISO": ".336",
+        "BB%": "10.3%",
+        "Scouting Read": "",
+        "Team Total": true,
+        "Source": "Sum of available Waverley player rows; incomplete season player coverage"
       }
     ],
     "pitching": [
@@ -2748,7 +2890,8 @@
         "Team Total": true,
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
-        "Games in source": "4"
+        "Games in source": "4",
+        "Scouting Read": "Weak"
       },
       {
         "Player": "Gage Mason",
@@ -2963,7 +3106,8 @@
         "Team": "Sandringham",
         "Source": "Melbourne_vs_Sandringham_Advance_Scouting_Nov10_2026_Six_Game_Updated.pdf",
         "Games in source": "6",
-        "Team Total": true
+        "Team Total": true,
+        "Scouting Read": "Below Average"
       },
       {
         "Team": "Waverley",
@@ -3237,6 +3381,46 @@
         "Scouting Read": "Above Average",
         "Team Total": true,
         "Source": "Five supplied GameDay batches; not complete six-game season"
+      },
+      {
+        "Player": "TEAM TOTAL",
+        "Team": "Doncaster",
+        "Throws": "",
+        "G": "",
+        "IP": "34.2",
+        "H": "40",
+        "BB": "36",
+        "SO": "39",
+        "ER": "26",
+        "ERA": "6.75",
+        "WHIP": "2.19",
+        "K/9": "10.1",
+        "BB/9": "9.3",
+        "Scouting Read": "",
+        "Team Total": true,
+        "Source": "Five-game Doncaster source report"
+      },
+      {
+        "Player": "TEAM TOTAL",
+        "Team": "Waverley",
+        "Throws": "",
+        "G": "",
+        "IP": "27.2",
+        "H": "28",
+        "R": "12",
+        "ER": "9",
+        "BB": "9",
+        "SO": "31",
+        "HBP": "0",
+        "Pitches": "369",
+        "ERA": "2.93",
+        "WHIP": "1.34",
+        "K/9": "10.08",
+        "BB/9": "2.93",
+        "K/BB": "3.44",
+        "Scouting Read": "",
+        "Team Total": true,
+        "Source": "Partial Waverley pitching ledger; missing appearances, not full five-game season"
       }
     ]
   },
