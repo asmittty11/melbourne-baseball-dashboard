@@ -34,7 +34,46 @@ for(const p of d.melbourne.batting){
 const unknownStat=v=>v==null||['','.','·','—','-'].includes(String(v).trim());
 makeGrid({target:'#melbBat',controls:'#melbBatControls',rows:d.melbourne.batting.map(p=>({...p,SB:unknownStat(p.SB)?'':p.SB})),columns:melbBatCols,totalsTarget:'#melbBatTotal',teamFilter:false,defaultSort:'AVG'});makeGrid({target:'#melbPit',controls:'#melbPitControls',rows:d.melbourne.pitching.map(p=>({...p,'K/BB':unknownStat(p['K/BB'])?'':p['K/BB']})),columns:melbPitCols,totalsTarget:'#melbPitTotal',teamFilter:false,defaultSort:'ERA'});
 makeGrid({target:'#oppBat',controls:'#oppBatControls',rows:d.opponents.batting,columns:oppBatCols,totalsTarget:'#oppBatTotals',countTarget:'#oppBatCount',defaultSort:'AVG'});makeGrid({target:'#oppPit',controls:'#oppPitControls',rows:d.opponents.pitching,columns:oppPitCols,totalsTarget:'#oppPitTotals',countTarget:'#oppPitCount',defaultSort:'ERA'});
-makeGrid({target:'#compareBat',controls:'#compareBatControls',rows:[...d.melbourne.batting,...d.opponents.batting],columns:oppBatCols,totalsTarget:'#compareBatTotals',totalsHeading:'Source League Totals (Not Included In Player Sorting)',defaultSort:'AVG'});makeGrid({target:'#comparePit',controls:'#comparePitControls',rows:[...d.melbourne.pitching,...d.opponents.pitching],columns:oppPitCols,totalsTarget:'#comparePitTotals',totalsHeading:'Source League Totals (Not Included In Player Sorting)',defaultSort:'ERA'});
+makeGrid({target:'#compareBat',controls:'#compareBatControls',rows:[...d.melbourne.batting,...d.opponents.batting],columns:oppBatCols,defaultSort:'AVG'});
+makeGrid({target:'#comparePit',controls:'#comparePitControls',rows:[...d.melbourne.pitching,...d.opponents.pitching],columns:oppPitCols,defaultSort:'ERA'});
+// One combined total across the six uploaded team-total rows, never across player rows.
+function renderCombinedLeagueTotal(target,sourceRows,columns,kind){
+  const rows=sourceRows.filter(r=>r['Team Total']);
+  const out={Team:'All Uploaded Teams',Player:'LEAGUE TOTAL'};
+  const present=(r,k)=>r[k]!==undefined&&r[k]!==null&&String(r[k]).trim()!==''&&/^-?\d+(?:\.\d+)?$/.test(String(r[k]));
+  const sum=k=>rows.length&&rows.every(r=>present(r,k))?rows.reduce((a,r)=>a+Number(r[k]),0):null;
+  const set=(k,v)=>{out[k]=v===null||v===undefined?'':String(v)};
+  const fmt3=n=>{let x=n.toFixed(3);return x.startsWith('0.')?x.slice(1):x};
+  const fmt2=n=>n.toFixed(2);
+  for(const k of (kind==='batting'?['G','PA','AB','H','2B','3B','HR','RBI','BB','SO','SB']:['G','H','BB','SO','ER']))set(k,sum(k));
+  if(kind==='batting'){
+    const ab=sum('AB'),hits=sum('H'),bb=sum('BB'),two=sum('2B'),three=sum('3B'),hr=sum('HR'),pa=sum('PA');
+    if(ab!==null&&ab>0&&hits!==null&&two!==null&&three!==null&&hr!==null){
+      const avg=hits/ab,slg=(hits+two+2*three+3*hr)/ab;
+      set('AVG',fmt3(avg));set('SLG',fmt3(slg));set('ISO',fmt3(slg-avg));
+      if(bb!==null&&ab+bb>0){const estimatedObp=(hits+bb)/(ab+bb);set('OBP',fmt3(estimatedObp));set('OPS',fmt3(estimatedObp+slg))}
+    }
+    if(pa!==null&&pa>0&&bb!==null)set('BB%',(100*bb/pa).toFixed(1)+'%');
+  }else{
+    const toOuts=value=>{const m=String(value??'').match(/^(\d+)\.([012])$/);return m?Number(m[1])*3+Number(m[2]):null};
+    const outs=rows.length&&rows.every(r=>toOuts(r.IP)!==null)?rows.reduce((a,r)=>a+toOuts(r.IP),0):null;
+    if(outs!==null&&outs>0){
+      const innings=outs/3,hits=sum('H'),bb=sum('BB'),so=sum('SO'),er=sum('ER');
+      set('IP',Math.floor(outs/3)+'.'+outs%3);
+      if(er!==null)set('ERA',fmt2(9*er/innings));
+      if(hits!==null&&bb!==null)set('WHIP',fmt2((hits+bb)/innings));
+      if(so!==null)set('K/9',fmt2(9*so/innings));
+      if(bb!==null)set('BB/9',fmt2(9*bb/innings));
+    }
+  }
+  const fields=columns.filter(k=>k!=='Scouting Read');
+  const header=fields.map(k=>'<th>'+esc(k)+'</th>').join('');
+  const cells=fields.map(k=>'<td>'+esc(out[k]??'')+'</td>').join('');
+  const caveat=kind==='batting'?'OBP and OPS are pooled estimates; fields missing from any team source are blank.':'Pitching rates use recorded innings; some uploaded team pitching records are incomplete.';
+  $(target).innerHTML='<h3>LEAGUE TOTALS</h3><div class="scroll"><table><thead><tr>'+header+'</tr></thead><tbody><tr class="total">'+cells+'</tr></tbody></table></div><p class="muted">Combined uploaded team totals only, not the complete VSBL league. '+esc(caveat)+'</p>';
+}
+renderCombinedLeagueTotal('#compareBatTotals',[...d.melbourne.batting,...d.opponents.batting],oppBatCols,'batting');
+renderCombinedLeagueTotal('#comparePitTotals',[...d.melbourne.pitching,...d.opponents.pitching],oppPitCols,'pitching');
 function cards(){return d.reports.map(r=>'<div class="report"><strong>'+esc(r.title)+'</strong><span class="muted">'+esc(r.category)+'</span><p><a href="'+encodeURI(r.file)+'" target="_blank" rel="noopener">Original PDF</a> · <a href="'+encodeURI(r.text)+'" target="_blank" rel="noopener">Text version</a></p></div>').join('')}$('#allReports').innerHTML=cards();const rs=$('#reportSelect'),ts=$('#textSelect');d.reports.forEach((r,i)=>{rs.add(new Option(r.title,i));ts.add(new Option(r.title,i))});function pdf(){const f=d.reports[+rs.value].file;$('#reportFrame').src=encodeURI(f);$('#reportLink').href=encodeURI(f)}rs.addEventListener('change',pdf);pdf();let rawText='';function textReport(){let r=d.reports[+ts.value];$('#textDownload').href=encodeURI(r.text);$('#textBody').textContent='Loading…';fetch(r.text).then(x=>{if(!x.ok)throw Error('Text file missing');return x.text()}).then(t=>{rawText=t;searchText()}).catch(e=>$('#textBody').textContent=e.message)}function searchText(){const q=$('#textSearch').value.toLowerCase();if(!q){$('#textBody').textContent=rawText;$('#textInfo').textContent='Full report text';return}let lines=rawText.split('\n'),matches=lines.map((x,i)=>({line:i+1,text:x})).filter(x=>x.text.toLowerCase().includes(q));$('#textInfo').textContent=matches.length+' matching lines';$('#textBody').textContent=matches.map(x=>'Line '+x.line+': '+x.text).join('\n')||'No matches'}ts.addEventListener('change',textReport);$('#textSearch').addEventListener('input',searchText);textReport();
 }).catch(e=>{document.querySelector('#overview .card:last-child').insertAdjacentHTML('beforeend','<p class="muted">Data error: '+esc(e.message)+'</p>')});
 </script></body></html>
