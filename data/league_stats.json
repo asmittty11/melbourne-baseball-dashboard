@@ -32,6 +32,14 @@
         "Position": "3rd",
         "Source": "Melbourne_vs_Waverley_Advance_Scouting_Nov14_2026_Five_Game_Update.pdf",
         "Notes": "Five-game official ladder; only 27.2 pitcher innings identified, missing appearance(s). 9 ER in partial ledger; 11 official runs allowed. Player stats provisional."
+      },
+      {
+        "Team": "Moorabbin",
+        "Games": 6,
+        "Record": "5–1–0",
+        "Position": "4th",
+        "Source": "User-supplied ladder and five game batches",
+        "Notes": "Preliminary: 48 RF, 28 RA, +20 RD; Nov 10 win already in ladder but individual stats not yet published. Next game pending."
       }
     ],
     "melbourneGames": 8,
@@ -47,7 +55,51 @@
     "melbourneStatPolicy": "8-game cumulative stats, with provisional Game 8 mapping flagged. Official ladder 8th, 4–4–0, RF52 RA57.",
     "sandringhamSourceCaveat": "Six-game totals from five-game scouting source plus November 7 4–3 win game rows. OBP/OPS recomputed as estimates using (H+BB)/(AB+BB) due to missing historical HBP/SF/CI. Player game run and earned-run data are not substitutes for ladder runs.",
     "melbourneOBPMethod": "Estimates using H, BB, AB and total bases; full historical HBP/SF/CI incomplete.",
-    "melbourneGame8SourceCaveat": "GameDay player table supplied without column headers. PA/AB/R/H, doubles and common BB/SO mappings transcribed provisionally. Perrett pitching 6 IP, 4 H, 7 SO, 1 BB, 0 ER is a provisional interpretation of the row; verify against headed box score. GameDay player row totals do not fully reconcile with team run and hit summary. Ladder score/record authoritative."
+    "melbourneGame8SourceCaveat": "GameDay player table supplied without column headers. PA/AB/R/H, doubles and common BB/SO mappings transcribed provisionally. Perrett pitching 6 IP, 4 H, 7 SO, 1 BB, 0 ER is a provisional interpretation of the row; verify against headed box score. GameDay player row totals do not fully reconcile with team run and hit summary. Ladder score/record authoritative.",
+    "moorabbinPreliminary": {
+      "match": "2026-11-17 18:15",
+      "venue": "A W Oliver Reserve",
+      "teamGames": 6,
+      "playerGameBatches": 5,
+      "record": "5–1–0",
+      "runsFor": 48,
+      "runsAgainst": 28,
+      "battingTeamTotal": {
+        "PA": 191,
+        "AB": 154,
+        "R": 39,
+        "H": 47,
+        "1B": 29,
+        "2B": 11,
+        "3B": 1,
+        "HR": 6,
+        "RBI": 34,
+        "BB": 27,
+        "HBP": 8,
+        "SO": 47,
+        "SB": 6,
+        "AVG": ".305",
+        "OBP": ".429",
+        "SLG": ".506",
+        "OPS": ".936",
+        "ISO": ".201",
+        "BB%": "14.1%"
+      },
+      "pitchingIdentifiedTotal": {
+        "IP": "39.0",
+        "H": 38,
+        "R": 25,
+        "ER": 19,
+        "BB": 19,
+        "HBP": 2,
+        "K": 41,
+        "ERA": "4.38",
+        "WHIP": "1.46",
+        "K/9": "9.46",
+        "BB/9": "4.38"
+      },
+      "caveat": "Five provided game batches only; not six-game official individual totals. Handedness blank unless verified; Team Total Scouting Read blank."
+    }
   },
   "melbourne": {
     "batting": [
