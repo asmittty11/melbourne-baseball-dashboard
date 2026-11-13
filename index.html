@@ -34,7 +34,21 @@ for(const p of d.melbourne.batting){
 const unknownStat=v=>v==null||['','.','·','—','-'].includes(String(v).trim());
 makeGrid({target:'#melbBat',controls:'#melbBatControls',rows:d.melbourne.batting.map(p=>({...p,SB:unknownStat(p.SB)?'':p.SB})),columns:melbBatCols,totalsTarget:'#melbBatTotal',teamFilter:false,defaultSort:'AVG'});makeGrid({target:'#melbPit',controls:'#melbPitControls',rows:d.melbourne.pitching.map(p=>({...p,'K/BB':unknownStat(p['K/BB'])?'':p['K/BB']})),columns:melbPitCols,totalsTarget:'#melbPitTotal',teamFilter:false,defaultSort:'ERA'});
 makeGrid({target:'#oppBat',controls:'#oppBatControls',rows:d.opponents.batting,columns:oppBatCols,totalsTarget:'#oppBatTotals',countTarget:'#oppBatCount',defaultSort:'AVG'});makeGrid({target:'#oppPit',controls:'#oppPitControls',rows:d.opponents.pitching,columns:oppPitCols,totalsTarget:'#oppPitTotals',countTarget:'#oppPitCount',defaultSort:'ERA'});
-makeGrid({target:'#compareBat',controls:'#compareBatControls',rows:[...d.melbourne.batting,...d.opponents.batting],columns:oppBatCols,defaultSort:'AVG'});
+const leagueCompareBatRows=[...d.melbourne.batting,...d.opponents.batting].map(p=>{
+  if(p['Team Total'])return p;
+  if(p.Team==='Melbourne'&&unknownStat(p.SB))return {...p,SB:''};
+  if(p.Team==='Waverley'&&Number(p.AB)===0&&Number(p.H)===0){
+    const displayed={...p};
+    for(const k of ['AVG','OBP','SLG','OPS','ISO']){
+      const v=String(displayed[k]??'').trim();
+      if(v==='—*'||v==='-*')displayed[k]='.000*';
+      else if(unknownStat(v))displayed[k]='.000';
+    }
+    return displayed;
+  }
+  return p;
+});
+makeGrid({target:'#compareBat',controls:'#compareBatControls',rows:leagueCompareBatRows,columns:oppBatCols,defaultSort:'AVG'});
 makeGrid({target:'#comparePit',controls:'#comparePitControls',rows:[...d.melbourne.pitching,...d.opponents.pitching],columns:oppPitCols,defaultSort:'ERA'});
 // One combined total across the six uploaded team-total rows, never across player rows.
 function renderCombinedLeagueTotal(target,sourceRows,columns,kind){
