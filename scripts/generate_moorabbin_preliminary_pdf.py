@@ -23,7 +23,7 @@ def para(t,style="SmallX"):
 def heading(t):
     para(t,"HeadX")
 def table(columns,records,widths):
-    cells=[columns]+[[str(r.get(k,"") or "") for k in columns] for r in records]
+    cells=[[{"AVG":"AVG*","ERA":"ERA*","Scouting Read":"SCOUTING READ"}.get(k,k) for k in columns]]+[[str(r.get(k,"") or "").upper() if r.get("Team Total") and k=="Scouting Read" else str(r.get(k,"") or "") for k in columns] for r in records]
     t=Table(cells,colWidths=widths,repeatRows=1,hAlign="LEFT")
     style=[("BACKGROUND",(0,0),(-1,0),colors.HexColor("#173b5e")),
       ("TEXTCOLOR",(0,0),(-1,0),colors.white),
