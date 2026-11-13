@@ -1,0 +1,29 @@
+name: Publish Moorabbin preliminary scouting PDF
+on:
+  push:
+    paths:
+      - 'scripts/generate_moorabbin_preliminary_pdf.py'
+      - 'data/moorabbin_preliminary_nov17_2026.json'
+      - '.github/workflows/publish-moorabbin-preliminary.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install reportlab
+      - run: python scripts/generate_moorabbin_preliminary_pdf.py
+      - name: Commit PDF and readable text
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/Melbourne_vs_Moorabbin_Advance_Scouting_Preliminary_Nov17_2026_Final.pdf text_reports/Melbourne_vs_Moorabbin_Advance_Scouting_Preliminary_Nov17_2026_Final.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish Moorabbin preliminary advance scouting PDF"
+            git push
+          fi
