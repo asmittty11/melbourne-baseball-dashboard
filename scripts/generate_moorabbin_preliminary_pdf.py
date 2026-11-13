@@ -37,7 +37,7 @@ def table(columns,records,widths):
       ("BOTTOMPADDING",(0,0),(-1,-1),4),
       ("TOPPADDING",(0,0),(-1,-1),4)]
     palette={"PRIORITY":"#ffd1d1","CAUTION":"#ffe6a1","ATTACK":"#ccebd8",
-             "INSUFFICIENT":"#e3e6e9","LIMITED":"#e3e6e9"}
+             "LIMITED":"#e3e6e9"}
     last=len(columns)-1
     for i,r in enumerate(records,1):
         if r.get("Team Total"): continue
@@ -63,7 +63,7 @@ batteam=next(x for x in bat if x.get("Team Total"))
 batcols=["Player","Bats","PA","AB","R","H","1B","2B","3B","HR","RBI","BB","HBP","SO","SB","AVG","OBP","SLG","OPS","ISO","BB%","Scouting Read"]
 batrows=batplayers+[batteam]
 table(batcols,batrows,[105,25]+[25]*13+[35]*5+[38,72])
-para("* AVG qualification follows the approved preliminary report; asterisks appear only on AVG. OBP uses (H+BB+HBP)/PA as an approximation where SF and CI affect official denominators; recheck against official cumulative tables. SCOUTING READ: priority (red), caution (yellow), attack (green), insufficient (gray); provisional classification based on limited results.")
+para("* AVG qualification follows the approved preliminary report; asterisks appear only on AVG. OBP uses (H+BB+HBP)/PA as an approximation where SF and CI affect official denominators; recheck against official cumulative tables. SCOUTING READ: priority (red), caution (yellow), attack (green), limited (gray); provisional classification based on limited results.")
 heading("PITCHING | IDENTIFIED APPEARANCES")
 pit=source["pitching"]
 pitplayers=sorted([x for x in pit if not x.get("Team Total")],key=lambda x:-(int(x["IP"].split(".")[0])*3+int(x["IP"].split(".")[1])))
