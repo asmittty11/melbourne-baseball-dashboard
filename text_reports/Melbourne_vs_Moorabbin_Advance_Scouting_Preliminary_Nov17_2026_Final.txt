@@ -1,0 +1,45 @@
+MELBOURNE vs MOORABBIN | PRELIMINARY | 17 NOV 2026
+Moorabbin 4th: 5-1-0, 48 RF, 28 RA, +20; Melbourne 8th: 4-4-0, 52 RF, 57 RA, -5
+Source: five player-stat batches; November 10 player data unavailable. Handedness blank.
+BATTING
+Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG* | OBP | SLG | OPS | ISO | BB% | SCOUTING READ
+Jake Bertucci |  | 21 | 15 | 7 | 9 | 5 | 3 | 0 | 1 | 5 | 5 | 1 | 5 | 0 | .600 | .714 | 1.000 | 1.714 | .400 | 23.8% | PRIORITY
+Nicholas Bertucci |  | 21 | 17 | 6 | 6 | 3 | 2 | 0 | 1 | 3 | 3 | 1 | 6 | 1 | .353 | .476 | .647 | 1.123 | .294 | 14.3% | PRIORITY
+Nicholas Coy |  | 21 | 14 | 5 | 6 | 4 | 1 | 0 | 1 | 3 | 3 | 4 | 1 | 0 | .429 | .619 | .714 | 1.333 | .286 | 14.3% | PRIORITY
+Brady Jeffcoat |  | 20 | 14 | 8 | 7 | 3 | 1 | 0 | 3 | 7 | 6 | 0 | 0 | 1 | .500 | .650 | 1.214 | 1.864 | .714 | 30.0% | PRIORITY
+Euan S Clarkin |  | 16 | 14 | 2 | 2 | 2 | 0 | 0 | 0 | 3 | 1 | 0 | 4 | 2 | .143 | .188 | .143 | .330 | .000 | 6.2% | ATTACK
+Matthew Fielden |  | 16 | 14 | 1 | 2 | 2 | 0 | 0 | 0 | 3 | 2 | 0 | 6 | 0 | .143 | .250 | .143 | .393 | .000 | 12.5% | ATTACK
+Matt Hardie |  | 15 | 13 | 0 | 2 | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 7 | 0 | .154* | .200 | .231 | .431 | .077 | 0.0% | ATTACK
+Nicholas Veale |  | 14 | 13 | 4 | 3 | 2 | 1 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | .231* | .286 | .308 | .593 | .077 | 7.1% | CAUTION
+Katsumi Yamamoto |  | 12 | 12 | 2 | 4 | 3 | 1 | 0 | 0 | 3 | 0 | 0 | 4 | 0 | .333* | .333 | .417 | .750 | .083 | 0.0% | CAUTION
+Harrison Brodie |  | 9 | 7 | 1 | 1 | 0 | 0 | 1 | 0 | 2 | 2 | 0 | 3 | 0 | .143* | .333 | .429 | .762 | .286 | 22.2% | INSUFFICIENT
+Mitchell Langworthy |  | 9 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 6 | 0 | .000* | .222 | .000 | .222 | .000 | 11.1% | INSUFFICIENT
+Ryan Williams |  | 7 | 6 | 2 | 2 | 2 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 | .333* | .429 | .333 | .762 | .000 | 14.3% | INSUFFICIENT
+Diego Aragon |  | 5 | 5 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | .200* | .200 | .400 | .600 | .200 | 0.0% | INSUFFICIENT
+Andrei Smith |  | 4 | 2 | 0 | 1 | 1 | 0 | 0 | 0 | 3 | 2 | 0 | 0 | 2 | .500* | .750 | .500 | 1.250 | .000 | 50.0% | INSUFFICIENT
+Cody Hill |  | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1.000* | 1.000 | 1.000 | 2.000 | .000 | 0.0% | INSUFFICIENT
+TEAM TOTAL |  | 191 | 154 | 39 | 47 | 29 | 11 | 1 | 6 | 34 | 27 | 8 | 47 | 6 | .305 | .429 | .506 | .936 | .201 | 14.1% | Strong
+
+PITCHING
+Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Scouting Read
+Christopher Nielsen |  | 22.2 | 23 | 11 | 8 | 6 | 0 | 22 | 3.18 | 1.28 | 8.74 | 2.38 | CAUTION
+Cody Hill |  | 6.1 | 5 | 5 | 3 | 4 | 0 | 7 | 4.26 | 1.42 | 9.95 | 5.68 | LIMITED
+Liam Puncher |  | 5.2 | 4 | 4 | 4 | 5 | 0 | 8 | 6.35 | 1.59 | 12.71 | 7.94 | LIMITED
+Mitchell Langworthy |  | 1.2 | 2 | 1 | 0 | 1 | 1 | 2 | 0.00* | 1.80 | 10.80 | 5.40 | LIMITED
+Brandon Elton |  | 1.1 | 3 | 4 | 4 | 3 | 0 | 1 | 27.00* | 4.50 | 6.75 | 20.25 | LIMITED
+Matt Hardie |  | 1.0 | 1 | 0 | 0 | 0 | 0 | 1 | 0.00* | 1.00 | 9.00 | 0.00 | LIMITED
+Nicholas Coy |  | 0.1 | 0 | 0 | 0 | 0 | 1 | 0 | 0.00* | 0.00 | 0.00 | 0.00 | LIMITED
+TEAM TOTAL |  | 39.0 | 38 | 25 | 19 | 19 | 2 | 41 | 4.38 | 1.46 | 9.46 | 4.38 | Above Average
+
+COACHING & LINEUP USAGE
+1. Prepare for Jeffcoat as a power threat; avoid predictable middle-in pitches and unnecessary free passes, especially with runners aboard.
+2. Jake Bertucci and Nicholas Coy show extra-base impact and multiple-hit games. Prioritize clean first-pitch plans, location discipline and defensive readiness for hard contact.
+3. Nicholas Bertucci and Euan Clarkin have appeared frequently in supplied batting orders; monitor on-base opportunities and any run-game aggressiveness.
+4. Confirm Nielsen's latest pitch count and whether he starts or relieves in Moorabbin's next game; do not infer Tuesday availability from historical innings alone.
+5. Use aggressive but selective baserunning when pitcher/catcher batteries show vulnerability; the available box scores alone cannot verify pop times or pickoff tendencies.
+6. Review lineup order and substitution patterns from the final pre-match box score before issuing specific defensive shifts or bullpen matchup assignments.
+
+HIGHER-LEVEL EXPERIENCE / VERIFICATION
+No higher-level playing history confirmed.
+DATA QUALITY & NEXT UPDATE
+All stats provisional; November 10 player box score missing.
