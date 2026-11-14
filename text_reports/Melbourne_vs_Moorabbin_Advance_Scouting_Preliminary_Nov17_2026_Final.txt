@@ -1,6 +1,6 @@
 MELBOURNE vs MOORABBIN | PRELIMINARY | 17 NOV 2026
-Moorabbin 4th: 5-1-0, 48 RF, 28 RA, +20; Melbourne 8th: 4-4-0, 52 RF, 57 RA, -5
-Source: five player-stat batches; November 10 player data unavailable. Handedness blank.
+Moorabbin 4th: 6-1-0, 57 RF, 31 RA, +26 (7 games); Melbourne 9th: 4-5-0, 53 RF, 63 RA, -10 (9 games)
+Source: six player-stat batches including November 10; November 14 player data unavailable. Handedness blank.
 BATTING
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG* | OBP | SLG | OPS | ISO | BB% | SCOUTING READ
 Jake Bertucci |  | 25 | 17 | 7 | 10 | 6 | 3 | 0 | 1 | 7 | 7 | 1 | 5 | 0 | .588 | .720 | .941 | 1.661 | .353 | 28.0% | THREAT
@@ -33,14 +33,14 @@ Nicholas Coy |  | 0.1 | 0 | 0 | 0 | 0 | 1 | 0 | 0.00* | 0.00 | 0.00 | 0.00 | LIM
 TEAM TOTAL |  | 44.0 | 44 | 28 | 22 | 21 | 3 | 49 | 4.50 | 1.48 | 10.02 | 4.30 | Above Average
 
 COACHING & LINEUP USAGE
-1. Prepare for Jeffcoat as a power threat; avoid predictable middle-in pitches and unnecessary free passes, especially with runners aboard.
-2. Jake Bertucci and Nicholas Coy show extra-base impact and multiple-hit games. Prioritize clean first-pitch plans, location discipline and defensive readiness for hard contact.
-3. Nicholas Bertucci and Euan Clarkin have appeared frequently in supplied batting orders; monitor on-base opportunities and any run-game aggressiveness.
-4. Confirm Nielsen's latest pitch count and whether he starts or relieves in Moorabbin's next game; do not infer Tuesday availability from historical innings alone.
-5. Use aggressive but selective baserunning when pitcher/catcher batteries show vulnerability; the available box scores alone cannot verify pop times or pickoff tendencies.
-6. Review lineup order and substitution patterns from the final pre-match box score before issuing specific defensive shifts or bullpen matchup assignments.
+1. Brady Jeffcoat remains a three-HR power threat in the available six-game batting sample. Minimize free passes ahead of him and avoid predictable hittable locations, especially with runners on.
+2. Nicholas Bertucci homered with three RBI on November 10; Jake Bertucci and Nicholas Coy contributed two RBI each. Prioritize disciplined first-pitch plans and reliable defense against extra-base contact.
+3. Diego Aragon collected two hits including a double and scored twice on November 10; Christopher Nielsen added two singles and a walk as a hitter. These are single-game observations, not established lineup tendencies.
+4. Christopher Nielsen owns the largest documented pitching workload (22.2 IP), while Puncher threw 4.0 IP and Hill 1.0 IP on November 10. Check the November 14 box score for current arm usage before projecting Tuesday availability.
+5. Moorabbin's six-game recorded offense includes seven homers and 34 walks, so emphasize strike throwing and avoiding multi-run rallies. Use selective baserunning only when pitcher/catcher execution supports it; no pop times or pickoff data are verified.
+6. The November 14 9–3 Moorabbin win is recorded in the ladder but not these player tables. Confirm its batting order, substitutions and pitcher appearances before final defensive shifts or bullpen assignments.
 
 HIGHER-LEVEL EXPERIENCE / VERIFICATION
 No higher-level playing history confirmed.
 DATA QUALITY & NEXT UPDATE
-All stats provisional; November 10 player box score missing.
+Six player batches entered including November 10. November 14 player box score pending; official 7-game ladder current.
