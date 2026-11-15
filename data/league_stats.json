@@ -3476,6 +3476,12 @@
   },
   "reports": [
     {
+      "title": "Melbourne Season Stats — 9 Games (Waverley loss)",
+      "file": "reports/Melbourne_Season_Stats_Through_Game9_Waverley_Updated.pdf",
+      "text": "text_reports/Melbourne_Season_Stats_Through_Game9_Waverley_Updated.txt",
+      "category": "Melbourne"
+    },
+    {
       "title": "Moorabbin Advance Scouting — Preliminary (Nov 17)",
       "file": "reports/Melbourne_vs_Moorabbin_Advance_Scouting_Preliminary_Nov17_2026_Final.pdf",
       "text": "text_reports/Melbourne_vs_Moorabbin_Advance_Scouting_Preliminary_Nov17_2026_Final.txt",
