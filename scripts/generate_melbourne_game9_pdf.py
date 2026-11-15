@@ -8,7 +8,7 @@ from reportlab.lib.pagesizes import landscape, A4
 from reportlab.lib.units import mm
 
 root=os.path.dirname(os.path.dirname(__file__))
-with open(os.path.join(root,'data','league_stats.json'),encoding='utf-8') as f: d=json.load(f)
+with open(os.path.join(root,'data','melbourne_game9_snapshot.json'),encoding='utf-8') as f: d=json.load(f)
 out=os.path.join(root,'reports','Melbourne_Season_Stats_Through_Game9_Waverley_Updated.pdf')
 txt=os.path.join(root,'text_reports','Melbourne_Season_Stats_Through_Game9_Waverley_Updated.txt')
 os.makedirs(os.path.dirname(out),exist_ok=True)
