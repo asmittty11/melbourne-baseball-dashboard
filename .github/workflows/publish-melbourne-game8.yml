@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - 'scripts/generate_melbourne_game8_pdf.py'
-      - 'data/league_stats.json'
+      - 'data/melbourne_game8_snapshot.json'
       - '.github/workflows/publish-melbourne-game8.yml'
   workflow_dispatch:
 permissions:
