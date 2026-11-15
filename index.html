@@ -63,7 +63,7 @@ function renderCombinedLeagueTotal(target,sourceRows,columns,kind){
   for(const k of (kind==='batting'?['AB','H','2B','3B','HR','BB','SO']:['H','BB','SO','ER']))set(k,sum(k));
   if(kind==='batting'){
     const ab=sum('AB'),hits=sum('H'),bb=sum('BB'),two=sum('2B'),three=sum('3B'),hr=sum('HR');
-    for(const k of ['RBI','SB']){const item=partialSum(k);if(item)set(k,item.value+(item.complete?'':'+'))}
+    for(const k of ['RBI','SB']){const item=partialSum(k);if(item)set(k,item.value)}
     if(ab!==null&&ab>0&&hits!==null&&two!==null&&three!==null&&hr!==null){
       const avg=hits/ab,slg=(hits+two+2*three+3*hr)/ab;
       set('AVG',fmt3(avg));set('SLG',fmt3(slg));set('ISO',fmt3(slg-avg));
@@ -88,7 +88,7 @@ function renderCombinedLeagueTotal(target,sourceRows,columns,kind){
   const fields=columns.filter(k=>k!=='Scouting Read'&&(kind==='batting'?!['Bats','G','PA'].includes(k):!['Throws','G'].includes(k)));
   const header=fields.map(k=>'<th>'+esc(k)+'</th>').join('');
   const cells=fields.map(k=>'<td>'+esc(out[k]??'')+'</td>').join('');
-  const caveat=kind==='batting'?'OBP and OPS are pooled estimates. RBI and SB totals with + are minimum recorded values because some teams lack those fields. BB% with * uses teams with known PA and BB (Doncaster excluded).':'Pitching rates use recorded innings; some uploaded team pitching records are incomplete.';
+  const caveat=kind==='batting'?'OBP and OPS are pooled estimates. RBI and SB totals are minimum recorded values because some teams lack those fields. BB% with * uses teams with known PA and BB (Doncaster excluded).':'Pitching rates use recorded innings; some uploaded team pitching records are incomplete.';
   $(target).innerHTML='<h3>LEAGUE TOTALS</h3><div class="scroll"><table class="league-totals-table"><thead><tr>'+header+'</tr></thead><tbody><tr class="total">'+cells+'</tr></tbody></table></div><p class="muted">Combined uploaded team totals only, not the complete VSBL league. '+esc(caveat)+'</p>';
 }
 renderCombinedLeagueTotal('#compareBatTotals',[...d.melbourne.batting,...d.opponents.batting],oppBatCols,'batting');
