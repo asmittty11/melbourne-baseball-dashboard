@@ -1,0 +1,41 @@
+MELBOURNE BASEBALL CLUB | NINE-GAME PLAYER & TEAM STATS
+9th | 4-5-0 | RF 53 | RA 63 | RD -10 | Waverley L 1-6 (Nov 14)
+
+BATTING
+Player | Bats | PA | AB | H | 2B | 3B | HR | BB | SO | AVG | OBP | SLG | OPS | ISO | BB% | SB
+Joshua Hendricks | R | 27 | 21 | 9 | 2 | 0 | 4 | 4 | 3 | .429 | .520 | 1.095 | 1.615 | .667 | 14.8% | ·
+Joey White | R | 3 | 3 | 1 | 0 | 0 | 0 | 0 | 1 | .333* | .333 | .333 | .667 | .000 | 0.0% | ·
+Lennard Pietersz |  | 15 | 14 | 4 | 1 | 0 | 0 | 1 | 2 | .286* | .333 | .357 | .690 | .071 | 6.7% | ·
+William Kent |  | 30 | 26 | 7 | 1 | 1 | 0 | 3 | 7 | .269 | .345 | .385 | .729 | .115 | 10.0% | ·
+Blake Mitchell |  | 39 | 31 | 8 | 3 | 1 | 0 | 7 | 4 | .258 | .395 | .419 | .814 | .161 | 17.9% | 6
+Oscar Hargreaves |  | 31 | 25 | 8 | 1 | 0 | 0 | 6 | 6 | .320 | .452 | .360 | .812 | .040 | 19.4% | ·
+Lochlann O'Connor |  | 34 | 31 | 7 | 2 | 0 | 0 | 3 | 9 | .226 | .294 | .290 | .584 | .065 | 8.8% | ·
+Lachlan Brennan |  | 22 | 20 | 4 | 2 | 0 | 0 | 2 | 7 | .200 | .273 | .300 | .573 | .100 | 9.1% | ·
+Wade Mcconnon |  | 34 | 27 | 6 | 1 | 0 | 0 | 4 | 6 | .222 | .323 | .259 | .582 | .037 | 11.8% | ·
+Ben Aslett | L | 24 | 16 | 3 | 0 | 0 | 0 | 3 | 2 | .188 | .316 | .188 | .503 | .000 | 12.5% | ·
+Harvey Chinn |  | 32 | 29 | 4 | 0 | 0 | 0 | 3 | 10 | .138 | .219 | .138 | .357 | .000 | 9.4% | 1
+Zak Skinner |  | 12 | 8 | 1 | 0 | 0 | 0 | 3 | 2 | .125* | .364 | .125 | .489 | .000 | 25.0% | ·
+Angus Saggers |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+Taylor Perrett | R | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+TEAM TOTAL |  | 306 | 253 | 62 | 13 | 2 | 4 | 39 | 60 | .245 | .346 | .360 | .706 | .115 | 12.7% | 7
+
+PITCHING
+Player | IP | H | BB | SO | ER | ERA | WHIP | K/9 | BB/9 | K/BB
+Simon Fitzmaurice | 3.0 | 5 | 0 | 2 | 4 | 12.00 | 1.67 | 6.00 | 0.00 | 
+Angus Saggers | 7.2 | 9 | 1 | 2 | 3 | 3.52 | 1.30 | 2.35 | 1.17 | 2.00
+Taylor Perrett | 20.1 | 26 | 5 | 26 | 14 | 6.20 | 1.52 | 11.51 | 2.21 | 5.20
+Joey White | 19.1 | 29 | 15 | 21 | 19 | 8.84 | 2.28 | 9.78 | 6.98 | 1.40
+Max Saggers | 5.1 | 10 | 2 | 5 | 6 | 10.13 | 2.25 | 8.44 | 3.38 | 2.50
+Charles Chislett | 6.2 | 8 | 10 | 2 | 9 | 12.15 | 2.70 | 2.70 | 13.50 | 0.20
+Christian Caminiti | 1.1 | 4 | 1 | 0 | 3 | 20.25* | 3.75 | 0.00 | 6.75 | 0.00
+Henry Mcintyre | 0.2 | 2 | 2 | 0 | 2 | 27.00* | 6.00 | 0.00 | 27.00 | 0.00
+TEAM TOTAL | 64.1 | 93 | 36 | 58 | 60 | 8.39 | 2.01 | 8.11 | 5.04 | 1.61
+
+NOTES
+November 14 vs Waverley: Melbourne collected 10 singles but scored once, with 8 strikeouts and just 1 walk. Emphasize productive contact, runner advancement and controlling two-strike approaches.
+Oscar Hargreaves, Lochlann O'Connor and Wade Mcconnon recorded two hits each. Ben Aslett reached on a single, walk and hit-by-pitch. A single outing is not an established lineup tendency.
+Angus Saggers allowed 1 ER in 3.0 IP without a walk. Relievers allowed 5 ER over 5.0 IP; Simon Fitzmaurice conceded 4 ER in 2.2 IP. Recheck bullpen options and workload before the next game.
+Joshua Hendricks remains the leading power source with 4 HR in the nine-game sample. Seek on-base opportunities ahead of him; against Moorabbin prioritize strike throwing and extra-base prevention.
+Qualification standards are 18 PA (AVG) and 3.0 IP (ERA). Historical HBP/SF/CI gaps and previous provisional box-score entries remain documented.
+
+Game 9 Waverley box score verified against supplied headers and final score; earlier Game 8 components provisional; OBP/OPS estimated.
