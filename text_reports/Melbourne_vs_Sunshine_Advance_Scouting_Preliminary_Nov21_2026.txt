@@ -4,18 +4,18 @@ Six readable Sunshine game samples; one malformed game excluded and Nov 10 Essen
 
 BATTING
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
-Devin Leahy |  | 28 | 24 | 7 | 6 | 3 | 2 | 1 | 0 | 3 | 3 | 1 | 6 | 1 | .250 | .357 | .417 | .774 | .167 | 10.7% | CAUTION
-Jordan Young |  | 28 | 27 | 8 | 8 | 4 | 4 | 0 | 0 | 2 | 1 | 0 | 5 | 1 | .296 | .321 | .444 | .766 | .148 | 3.6% | CAUTION
 Jamie Young | R | 26 | 21 | 5 | 12 | 8 | 3 | 0 | 1 | 9 | 4 | 0 | 7 | 1 | .571 | .615 | .857 | 1.473 | .286 | 15.4% | THREAT
-Adrian Fittock |  | 25 | 19 | 6 | 5 | 2 | 2 | 0 | 1 | 6 | 4 | 0 | 7 | 0 | .263 | .391 | .526 | .918 | .263 | 16.0% | THREAT
-Jeremy Young |  | 25 | 21 | 3 | 8 | 6 | 2 | 0 | 0 | 2 | 3 | 1 | 3 | 0 | .381 | .480 | .476 | .956 | .095 | 12.0% | THREAT
-Hunter Jones |  | 24 | 23 | 3 | 8 | 6 | 2 | 0 | 0 | 6 | 1 | 0 | 8 | 2 | .348 | .375 | .435 | .810 | .087 | 4.2% | CAUTION
-Amerson Dix |  | 21 | 16 | 2 | 1 | 1 | 0 | 0 | 0 | 3 | 1 | 1 | 7 | 0 | .063 | .158 | .063 | .220 | .000 | 4.8% | ATTACK
 Darryl George | R | 19 | 16 | 4 | 8 | 7 | 1 | 0 | 0 | 3 | 3 | 0 | 1 | 2 | .500 | .579 | .563 | 1.141 | .063 | 15.8% | THREAT
+Jeremy Young |  | 25 | 21 | 3 | 8 | 6 | 2 | 0 | 0 | 2 | 3 | 1 | 3 | 0 | .381 | .480 | .476 | .956 | .095 | 12.0% | THREAT
+Adrian Fittock |  | 25 | 19 | 6 | 5 | 2 | 2 | 0 | 1 | 6 | 4 | 0 | 7 | 0 | .263 | .391 | .526 | .918 | .263 | 16.0% | THREAT
 Lincoln Grech |  | 13 | 8 | 2 | 2 | 1 | 1 | 0 | 0 | 3 | 2 | 3 | 6 | 0 | .250* | .538 | .375 | .913 | .125 | 15.4% | LIMITED
+Hunter Jones |  | 24 | 23 | 3 | 8 | 6 | 2 | 0 | 0 | 6 | 1 | 0 | 8 | 2 | .348 | .375 | .435 | .810 | .087 | 4.2% | STRONG
+Devin Leahy |  | 28 | 24 | 7 | 6 | 3 | 2 | 1 | 0 | 3 | 3 | 1 | 6 | 1 | .250 | .357 | .417 | .774 | .167 | 10.7% | CAUTION
+Jordan Young |  | 28 | 27 | 8 | 8 | 4 | 4 | 0 | 0 | 2 | 1 | 0 | 5 | 1 | .296 | .321 | .444 | .766 | .148 | 3.6% | STRONG
 Deacon Mcphail |  | 7 | 6 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 2 | 1 | .167* | .286 | .167 | .452 | .000 | 14.3% | LIMITED
 Kento Goto |  | 7 | 5 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 3 | 0 | .000* | .286 | .000 | .286 | .000 | 14.3% | LIMITED
 Samuel Kuchinski |  | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | .000* | .250 | .000 | .250 | .000 | 25.0% | LIMITED
+Amerson Dix |  | 21 | 16 | 2 | 1 | 1 | 0 | 0 | 0 | 3 | 1 | 1 | 7 | 0 | .063 | .158 | .063 | .220 | .000 | 4.8% | ATTACK
 Joshua Byrne |  | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | LIMITED
 TEAM TOTAL |  | 230 | 192 | 43 | 59 | 39 | 17 | 1 | 2 | 37 | 25 | 7 | 60 | 8 | .307 | .403 | .438 | .840 | .130 | 10.9% | Strong
 
@@ -24,7 +24,7 @@ Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Sc
 Jamie Young | R | 27.1 | 26 | 14 | 14 | 7 | 4 | 29 | 4.61 | 1.21 | 9.55 | 2.30 | CAUTION
 Jeremy Young |  | 13.0 | 5 | 3 | 3 | 0 | 1 | 16 | 2.08 | 0.38 | 11.08 | 0.00 | STRONG
 Hunter Jones |  | 5.2 | 5 | 6 | 4 | 6 | 0 | 8 | 6.35 | 1.94 | 12.71 | 9.53 | ATTACK
-TEAM TOTAL |  | 46.0 | 36 | 23 | 21 | 13 | 5 | 53 | 4.11 | 1.07 | 10.37 | 2.54 | Very Strong
+TEAM TOTAL |  | 46.0 | 36 | 23 | 21 | 13 | 5 | 53 | 4.11 | 1.07 | 10.37 | 2.54 | Strong
 
 COACHING & LINEUP USAGE
 1. Manage the middle order as a power/contact combination: Jamie Young's two-way contributions plus Adrian Fittock's HR and Jordan Young's doubles are demonstrated in the usable batches. Avoid unnecessary runners ahead of them.
