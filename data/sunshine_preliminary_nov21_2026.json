@@ -24,7 +24,25 @@
     "qualifiedERA": "8 outs (one per official team game)",
     "higherLevel": "Darryl George Melbourne Aces + Rays affiliate + 2023 WBC; Jamie Young NCAA II/NJCAA I + ABL development; Jeremy Young former Melbourne Aces per club listing; 2026 imports Hunter Jones and Amerson Dix, past levels unverified",
     "pitchingLedgerCheck": "Hunter Jones 5.2 IP; Jamie Young 27.1 IP; Jeremy Young 13.0 IP = 46.0 IP, six readable batches.",
-    "playerGamesCaveat": "G counts appearances only within six usable supplied game batches, not official full eight-game totals."
+    "playerGamesCaveat": "G counts appearances only within six usable supplied game batches, not official full eight-game totals.",
+    "advanceBattingOrder": "OPS descending, highest to lowest; TEAM TOTAL last; pitch order unchanged",
+    "manualScoutingReadOverrides": [
+      {
+        "section": "batting",
+        "player": "Jordan Young",
+        "read": "STRONG"
+      },
+      {
+        "section": "batting",
+        "player": "Hunter Jones",
+        "read": "STRONG"
+      },
+      {
+        "section": "pitching",
+        "player": "TEAM TOTAL",
+        "read": "Strong"
+      }
+    ]
   },
   "batting": [
     {
@@ -81,7 +99,7 @@
       "OPS": ".766",
       "ISO": ".148",
       "BB%": "3.6%",
-      "Scouting Read": "CAUTION",
+      "Scouting Read": "STRONG",
       "Team Total": false,
       "Source": "6 reliable GameDay batches; 1 malformed and 2026-11-10 missing"
     },
@@ -197,7 +215,7 @@
       "OPS": ".810",
       "ISO": ".087",
       "BB%": "4.2%",
-      "Scouting Read": "CAUTION",
+      "Scouting Read": "STRONG",
       "Team Total": false,
       "Source": "6 reliable GameDay batches; 1 malformed and 2026-11-10 missing"
     },
@@ -516,7 +534,7 @@
       "K/9": "10.37",
       "BB/9": "2.54",
       "K/BB": "4.08",
-      "Scouting Read": "Very Strong",
+      "Scouting Read": "Strong",
       "Source": "Six valid pitching games only; 8-game standings separate"
     }
   ]
