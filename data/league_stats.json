@@ -2931,7 +2931,7 @@
         "OPS": ".766",
         "ISO": ".148",
         "BB%": "3.6%",
-        "Scouting Read": "CAUTION",
+        "Scouting Read": "STRONG",
         "Team Total": false,
         "Source": "6 reliable GameDay batches; 1 malformed and 2026-11-10 missing"
       },
@@ -3047,7 +3047,7 @@
         "OPS": ".810",
         "ISO": ".087",
         "BB%": "4.2%",
-        "Scouting Read": "CAUTION",
+        "Scouting Read": "STRONG",
         "Team Total": false,
         "Source": "6 reliable GameDay batches; 1 malformed and 2026-11-10 missing"
       },
@@ -3345,7 +3345,7 @@
         "OPS": ".723",
         "ISO": ".000",
         "BB%": "3.8%",
-        "Scouting Read": "CAUTION",
+        "Scouting Read": "THREAT",
         "Team Total": false,
         "Source": "7 supplied GameDay batches of 8 official games; 1 missing game; preliminary"
       },
@@ -3477,7 +3477,7 @@
         "OPS": ".868",
         "ISO": ".167",
         "BB%": "5.3%",
-        "Scouting Read": "CAUTION",
+        "Scouting Read": "THREAT",
         "Team Total": false,
         "Source": "7 supplied GameDay batches of 8 official games; 1 missing game; preliminary"
       },
@@ -4733,7 +4733,7 @@
         "K/9": "10.37",
         "BB/9": "2.54",
         "K/BB": "4.08",
-        "Scouting Read": "Very Strong",
+        "Scouting Read": "Strong",
         "Source": "Six valid pitching games only; 8-game standings separate"
       },
       {
@@ -4754,7 +4754,7 @@
         "K/9": "9.53",
         "BB/9": "4.24",
         "K/BB": "2.25",
-        "Scouting Read": "CAUTION",
+        "Scouting Read": "STRONG",
         "Team Total": false,
         "Source": "7 supplied GameDay pitching batches; eighth game missing; no assumed innings"
       },
