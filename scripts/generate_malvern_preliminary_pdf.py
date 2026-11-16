@@ -6,6 +6,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, 
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import landscape, A4
+from advance_report_sort import sort_batters_by_ops
 
 ROOT=Path(__file__).resolve().parent.parent
 source=json.loads((ROOT/"data/malvern_preliminary_nov24_2026.json").read_text(encoding="utf-8"))
@@ -58,7 +59,7 @@ para("<b>Offensive read:</b> Tyler Luther-Wilson has hit .571 with two homers an
 para("<b>Pitching read:</b> Malvern have 11 recorded ER in 58.0 supplied innings (1.71 sample ERA). Matthew Beattie 10.0 IP/0 ER; Zaid Elias Cummins Flynn 14.0 IP/2 ER; James Squire 11.2 IP/3 ER, while Mitchell Kennedy has 17.0 IP/5 ER. Missing game exposure prevents a full rotation or rest assessment. For any projected starter, confirm 21-22 November usage first.")
 heading("BATTING | SEVEN SUPPLIED GAME BATCHES")
 bat=source["batting"]
-batplayers=sorted([x for x in bat if not x.get("Team Total")],key=lambda x:(-int(x["PA"]),x["Player"]))
+batplayers=sort_batters_by_ops(bat)
 batteam=next(x for x in bat if x.get("Team Total"))
 batcols=["Player","Bats","PA","AB","R","H","1B","2B","3B","HR","RBI","BB","HBP","SO","SB","AVG","OBP","SLG","OPS","ISO","BB%","Scouting Read"]
 batrows=batplayers+[batteam]
