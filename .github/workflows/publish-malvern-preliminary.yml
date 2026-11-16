@@ -4,6 +4,7 @@ on:
     paths:
       - 'data/malvern_preliminary_nov24_2026.json'
       - 'scripts/generate_malvern_preliminary_pdf.py'
+      - 'scripts/advance_report_sort.py'
       - '.github/workflows/publish-malvern-preliminary.yml'
   workflow_dispatch:
 permissions:
@@ -25,5 +26,13 @@ jobs:
           git add reports/Melbourne_vs_Malvern_Advance_Scouting_Preliminary_Nov24_2026.pdf text_reports/Melbourne_vs_Malvern_Advance_Scouting_Preliminary_Nov24_2026.txt
           if ! git diff --cached --quiet; then
             git commit -m "Publish preliminary Malvern Nov 24 scouting PDF"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              sleep 2
+            done
+            echo "Unable to publish after three attempts" >&2
+            exit 1
           fi
