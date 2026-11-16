@@ -1,0 +1,29 @@
+name: Publish Sunshine preliminary scouting PDF
+on:
+  push:
+    paths:
+      - 'scripts/generate_sunshine_preliminary_pdf.py'
+      - 'data/sunshine_preliminary_nov21_2026.json'
+      - '.github/workflows/publish-sunshine-preliminary.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install reportlab
+      - run: python scripts/generate_sunshine_preliminary_pdf.py
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/Melbourne_vs_Sunshine_Advance_Scouting_Preliminary_Nov21_2026.pdf text_reports/Melbourne_vs_Sunshine_Advance_Scouting_Preliminary_Nov21_2026.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish preliminary Sunshine November 21 advance scouting PDF"
+            git push
+          fi
