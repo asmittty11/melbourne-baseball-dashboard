@@ -6,6 +6,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, 
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import landscape, A4
+from advance_report_sort import sort_batters_by_ops
 
 ROOT=Path(__file__).resolve().parent.parent
 source=json.loads((ROOT/"data/sunshine_preliminary_nov21_2026.json").read_text(encoding="utf-8"))
@@ -58,19 +59,19 @@ para("<b>Offensive approach:</b> Jamie Young is the best established two-way thr
 para("<b>Pitching outlook:</b> Jamie Young (27.1 IP, 4.61 ERA, 1.21 WHIP), Jeremy Young (13.0 IP, 2.08 ERA, 16.00 K/9) and Hunter Jones (5.2 IP, 6.35 ERA) are the identified contributors. Jeremy Young's zero recorded walks and 16 K in the usable sample stand out; against Jones, force him to throw competitive strikes. Exact Saturday availability is unverified.")
 heading("BATTING | SIX USABLE GAME BATCHES")
 bat=source["batting"]
-batplayers=sorted([x for x in bat if not x.get("Team Total")],key=lambda x:(-int(x["PA"]),x["Player"]))
+batplayers=sort_batters_by_ops(bat)
 batteam=next(x for x in bat if x.get("Team Total"))
 batcols=["Player","Bats","PA","AB","R","H","1B","2B","3B","HR","RBI","BB","HBP","SO","SB","AVG","OBP","SLG","OPS","ISO","BB%","Scouting Read"]
 batrows=batplayers+[batteam]
 table(batcols,batrows,[105,25]+[25]*13+[35]*5+[38,72])
-para("* AVG qualification uses at least 16 PA (2 per 8 official team games). Only AVG and ERA get qualification asterisks. OBP/OPS and SB are based on readable source columns; partial season results, not official full-season totals. Batting classifications: THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). Team total assessment: STRONG relative to the uploaded ladder sample.")
+para("* AVG qualification uses at least 16 PA (2 per 8 official team games). Only AVG and ERA get qualification asterisks. OBP/OPS and SB are based on readable source columns; partial season results, not official full-season totals. Batting classifications: THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray); Jordan Young and Hunter Jones are specifically rated STRONG (red) per the approved coaching override. Team total assessment: STRONG relative to the uploaded ladder sample.")
 heading("PITCHING | SIX USABLE GAME BATCHES")
 pit=source["pitching"]
 pitplayers=sorted([x for x in pit if not x.get("Team Total")],key=lambda x:-(int(x["IP"].split(".")[0])*3+int(x["IP"].split(".")[1])))
 pitteam=next(x for x in pit if x.get("Team Total"))
 pitcols=["Player","Throws","IP","H","R","ER","BB","HBP","SO","ERA","WHIP","K/9","BB/9","Scouting Read"]
 table(pitcols,pitplayers+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
-para("* ERA qualification uses at least 8 recorded outs (2.2 IP) for Sunshine's 8 official games. IP shown as innings.outs. Pitching classifications: STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). TEAM TOTAL Very Strong reflects official runs-allowed context, not a complete eight-game pitching ledger.")
+para("* ERA qualification uses at least 8 recorded outs (2.2 IP) for Sunshine's 8 official games. IP shown as innings.outs. Pitching classifications: STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). TEAM TOTAL Strong reflects the approved league-relative assessment, not a complete eight-game pitching ledger.")
 heading("COACHING & LINEUP USAGE")
 notes=[
 "1. Manage the middle order as a power/contact combination: Jamie Young's two-way contributions plus Adrian Fittock's HR and Jordan Young's doubles are demonstrated in the usable batches. Avoid unnecessary runners ahead of them.",
