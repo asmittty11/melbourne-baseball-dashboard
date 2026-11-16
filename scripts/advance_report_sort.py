@@ -1,9 +1,13 @@
 """Shared advance-scouting presentation rules.
 
-For all future opponent advance scouting PDFs, sort individual BATTERS by
-OPS descending (highest first), using player name to break ties.
-Keep TEAM TOTAL rows outside this sort and append at the bottom.
-Pitching does not have an OPS metric, so its established ordering is unchanged.
+All future opponent advance-scouting batting tables must place qualified
+individual hitters first, sorted by numeric OPS descending. Batters with
+Scouting Read LIMITED come afterwards, also sorted by numeric OPS descending.
+Break ties alphabetically. Never include TEAM TOTAL in player sorting;
+report generators append it as the last row.
+
+Pitching retains the established appearance/innings order; OPS is a batting
+metric and is not used for pitchers.
 """
 from math import inf
 
@@ -19,8 +23,12 @@ def _ops_score(row):
 
 
 def sort_batters_by_ops(rows):
-    """Return only player rows, sorted by decreasing numeric OPS, then name."""
+    """Qualified OPS high-to-low, then LIMITED OPS high-to-low; totals excluded."""
     return sorted(
         (row for row in rows if not row.get("Team Total")),
-        key=lambda row: (-_ops_score(row), str(row.get("Player", "")).casefold()),
+        key=lambda row: (
+            str(row.get("Scouting Read", "")).strip().upper() == "LIMITED",
+            -_ops_score(row),
+            str(row.get("Player", "")).casefold(),
+        ),
     )
