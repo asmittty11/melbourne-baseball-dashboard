@@ -53,6 +53,24 @@
         "detail": "VSBL championship-level catcher (Geelong), U.S. high school; no unverified professional credit",
         "url": "https://baseballvictoria.com.au/tyler-luther-wilson-chases-premiership-glory-with-geelong/"
       }
+    ],
+    "advanceBattingOrder": "OPS descending, highest to lowest; TEAM TOTAL last; pitch order unchanged",
+    "manualScoutingReadOverrides": [
+      {
+        "section": "batting",
+        "player": "Matthew Johnston",
+        "read": "THREAT"
+      },
+      {
+        "section": "batting",
+        "player": "Mitchell Kennedy",
+        "read": "THREAT"
+      },
+      {
+        "section": "pitching",
+        "player": "Mitchell Kennedy",
+        "read": "STRONG"
+      }
     ]
   },
   "batting": [
@@ -118,7 +136,7 @@
       "OPS": ".723",
       "ISO": ".000",
       "BB%": "3.8%",
-      "Scouting Read": "CAUTION",
+      "Scouting Read": "THREAT",
       "Team Total": false,
       "Source": "7 supplied GameDay batches of 8 official games; 1 missing game; preliminary"
     },
@@ -250,7 +268,7 @@
       "OPS": ".868",
       "ISO": ".167",
       "BB%": "5.3%",
-      "Scouting Read": "CAUTION",
+      "Scouting Read": "THREAT",
       "Team Total": false,
       "Source": "7 supplied GameDay batches of 8 official games; 1 missing game; preliminary"
     },
@@ -802,7 +820,7 @@
       "K/9": "9.53",
       "BB/9": "4.24",
       "K/BB": "2.25",
-      "Scouting Read": "CAUTION",
+      "Scouting Read": "STRONG",
       "Team Total": false,
       "Source": "7 supplied GameDay pitching batches; eighth game missing; no assumed innings"
     },
