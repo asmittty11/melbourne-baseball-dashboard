@@ -18,13 +18,13 @@
     "melbourneRunDifferential": -10,
     "receivedGameBatches": 7,
     "reliableGameBatches": 6,
-    "missing": "Nov 10 Essendon game player lines and newest game player lines missing; one separate malformed batch excluded",
+    "missing": "Three player-level games remain unavailable: 2026-11-17 8–2 win vs Upwey FTG and the two preceding Sunshine games (including Nov 10 Essendon). One earlier copied game batch was malformed and excluded.",
     "excluded": "One pasted batch has impossible hit decomposition and repetition, excluded pending correction",
     "qualifiedAVG": "18 PA (2 per 9 official games)",
     "qualifiedERA": "9 outs (3.0 IP; one out per 9 official games)",
     "higherLevel": "Darryl George Melbourne Aces + Rays affiliate + 2023 WBC; Jamie Young NCAA II/NJCAA I + ABL development; Jeremy Young former Melbourne Aces per club listing; 2026 imports Hunter Jones and Amerson Dix, past levels unverified",
     "pitchingLedgerCheck": "Hunter Jones 5.2 IP; Jamie Young 27.1 IP; Jeremy Young 13.0 IP = 46.0 IP, six readable batches.",
-    "playerGamesCaveat": "Six reliable player batches provided; official ladder now covers nine games; no unsupplied player performances filled in.",
+    "playerGamesCaveat": "Six reliable GameDay batches against nine official games; missing latest three individual boxes. Do not add 8 runs from the Nov 17 result to the already-updated official 65 RF.",
     "advanceBattingOrder": "OPS descending, highest to lowest; TEAM TOTAL last; pitch order unchanged",
     "manualScoutingReadOverrides": [
       {
@@ -41,6 +41,29 @@
         "section": "pitching",
         "player": "TEAM TOTAL",
         "read": "Strong"
+      }
+    ],
+    "unavailablePlayerGames": 3,
+    "mostRecentResult": "2026-11-17, Sunshine 8–2 Upwey FTG at Kings Park",
+    "latestResultAlreadyInLadder": true,
+    "missingGameSources": [
+      {
+        "date": "2026-11-17",
+        "opponent": "Upwey FTG",
+        "result": "8–2 win",
+        "stats": "missing"
+      },
+      {
+        "date": "prior to 2026-11-17",
+        "opponent": "Essendon",
+        "result": "6–2 win on Nov 10 (previously recorded)",
+        "stats": "missing"
+      },
+      {
+        "date": "preceding Nov 17",
+        "opponent": "not established from supplied data",
+        "result": "not independently verified",
+        "stats": "missing"
       }
     ]
   },
@@ -449,7 +472,7 @@
       "ISO": ".130",
       "BB%": "10.9%",
       "Scouting Read": "Strong",
-      "Source": "Six valid batches only, 8-game official standings separate"
+      "Source": "Six valid player batches, nine-game official standings; three latest missing including 8–2 Upwey on Nov 17"
     }
   ],
   "pitching": [
@@ -535,7 +558,7 @@
       "BB/9": "2.54",
       "K/BB": "4.08",
       "Scouting Read": "Strong",
-      "Source": "Six valid pitching games only; 8-game standings separate"
+      "Source": "Six valid player batches, nine-game official standings; three latest missing including 8–2 Upwey on Nov 17"
     }
   ]
 }
