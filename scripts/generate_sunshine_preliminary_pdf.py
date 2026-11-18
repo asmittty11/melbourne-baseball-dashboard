@@ -6,7 +6,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, 
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import landscape, A4
-from advance_report_sort import sort_batters_by_ops
+from advance_report_sort import sort_batters_by_ops, sort_pitchers_by_era_qualification
 
 ROOT=Path(__file__).resolve().parent.parent
 source=json.loads((ROOT/"data/sunshine_preliminary_nov21_2026.json").read_text(encoding="utf-8"))
@@ -31,12 +31,13 @@ def table(columns,records,widths):
       ("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),
       ("FONTSIZE",(0,0),(-1,-1),7),
       ("GRID",(0,0),(-1,-1),.25,colors.HexColor("#d7e1e8")),
-      ("ROWBACKGROUNDS",(0,1),(-1,-2),[colors.white,colors.HexColor("#edf3f7")]),
-      ("BACKGROUND",(0,-1),(-1,-1),colors.HexColor("#dbe7ee")),
-      ("FONTNAME",(0,-1),(-1,-1),"Helvetica-Bold"),
+      ("ROWBACKGROUNDS",(0,1),(-1,-2 if records[-1].get("Team Total") else -1,[colors.white,colors.HexColor("#edf3f7")]),
       ("VALIGN",(0,0),(-1,-1),"MIDDLE"),
       ("BOTTOMPADDING",(0,0),(-1,-1),4),
       ("TOPPADDING",(0,0),(-1,-1),4)]
+    if records[-1].get("Team Total"):
+        style.extend([("BACKGROUND",(0,-1),(-1,-1),colors.HexColor("#dbe7ee")),
+                      ("FONTNAME",(0,-1),(-1,-1),"Helvetica-Bold")])
     palette={"THREAT":"#ffd1d1","STRONG":"#ffd1d1","CAUTION":"#ffe6a1","ATTACK":"#ccebd8",
              "LIMITED":"#e3e6e9"}
     last=len(columns)-1
@@ -72,10 +73,15 @@ table(batcols,batrows,[105,25]+[25]*13+[35]*5+[38,72])
 para("* AVG qualification uses 18 PA (2 per 9 official team games). Only AVG and ERA get qualification asterisks; historical player OBP/OPS and SB rely on readable source columns. Batting classifications: THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray); Jordan Young and Hunter Jones THREAT (red) per coaching override. Team total STRONG reflects available sample.")
 heading("PITCHING | SIX USABLE GAME BATCHES")
 pit=source["pitching"]
-pitplayers=sorted([x for x in pit if not x.get("Team Total")],key=lambda x:-(int(x["IP"].split(".")[0])*3+int(x["IP"].split(".")[1])))
+pitqualified,pitnonqualified=sort_pitchers_by_era_qualification(pit,min_outs=9)
+pitplayers=pitqualified+pitnonqualified
 pitteam=next(x for x in pit if x.get("Team Total"))
 pitcols=["Player","Throws","IP","H","R","ER","BB","HBP","SO","ERA","WHIP","K/9","BB/9","Scouting Read"]
-table(pitcols,pitplayers+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
+para("<b>QUALIFIED PITCHERS | ERA LOW TO HIGH</b>")
+table(pitcols,pitqualified+([pitteam] if not pitnonqualified else []),[125,35,35]+[35]*6+[42]*4+[85])
+if pitnonqualified:
+    para("<b>NON-QUALIFIED PITCHERS | ERA LOW TO HIGH</b>")
+    table(pitcols,pitnonqualified+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
 para("* ERA qualification uses 9 recorded outs (3.0 IP) for nine official team games. Only ERA receives a qualification asterisk; IP uses innings plus outs. Pitching classifications STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). Team total reflects six usable pitching batches, not the full season.")
 heading("COACHING & LINEUP USAGE")
 notes=[
@@ -97,8 +103,12 @@ para("Corrections needed before final report: obtain the November 10 Essendon bo
 SimpleDocTemplate(str(pdf),pagesize=landscape(A4),leftMargin=24,rightMargin=24,topMargin=25,bottomMargin=24).build(story)
 lines=["MELBOURNE vs SUNSHINE | PRELIMINARY | 21 NOV 2026","Sunshine 5th: 6-3-0 65 RF 30 RA +35 (9 games) | Melbourne 8th: 4-5-1 53 RF 63 RA -10 (10 games)","Six readable Sunshine game samples; three most recent individual boxes unavailable (Nov 17 8-2 Upwey and two preceding); one copied malformed batch excluded.","","BATTING"," | ".join(batcols)]
 for r in batrows: lines.append(" | ".join(str(r.get(k,"") or "") for k in batcols))
-lines+=["","PITCHING"," | ".join(pitcols)]
-for r in pitplayers+[pitteam]: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
+lines+=["","PITCHING","QUALIFIED PITCHERS | ERA LOW TO HIGH"," | ".join(pitcols)]
+for r in pitqualified: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
+if pitnonqualified:
+    lines+=["","NON-QUALIFIED PITCHERS | ERA LOW TO HIGH"," | ".join(pitcols)]
+    for r in pitnonqualified: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
+lines.append(" | ".join(str(pitteam.get(k,"") or "") for k in pitcols))
 lines+=["","COACHING & LINEUP USAGE"]+notes+["","DATA QUALITY","Nov 17 Sunshine 8-2 Upwey result is already in official nine-game ladder (6-3-0, 65-30). Three recent individual-game boxes remain unavailable; six validated historical player batches are the complete supplied sample."]
 txt.write_text("\n".join(lines)+"\n",encoding="utf-8")
 print("Generated",pdf,"and",txt)

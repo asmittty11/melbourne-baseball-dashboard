@@ -6,7 +6,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, 
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import landscape, A4
-from advance_report_sort import sort_batters_by_ops
+from advance_report_sort import sort_batters_by_ops, sort_pitchers_by_era_qualification
 
 ROOT=Path(__file__).resolve().parent.parent
 source=json.loads((ROOT/"data/malvern_preliminary_nov24_2026.json").read_text(encoding="utf-8"))
@@ -31,12 +31,13 @@ def table(columns,records,widths):
       ("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),
       ("FONTSIZE",(0,0),(-1,-1),7),
       ("GRID",(0,0),(-1,-1),.25,colors.HexColor("#d7e1e8")),
-      ("ROWBACKGROUNDS",(0,1),(-1,-2),[colors.white,colors.HexColor("#edf3f7")]),
-      ("BACKGROUND",(0,-1),(-1,-1),colors.HexColor("#dbe7ee")),
-      ("FONTNAME",(0,-1),(-1,-1),"Helvetica-Bold"),
+      ("ROWBACKGROUNDS",(0,1),(-1,-2 if records[-1].get("Team Total") else -1,[colors.white,colors.HexColor("#edf3f7")]),
       ("VALIGN",(0,0),(-1,-1),"MIDDLE"),
       ("BOTTOMPADDING",(0,0),(-1,-1),4),
       ("TOPPADDING",(0,0),(-1,-1),4)]
+    if records[-1].get("Team Total"):
+        style.extend([("BACKGROUND",(0,-1),(-1,-1),colors.HexColor("#dbe7ee")),
+                      ("FONTNAME",(0,-1),(-1,-1),"Helvetica-Bold")])
     palette={"THREAT":"#ffd1d1","STRONG":"#ffd1d1","CAUTION":"#ffe6a1","ATTACK":"#ccebd8",
              "LIMITED":"#e3e6e9"}
     last=len(columns)-1
@@ -60,12 +61,6 @@ para("<b>Pitching read:</b> Werribee 15–5: James Squire 3.0 IP/1 H/2 SO/1 R (0
 heading("BATTING | NINE SUPPLIED GAME BATCHES / NINE OFFICIAL")
 bat=source["batting"]
 batplayers=sort_batters_by_ops(bat)
-# Ryan Dale is THREAT by scouting override, but remains in his original
-# below-18-PA position in the table; changing the read must not reorder other rows.
-ryan=next(x for x in batplayers if x.get("Player")=="Ryan Dale")
-batplayers.remove(ryan)
-first_limited=next((i for i,x in enumerate(batplayers) if str(x.get("Scouting Read","")).upper()=="LIMITED"),len(batplayers))
-batplayers.insert(first_limited,ryan)
 batteam=next(x for x in bat if x.get("Team Total"))
 batcols=["Player","Bats","PA","AB","R","H","1B","2B","3B","HR","RBI","BB","HBP","SO","SB","AVG","OBP","SLG","OPS","ISO","BB%","Scouting Read"]
 batrows=batplayers+[batteam]
@@ -73,10 +68,15 @@ table(batcols,batrows,[105,25]+[25]*13+[35]*5+[38,72])
 para("* Batting AVG qualification: 18 PA (2 PA per 9 team games), with * only beside AVG. OBP=(H+BB+HBP)/(AB+BB+HBP+SF); OPS=OBP+SLG; ISO=SLG−AVG. Nine player box-score samples yield 70 batting runs, matching official RF. Ryan Dale 9 PA remains below the AVG qualifier but is classified THREAT with four HR; Ulrich Bojarski 19 PA is now a qualified THREAT. Unknown hands stay blank. Matthew Johnston November 7 row has 4 PA, 4 AB and a sacrifice bunt, a source accounting conflict flagged without altering supplied data.")
 heading("PITCHING | IDENTIFIED APPEARANCES")
 pit=source["pitching"]
-pitplayers=sorted([x for x in pit if not x.get("Team Total")],key=lambda x:-(int(x["IP"].split(".")[0])*3+int(x["IP"].split(".")[1])))
+pitqualified,pitnonqualified=sort_pitchers_by_era_qualification(pit,min_outs=9)
+pitplayers=pitqualified+pitnonqualified
 pitteam=next(x for x in pit if x.get("Team Total"))
 pitcols=["Player","Throws","IP","H","R","ER","BB","HBP","SO","ERA","WHIP","K/9","BB/9","Scouting Read"]
-table(pitcols,pitplayers+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
+para("<b>QUALIFIED PITCHERS | ERA LOW TO HIGH</b>")
+table(pitcols,pitqualified+([pitteam] if not pitnonqualified else []),[125,35,35]+[35]*6+[42]*4+[85])
+if pitnonqualified:
+    para("<b>NON-QUALIFIED PITCHERS | ERA LOW TO HIGH</b>")
+    table(pitcols,pitnonqualified+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
 para("* ERA qualification: 9 recorded outs (3.0 IP), one per nine team games. Only ERA has qualification *. IP is baseball innings plus outs. Pitcher source nine-game totals: 70.0 IP, 93 SO, 19 ER, 28 R; official ladder records 23 RA, an unresolved five-run conflict. Scouting classifications STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). Zaid Flynn is STRONG per user-approved override.")
 heading("COACHING & LINEUP USAGE")
 notes=[
@@ -102,8 +102,12 @@ lines=["MELBOURNE vs MALVERN | PRELIMINARY | 24 NOV 2026",
        "Nine Malvern GameDay player boxes / nine official games, including 15-5 Werribee on Nov 7 (21 H, 7 HR). Batting R=70 matches official RF. Pitching R=28 differs from official RA=23 by five; audit required.",
        "BATTING"," | ".join(batcols)]
 for r in batrows: lines.append(" | ".join(str(r.get(k,"") or "") for k in batcols))
-lines+=["","PITCHING"," | ".join(pitcols)]
-for r in pitplayers+[pitteam]: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
+lines+=["","PITCHING","QUALIFIED PITCHERS | ERA LOW TO HIGH"," | ".join(pitcols)]
+for r in pitqualified: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
+if pitnonqualified:
+    lines+=["","NON-QUALIFIED PITCHERS | ERA LOW TO HIGH"," | ".join(pitcols)]
+    for r in pitnonqualified: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
+lines.append(" | ".join(str(pitteam.get(k,"") or "") for k in pitcols))
 lines+=["","COACHING & LINEUP USAGE"]+notes+["","HIGHER-LEVEL EXPERIENCE","Jarryd Dale, Ryan Dale, Ulrich Bojarski (details + sources in PDF); Chris Burke and Tyler Luther-Wilson additional verified involvement.","","DATA QUALITY","All nine game batting boxes are present and total 70 runs, matching official RF. Nine pitcher boxes total 28 R versus 23 official RA; five-run reconciliation pending. Nov 7 Matthew Johnston 4 PA/4 AB/1 SAC source conflict retained. Zaid Flynn STRONG (user approved)."]
 txt.write_text("\n".join(lines)+"\n",encoding="utf-8")
 print("Generated",pdf,"and",txt)
