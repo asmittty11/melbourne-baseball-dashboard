@@ -2,7 +2,7 @@ MELBOURNE vs SUNSHINE | PRELIMINARY | 21 NOV 2026
 Sunshine 5th: 6-3-0 65 RF 30 RA +35 (9 games) | Melbourne 8th: 4-5-1 53 RF 63 RA -10 (10 games)
 Six readable Sunshine game samples; three most recent individual boxes unavailable (Nov 17 8-2 Upwey and two preceding); one copied malformed batch excluded.
 
-BATTING
+BATTING | 6 SUPPLIED GAME BATCHES / 9 OFFICIAL / OPS - HIGH TO LOW
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
 Jamie Young | R | 26 | 21 | 5 | 12 | 8 | 3 | 0 | 1 | 9 | 4 | 0 | 7 | 1 | .571 | .615 | .857 | 1.473 | .286 | 15.4% | THREAT
 Darryl George | R | 19 | 16 | 4 | 8 | 7 | 1 | 0 | 0 | 3 | 3 | 0 | 1 | 2 | .500 | .579 | .563 | 1.141 | .063 | 15.8% | THREAT
@@ -20,7 +20,7 @@ Joshua Byrne |  | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .000* | .0
 TEAM TOTAL |  | 230 | 192 | 43 | 59 | 39 | 17 | 1 | 2 | 37 | 25 | 7 | 60 | 8 | .307 | .403 | .438 | .840 | .130 | 10.9% | Strong
 
 PITCHING
-QUALIFIED PITCHERS | ERA LOW TO HIGH
+QUALIFIED PITCHERS | ERA
 Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Scouting Read
 Jeremy Young |  | 13.0 | 5 | 3 | 3 | 0 | 1 | 16 | 2.08 | 0.38 | 11.08 | 0.00 | STRONG
 Jamie Young | R | 27.1 | 26 | 14 | 14 | 7 | 4 | 29 | 4.61 | 1.21 | 9.55 | 2.30 | CAUTION
