@@ -1,6 +1,6 @@
 MELBOURNE vs SUNSHINE | PRELIMINARY | 21 NOV 2026
-Sunshine 5th: 5-3-0 57 RF 28 RA +29 (8 games) | Melbourne 9th: 4-5-0 53 RF 63 RA -10 (9 games)
-Six readable Sunshine game samples; one malformed game excluded and Nov 10 Essendon player box missing.
+Sunshine 5th: 6-3-0 65 RF 30 RA +35 (9 games) | Melbourne 8th: 4-5-1 53 RF 63 RA -10 (10 games)
+Six readable Sunshine game samples; one malformed batch excluded and two newer individual-game boxes missing.
 
 BATTING
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
@@ -31,8 +31,8 @@ COACHING & LINEUP USAGE
 2. Darryl George is an experienced professional and WBC veteran; do not rely on VSBL box-score sample alone when planning pitch selection and defense.
 3. Prepare for Jeremy Young as a strike-throwing, swing-and-miss option (16 SO, 0 BB in 13.0 verified IP). Be ready to adjust for chase tendencies, count leverage and bullpen sequencing.
 4. When facing Hunter Jones, take a disciplined approach: 6 walks over 5.2 recorded IP. Use pitches-per-plate-appearance and timing to test whether command issues persist.
-5. Sunshine's staff allowed 28 runs through 8 official games (3.50/game). Melbourne had ten singles but only one run in the November 14 Waverley loss: prioritize advancing runners, productive contact and situational hitting.
+5. Sunshine has allowed 30 runs through nine official games (3.33/game). Melbourne generated four singles but no runs in the November 17 Moorabbin draw: prioritize baserunner advancement, productive contact and situational hitting.
 6. Manager Stuart Clayton described planned multi-pitcher usage early in the season. Prior to Nov 21, review Sunshine's latest lineup and pitching usage; avoid asserting a starting pitcher from an incomplete sample.
 
 DATA QUALITY
-Nov 10 Essendon player stats missing; excluded one game batch with invalid multi-hit decomposition. All cumulative rates provisional.
+As of Nov 18, official Sunshine 9 games; player stat sample six usable batches, one malformed excluded, newer player games missing. Qualification based on nine official games; historical rates provisional.
