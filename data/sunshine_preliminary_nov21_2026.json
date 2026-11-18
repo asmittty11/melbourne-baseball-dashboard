@@ -30,12 +30,12 @@
       {
         "section": "batting",
         "player": "Jordan Young",
-        "read": "STRONG"
+        "read": "THREAT"
       },
       {
         "section": "batting",
         "player": "Hunter Jones",
-        "read": "STRONG"
+        "read": "THREAT"
       },
       {
         "section": "pitching",
@@ -122,7 +122,7 @@
       "OPS": ".766",
       "ISO": ".148",
       "BB%": "3.6%",
-      "Scouting Read": "STRONG",
+      "Scouting Read": "THREAT",
       "Team Total": false,
       "Source": "6 reliable GameDay batches; 1 malformed and 2026-11-10 missing"
     },
@@ -238,7 +238,7 @@
       "OPS": ".810",
       "ISO": ".087",
       "BB%": "4.2%",
-      "Scouting Read": "STRONG",
+      "Scouting Read": "THREAT",
       "Team Total": false,
       "Source": "6 reliable GameDay batches; 1 malformed and 2026-11-10 missing"
     },

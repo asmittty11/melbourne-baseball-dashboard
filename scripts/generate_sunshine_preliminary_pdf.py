@@ -59,12 +59,17 @@ para("<b>Offensive approach:</b> Jamie Young is the best established two-way thr
 para("<b>Pitching outlook:</b> Jamie Young (27.1 IP, 4.61 ERA, 1.21 WHIP), Jeremy Young (13.0 IP, 2.08 ERA, 16.00 K/9) and Hunter Jones (5.2 IP, 6.35 ERA) are the identified contributors. Jeremy Young's zero recorded walks and 16 K in the usable sample stand out; against Jones, force him to throw competitive strikes. Exact Saturday availability is unverified.")
 heading("BATTING | SIX USABLE GAME BATCHES")
 bat=source["batting"]
+# All red opponent BATTING player scouting reads are THREAT, never STRONG.
+# Team-total assessments and PITCHING classifications retain their existing meanings.
+for batting_row in bat:
+    if not batting_row.get("Team Total") and str(batting_row.get("Scouting Read", "")).upper() == "STRONG":
+        batting_row["Scouting Read"] = "THREAT"
 batplayers=sort_batters_by_ops(bat)
 batteam=next(x for x in bat if x.get("Team Total"))
 batcols=["Player","Bats","PA","AB","R","H","1B","2B","3B","HR","RBI","BB","HBP","SO","SB","AVG","OBP","SLG","OPS","ISO","BB%","Scouting Read"]
 batrows=batplayers+[batteam]
 table(batcols,batrows,[105,25]+[25]*13+[35]*5+[38,72])
-para("* AVG qualification uses 18 PA (2 per 9 official team games). Only AVG and ERA get qualification asterisks; historical player OBP/OPS and SB rely on readable source columns. Batting classifications: THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray); Jordan Young and Hunter Jones STRONG (red) per coaching override. Team total STRONG reflects available sample.")
+para("* AVG qualification uses 18 PA (2 per 9 official team games). Only AVG and ERA get qualification asterisks; historical player OBP/OPS and SB rely on readable source columns. Batting classifications: THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray); Jordan Young and Hunter Jones THREAT (red) per coaching override. Team total STRONG reflects available sample.")
 heading("PITCHING | SIX USABLE GAME BATCHES")
 pit=source["pitching"]
 pitplayers=sorted([x for x in pit if not x.get("Team Total")],key=lambda x:-(int(x["IP"].split(".")[0])*3+int(x["IP"].split(".")[1])))

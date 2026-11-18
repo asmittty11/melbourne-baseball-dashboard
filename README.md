@@ -38,6 +38,8 @@ Melbourne's schedule includes **30 games** for 2026–27. This project will grow
 Melbourne player and team statistics are refreshed after new game statistics are uploaded and checked. Opponent datasets are updated when new advance-scouting work is completed, often before a matchup. Reports are **published as they are completed with Melbourne Baseball Club's approval**. Updates are manual and do **not** represent automatic live GameDay synchronization. Where a source contains missing fields, estimates, or provisional stat mappings, those limitations are documented.
 
 ## Table sorting and pitching display
+**Opponent Scouting Read colors:** For individual opponent **BATTING**, red is always labeled **THREAT** (never STRONG); for opponent **PITCHING**, red remains **STRONG**. Team-total strength assessments are separate and retain their existing descriptions. This rule applies to future opponent reports and dashboard/database updates.
+
 Melbourne season-stat PDFs always sort batting player rows by OPS (highest to lowest) and pitching player rows by ERA (lowest to highest), disregarding qualification asterisks for sorting. TEAM TOTAL stays last in both tables. For opponent reports, approved THREAT/STRONG scouting classifications are independent of statistical qualification asterisks; a small sample may still carry a scouting threat rating.
 
 ERA and WHIP default to ascending order (lowest first) when selected, including on initial ERA-based views; AVG remains descending. Melbourne pitching displays neither Throws nor games/appearances. The Melbourne batting table does not display RBI.
