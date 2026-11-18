@@ -293,6 +293,102 @@
         "Against": 63,
         "RD": -10,
         "WinPercent": 45
+      },
+      {
+        "Team": "Sandringham",
+        "Position": 9,
+        "P": 9,
+        "W": 4,
+        "L": 5,
+        "D": 0,
+        "For": 45,
+        "Against": 71,
+        "RD": -26,
+        "WinPercent": 44.44
+      },
+      {
+        "Team": "Blackburn",
+        "Position": 10,
+        "P": 8,
+        "W": 3,
+        "L": 4,
+        "D": 1,
+        "For": 37,
+        "Against": 26,
+        "RD": 11,
+        "WinPercent": 43.75
+      },
+      {
+        "Team": "Cheltenham",
+        "Position": 11,
+        "P": 9,
+        "W": 3,
+        "L": 5,
+        "D": 1,
+        "For": 44,
+        "Against": 53,
+        "RD": -9,
+        "WinPercent": 38.89
+      },
+      {
+        "Team": "Doncaster",
+        "Position": 12,
+        "P": 10,
+        "W": 3,
+        "L": 6,
+        "D": 1,
+        "For": 46,
+        "Against": 60,
+        "RD": -14,
+        "WinPercent": 35
+      },
+      {
+        "Team": "Fitzroy",
+        "Position": 13,
+        "P": 9,
+        "W": 3,
+        "L": 6,
+        "D": 0,
+        "For": 34,
+        "Against": 49,
+        "RD": -15,
+        "WinPercent": 33.33
+      },
+      {
+        "Team": "Williamstown",
+        "Position": 14,
+        "P": 10,
+        "W": 2,
+        "L": 8,
+        "D": 0,
+        "For": 39,
+        "Against": 74,
+        "RD": -35,
+        "WinPercent": 20
+      },
+      {
+        "Team": "Werribee",
+        "Position": 15,
+        "P": 9,
+        "W": 1,
+        "L": 8,
+        "D": 0,
+        "For": 36,
+        "Against": 99,
+        "RD": -63,
+        "WinPercent": 11.11
+      },
+      {
+        "Team": "Upwey FTG",
+        "Position": 16,
+        "P": 8,
+        "W": 0,
+        "L": 8,
+        "D": 0,
+        "For": 13,
+        "Against": 98,
+        "RD": -85,
+        "WinPercent": 0
       }
     ]
   },
