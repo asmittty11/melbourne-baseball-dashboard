@@ -1,7 +1,7 @@
 MELBOURNE vs MALVERN | PRELIMINARY | 24 NOV 2026
 Ladder as supplied Nov 18: Malvern 2nd 8-1-0 (70 RF/23 RA/+47); Melbourne 8th 4-5-1 (53 RF/63 RA/-10). Reconfirm before sharing.
 Nine Malvern GameDay player boxes / nine official games, including 15-5 Werribee on Nov 7 (21 H, 7 HR). Batting R=70 matches official RF. Pitching R=28 differs from official RA=23 by five; audit required.
-BATTING
+BATTING | 9 SUPPLIED GAME BATCHES / 9 OFFICIAL / OPS - HIGH TO LOW
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
 Ryan Dale | R | 9 | 8 | 6 | 7 | 0 | 3 | 0 | 4 | 7 | 0 | 1 | 0 | 0 | .875* | .889 | 2.750 | 3.639 | 1.875 | 0.0% | THREAT
 Caleb Johnston |  | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 1.000* | 1.000 | 1.000 | 2.000 | .000 | 0.0% | LIMITED
@@ -27,14 +27,14 @@ Wilson Pole |  | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | .000* | .00
 TEAM TOTAL |  | 321 | 283 | 70 | 108 | 74 | 19 | 1 | 14 | 60 | 24 | 6 | 51 | 13 | .382 | .434 | .604 | 1.038 | .223 | 7.5% | Very Strong
 
 PITCHING
-QUALIFIED PITCHERS | ERA LOW TO HIGH
+QUALIFIED PITCHERS | ERA
 Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Scouting Read
 Matthew Beattie |  | 10.0 | 2 | 0 | 0 | 6 | 0 | 17 | 0.00 | 0.80 | 15.30 | 5.40 | STRONG
 James Squire |  | 14.2 | 7 | 5 | 3 | 6 | 4 | 18 | 1.84 | 0.89 | 11.05 | 3.68 | STRONG
 Zaid Elias Cummins Flynn |  | 17.1 | 13 | 6 | 6 | 10 | 4 | 25 | 3.12 | 1.33 | 12.98 | 5.19 | STRONG
 Mitchell Kennedy |  | 21.0 | 30 | 10 | 9 | 10 | 0 | 19 | 3.86 | 1.90 | 8.14 | 4.29 | STRONG
 
-NON-QUALIFIED PITCHERS | ERA LOW TO HIGH
+NON-QUALIFIED PITCHERS | ERA
 Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Scouting Read
 Cheng Yen (max) Wu |  | 1.1 | 0 | 1 | 0 | 2 | 0 | 3 | 0.00* | 1.50 | 20.25 | 13.50 | LIMITED
 Keinosuke Lee |  | 1.2 | 2 | 5 | 0 | 2 | 0 | 3 | 0.00* | 2.40 | 16.20 | 10.80 | LIMITED
