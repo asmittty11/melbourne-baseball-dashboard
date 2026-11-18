@@ -50,7 +50,7 @@ def table(columns,records,widths):
 
 
 heading("MELBOURNE vs SUNSHINE | ADVANCE SCOUTING")
-para("<b>Saturday 21 November 2026 | Melbourne HOME | exact field unconfirmed | PRELIMINARY</b>")
+para("<b>Saturday 21 November 2026 | Melbourne HOME | Surrey Park Arthur Field | PRELIMINARY</b>")
 para("<b>Official ladder (November 18 screenshot):</b> Sunshine 5th, 6-3-0, 65 RF, 30 RA, +35 RD (nine games); Melbourne 8th, 4-5-1, 53 RF, 63 RA, -10 RD (ten games). Sunshine beat Upwey FTG 8-2 on Tuesday November 17 at Kings Park, but that result is ALREADY included in this ladder. Its player box and the two preceding Sunshine player games remain unavailable.")
 para("<b>Sample rules:</b> Six readable player-stat batches out of nine official Sunshine games; the most recent three player boxes are missing or unusable, including November 17 8-2 at Upwey and November 10 vs Essendon. Seven copied batches were received earlier, but one had impossible batting decomposition and was excluded. Six valid samples: 43 batting runs, 23 allowed, 46.0 pitching IP. Do not count the eight Upwey runs twice or invent player lines. Unknown handedness blank.")
 heading("TEAM TENDENCIES & MATCHUP")

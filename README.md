@@ -13,6 +13,11 @@ This is a public, browser-based analytics and advance-scouting dashboard for Mel
 - **Original PDFs:** scouting, season performance, and historical reports published and archived as completed with club approval.
 - **Data Notes:** scope, source and missing-data cautions.
 
+## Matchup report venue and start-time policy
+- **Melbourne home games:** Always name Melbourne's home field **Surrey Park Arthur Field** in the advance-scouting PDF and home matchup metadata.
+- **Melbourne away games:** Never mention a stadium, ground, field name, venue, or start time in the advance-scouting PDF or matchup metadata. Use the opponent/team and date without those location or time details. Do not insert "unconfirmed" placeholders for away fields or times.
+- Preserve all other scouting content, cumulative player statistics, standings, classifications, and historical archives unless separately instructed. Apply these rules to all newly generated Melbourne opponent reports going forward.
+
 ## Source data
 - `data/league_stats.json`: structured player rows and report references.
 - `data/dashboard.json`: earlier Sandringham scouting snapshot.
