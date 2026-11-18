@@ -58,7 +58,9 @@ heading("TEAM TENDENCIES & MATCHUP")
 para("Sunshine scored 65 and allowed 30 in nine official games (7.22 RF, 3.33 RA per game; +35 RD). Melbourne scored 53 and allowed 63 in ten (5.30 RF, 6.30 RA). The six usable Sunshine player games alone have 59 H, .307 AVG, .403 estimated OBP, .438 SLG, .840 OPS and two HR. No cumulative player totals have been guessed for the three missing games.")
 para("<b>Offensive approach:</b> Jamie Young is the best established two-way threat in the usable sample, with 12 H, 3 doubles, 1 HR and 9 RBI. Jordan Young, Darryl George and Hunter Jones have 8 H each; Jordan Young has 4 doubles, while Darryl George's hit rate is supported by 19 recorded PA. Adrian Fittock provides another recorded HR and multi-RBI games. Keep priority hitters from extending innings via free passes.")
 para("<b>Pitching outlook:</b> Jamie Young (27.1 IP, 4.61 ERA, 1.21 WHIP), Jeremy Young (13.0 IP, 2.08 ERA, 16.00 K/9) and Hunter Jones (5.2 IP, 6.35 ERA) are the identified contributors. Jeremy Young's zero recorded walks and 16 K in the usable sample stand out; against Jones, force him to throw competitive strikes. Exact Saturday availability is unverified.")
-heading("BATTING | SIX USABLE GAME BATCHES")
+batting_heading=(f"BATTING | {source['metadata']['reliableGameBatches']} SUPPLIED GAME BATCHES "
+                 f"/ {source['metadata']['officialGames']} OFFICIAL / OPS - HIGH TO LOW")
+heading(batting_heading)
 bat=source["batting"]
 # All red opponent BATTING player scouting reads are THREAT, never STRONG.
 # Team-total assessments and PITCHING classifications retain their existing meanings.
@@ -77,10 +79,10 @@ pitqualified,pitnonqualified=sort_pitchers_by_era_qualification(pit,min_outs=9)
 pitplayers=pitqualified+pitnonqualified
 pitteam=next(x for x in pit if x.get("Team Total"))
 pitcols=["Player","Throws","IP","H","R","ER","BB","HBP","SO","ERA","WHIP","K/9","BB/9","Scouting Read"]
-para("<b>QUALIFIED PITCHERS | ERA LOW TO HIGH</b>")
+para("<b>QUALIFIED PITCHERS | ERA</b>")
 table(pitcols,pitqualified+([pitteam] if not pitnonqualified else []),[125,35,35]+[35]*6+[42]*4+[85])
 if pitnonqualified:
-    para("<b>NON-QUALIFIED PITCHERS | ERA LOW TO HIGH</b>")
+    para("<b>NON-QUALIFIED PITCHERS | ERA</b>")
     table(pitcols,pitnonqualified+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
 para("* ERA qualification uses 9 recorded outs (3.0 IP) for nine official team games. Only ERA receives a qualification asterisk; IP uses innings plus outs. Pitching classifications STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). Team total reflects six usable pitching batches, not the full season.")
 heading("COACHING & LINEUP USAGE")
@@ -101,12 +103,12 @@ heading("DATA QUALITY & NEXT UPDATE")
 para("Sources: user-supplied November 18 Sunshine ladder, 8-2 Upwey FTG November 17 score screenshot and previously supplied Sunshine GameDay player rows; Baseball Victoria/club media for earlier context. Six valid player batches of nine official games; latest three Sunshine boxes unavailable, with one earlier malformed submission excluded. The Nov 17 result is already in the official 6-3-0/65-30 totals and is not added to the player sample.")
 para("Corrections needed before final report: obtain the November 10 Essendon box score, re-send the malformed game batch with aligned 38-column headers, verify latest starting-pitcher usage and batting/throwing handedness. Until then, do NOT equate the six-batch player aggregates with the eight-game standings, nor infer missing data as zeros.")
 SimpleDocTemplate(str(pdf),pagesize=landscape(A4),leftMargin=24,rightMargin=24,topMargin=25,bottomMargin=24).build(story)
-lines=["MELBOURNE vs SUNSHINE | PRELIMINARY | 21 NOV 2026","Sunshine 5th: 6-3-0 65 RF 30 RA +35 (9 games) | Melbourne 8th: 4-5-1 53 RF 63 RA -10 (10 games)","Six readable Sunshine game samples; three most recent individual boxes unavailable (Nov 17 8-2 Upwey and two preceding); one copied malformed batch excluded.","","BATTING"," | ".join(batcols)]
+lines=["MELBOURNE vs SUNSHINE | PRELIMINARY | 21 NOV 2026","Sunshine 5th: 6-3-0 65 RF 30 RA +35 (9 games) | Melbourne 8th: 4-5-1 53 RF 63 RA -10 (10 games)","Six readable Sunshine game samples; three most recent individual boxes unavailable (Nov 17 8-2 Upwey and two preceding); one copied malformed batch excluded.","",batting_heading," | ".join(batcols)]
 for r in batrows: lines.append(" | ".join(str(r.get(k,"") or "") for k in batcols))
-lines+=["","PITCHING","QUALIFIED PITCHERS | ERA LOW TO HIGH"," | ".join(pitcols)]
+lines+=["","PITCHING","QUALIFIED PITCHERS | ERA"," | ".join(pitcols)]
 for r in pitqualified: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
 if pitnonqualified:
-    lines+=["","NON-QUALIFIED PITCHERS | ERA LOW TO HIGH"," | ".join(pitcols)]
+    lines+=["","NON-QUALIFIED PITCHERS | ERA"," | ".join(pitcols)]
     for r in pitnonqualified: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
 lines.append(" | ".join(str(pitteam.get(k,"") or "") for k in pitcols))
 lines+=["","COACHING & LINEUP USAGE"]+notes+["","DATA QUALITY","Nov 17 Sunshine 8-2 Upwey result is already in official nine-game ladder (6-3-0, 65-30). Three recent individual-game boxes remain unavailable; six validated historical player batches are the complete supplied sample."]

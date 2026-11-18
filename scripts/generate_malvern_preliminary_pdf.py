@@ -58,7 +58,9 @@ heading("TEAM TENDENCIES & MATCHUP")
 para("Malvern: official 2nd, 8–1–0, 70 RF, 23 RA, +47 (9 games). Melbourne 8th, 4–5–1, 53 RF, 63 RA, −10 (10 games). Malvern now has all nine batting boxes: 108 H, 14 HR, .382 AVG, .434 OBP, .604 SLG, 1.038 OPS and .223 ISO. The nine pitching boxes include 70.0 IP, 19 ER, 93 SO and a 2.44 source ERA. Pitcher recorded R=28 vs official RA=23 is unresolved and must not be presented as reconciled official defense.")
 para("<b>Offensive read:</b> Malvern’s November 7 15–5 win over Werribee included seven homers and 21 hits. Ryan Dale was 4-for-4 with THREE HR and six RBI; Jarryd Dale was 3-for-5 with a HR and three RBI; Ulrich Bojarski hit two HR, and Jack Hanger one. Matthew Johnston went 4-for-4. Nine-game leaders in supplied sample: Jarryd Dale .591 AVG / 1.667 OPS (27 PA); Tyler Luther-Wilson .519 / 1.448 (34 PA); Hudson Priamo .394 AVG (36 PA). Ryan Dale has four season HR and a 3.639 OPS in just nine PA (THREAT, with AVG still unqualified). Ulrich Bojarski now has 19 PA, three HR and qualifies as a THREAT rather than LIMITED. Confirm lineup card before projecting precise batting order.")
 para("<b>Pitching read:</b> Werribee 15–5: James Squire 3.0 IP/1 H/2 SO/1 R (0 ER), Mitchell Kennedy 4.0 IP/10 H/1 SO/4 R (4 ER). New cumulative sample: Squire 14.2 IP, Kennedy 21.0 IP, and overall 70.0 IP with 93 SO, 19 ER (2.44 ERA) and 1.33 WHIP. Zaid Elias Cummins Flynn remains user-confirmed STRONG: 17.1 IP, 25 SO, 3.12 ERA and 12.98 K/9, despite allowing 4 ER in 3.1 IP versus Newport. The sum of pitcher R is 28 whereas official nine-game ladder RA is 23; do not infer an official team pitching reconciliation without investigating older source rows.")
-heading("BATTING | NINE SUPPLIED GAME BATCHES / NINE OFFICIAL")
+batting_heading=(f"BATTING | {source['metadata']['receivedBatches']} SUPPLIED GAME BATCHES "
+                 f"/ {source['metadata']['officialGames']} OFFICIAL / OPS - HIGH TO LOW")
+heading(batting_heading)
 bat=source["batting"]
 batplayers=sort_batters_by_ops(bat)
 batteam=next(x for x in bat if x.get("Team Total"))
@@ -72,10 +74,10 @@ pitqualified,pitnonqualified=sort_pitchers_by_era_qualification(pit,min_outs=9)
 pitplayers=pitqualified+pitnonqualified
 pitteam=next(x for x in pit if x.get("Team Total"))
 pitcols=["Player","Throws","IP","H","R","ER","BB","HBP","SO","ERA","WHIP","K/9","BB/9","Scouting Read"]
-para("<b>QUALIFIED PITCHERS | ERA LOW TO HIGH</b>")
+para("<b>QUALIFIED PITCHERS | ERA</b>")
 table(pitcols,pitqualified+([pitteam] if not pitnonqualified else []),[125,35,35]+[35]*6+[42]*4+[85])
 if pitnonqualified:
-    para("<b>NON-QUALIFIED PITCHERS | ERA LOW TO HIGH</b>")
+    para("<b>NON-QUALIFIED PITCHERS | ERA</b>")
     table(pitcols,pitnonqualified+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
 para("* ERA qualification: 9 recorded outs (3.0 IP), one per nine team games. Only ERA has qualification *. IP is baseball innings plus outs. Pitcher source nine-game totals: 70.0 IP, 93 SO, 19 ER, 28 R; official ladder records 23 RA, an unresolved five-run conflict. Scouting classifications STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). Zaid Flynn is STRONG per user-approved override.")
 heading("COACHING & LINEUP USAGE")
@@ -100,12 +102,12 @@ SimpleDocTemplate(str(pdf),pagesize=landscape(A4),leftMargin=24,rightMargin=24,t
 lines=["MELBOURNE vs MALVERN | PRELIMINARY | 24 NOV 2026",
        "Ladder as supplied Nov 18: Malvern 2nd 8-1-0 (70 RF/23 RA/+47); Melbourne 8th 4-5-1 (53 RF/63 RA/-10). Reconfirm before sharing.",
        "Nine Malvern GameDay player boxes / nine official games, including 15-5 Werribee on Nov 7 (21 H, 7 HR). Batting R=70 matches official RF. Pitching R=28 differs from official RA=23 by five; audit required.",
-       "BATTING"," | ".join(batcols)]
+       batting_heading," | ".join(batcols)]
 for r in batrows: lines.append(" | ".join(str(r.get(k,"") or "") for k in batcols))
-lines+=["","PITCHING","QUALIFIED PITCHERS | ERA LOW TO HIGH"," | ".join(pitcols)]
+lines+=["","PITCHING","QUALIFIED PITCHERS | ERA"," | ".join(pitcols)]
 for r in pitqualified: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
 if pitnonqualified:
-    lines+=["","NON-QUALIFIED PITCHERS | ERA LOW TO HIGH"," | ".join(pitcols)]
+    lines+=["","NON-QUALIFIED PITCHERS | ERA"," | ".join(pitcols)]
     for r in pitnonqualified: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
 lines.append(" | ".join(str(pitteam.get(k,"") or "") for k in pitcols))
 lines+=["","COACHING & LINEUP USAGE"]+notes+["","HIGHER-LEVEL EXPERIENCE","Jarryd Dale, Ryan Dale, Ulrich Bojarski (details + sources in PDF); Chris Burke and Tyler Luther-Wilson additional verified involvement.","","DATA QUALITY","All nine game batting boxes are present and total 70 runs, matching official RF. Nine pitcher boxes total 28 R versus 23 official RA; five-run reconciliation pending. Nov 7 Matthew Johnston 4 PA/4 AB/1 SAC source conflict retained. Zaid Flynn STRONG (user approved)."]
