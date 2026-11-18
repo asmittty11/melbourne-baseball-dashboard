@@ -1,6 +1,6 @@
 MELBOURNE vs MALVERN | PRELIMINARY | 24 NOV 2026
 Ladder as supplied Nov 18: Malvern 2nd 8-1-0 (70 RF/23 RA/+47); Melbourne 8th 4-5-1 (53 RF/63 RA/-10). Reconfirm before sharing.
-Eight distinct Malvern GameDay batches (including Nov 17 0-4 Newport); earlier 8-3 Sunshine was already batch 7; one of nine official player games still missing. Eight-game batting 55 R vs 70 official.
+Nine Malvern GameDay player boxes / nine official games, including 15-5 Werribee on Nov 7 (21 H, 7 HR). Batting R=70 matches official RF. Pitching R=28 differs from official RA=23 by five; audit required.
 BATTING
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
 Jarryd Dale | R | 27 | 22 | 11 | 13 | 8 | 3 | 0 | 2 | 7 | 5 | 0 | 3 | 0 | .591 | .667 | 1.000 | 1.667 | .409 | 18.5% | THREAT
@@ -40,15 +40,15 @@ Stuart Willemsen |  | 0.1 | 0 | 0 | 0 | 0 | 0 | 1 | 0.00* | 0.00 | 27.00 | 0.00 
 TEAM TOTAL |  | 70.0 | 55 | 28 | 19 | 38 | 8 | 93 | 2.44 | 1.33 | 11.96 | 4.89 | Very Strong
 
 COACHING & LINEUP USAGE
-1. The latest Newport loss saw five singles and no runs: Brady Whalen and Ryan Picollo had two hits each, and James Squire one. Only Brady and Picollo remain small-sample hitters; do not overreact to one five-inning scoring ledger.
-2. Jarryd Dale (1.564 OPS, 22 PA) and Tyler Luther-Wilson (two HR, 1.392 OPS, 29 PA) remain top power/on-base threats in the available games; Hudson Priamo (11 H in 29 AB) adds contact. Their actual order and defensive assignments require current lineups.
-3. Zaid Elias Cummins Flynn surrendered 8 H/4 ER over 3.1 IP vs Newport, though his cumulative 25 SO in 17.1 IP indicate strikeout ability. Do not assume a fixed starter or current availability; scout count management and recent rest.
-4. Malvern's recorded staff has 90 SO in 63.0 IP (12.86 K/9), so emphasize two-strike decisions and controlled baserunner advancement after Melbourne's own 0-0 Moorabbin draw.
-5. Eight supplied Malvern batting games show 12 SB; monitor running game without extrapolating attempts into the one missing match. The earlier 8-3 win vs Sunshine was already counted and must not be added again.
-6. Malvern's official 70-23 ladder and eight-batch 55-23 player runs differ by 15 Malvern runs. Obtain the missing earlier player box before calling the report fully season-complete; recheck any new standings before Nov 24.
+1. November 7 vs Werribee featured a seven-homer Malvern attack with 21 hits: Ryan Dale 3 HR/6 RBI, Jarryd Dale 1 HR/3 RBI, Ulrich Bojarski 2 HR/3 RBI and Jack Hanger 1 HR. The next supplied Nov 17 game was a five-single shutout loss to Newport; avoid overreacting to either one-game extreme.
+2. Jarryd Dale (.591 AVG, 1.667 OPS, 27 PA) and Tyler Luther-Wilson (.519, 1.448, 34 PA) are priority threats. Ulrich Bojarski now qualifies at 19 PA with three HR and THREAT classification. Ryan Dale has four HR in only nine PA; treat as major power consideration but LIMITED sample.
+3. Zaid Elias Cummins Flynn remains STRONG per coach-selected assessment (17.1 IP, 25 SO, 3.12 ERA, 12.98 K/9) despite one difficult Newport appearance. Mitchell Kennedy had 4 ER in 4.0 IP vs Werribee. Confirm rest and current roles before guessing a starting pitcher.
+4. Nine-game pitching sample totals 93 SO in 70.0 IP (11.96 K/9), with 19 ER and 2.44 source ERA. The player-game pitcher R total of 28 conflicts with the official ladder RA 23; investigate the prior pitching rows rather than altering the official record.
+5. Malvern logged 13 SB in nine supplied games; advance defensive preparation for both qualified hitters and extraordinary small-sample HR threats. Verify recent lineup placement and the running game on new video before issuing individual shifts.
+6. Nine distinct Malvern player boxes are now supplied, and all 70 offensive runs reconcile. Outstanding work is to investigate a five-run pitching ledger discrepancy and a Matthew Johnston sacrifice-bunt/PA inconsistency. Sunshine still lacks three of nine individual games.
 
 HIGHER-LEVEL EXPERIENCE
 Jarryd Dale, Ryan Dale, Ulrich Bojarski (details + sources in PDF); Chris Burke and Tyler Luther-Wilson additional verified involvement.
 
 DATA QUALITY
-Eight of nine official Malvern player games imported; 0-4 loss to Newport added once, 8-3 win over Sunshine already in previous batch 7. Fifteen official runs are not represented without the one missing earlier box score; totals are incomplete.
+All nine game batting boxes are present and total 70 runs, matching official RF. Nine pitcher boxes total 28 R versus 23 official RA; five-run reconciliation pending. Nov 7 Matthew Johnston 4 PA/4 AB/1 SAC source conflict retained. Zaid Flynn STRONG (user approved).
