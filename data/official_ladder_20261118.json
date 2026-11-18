@@ -1,0 +1,102 @@
+{
+  "source": "User-provided official ladder screenshot November 18, 2026",
+  "scope": "Eight displayed clubs, not necessarily entire league",
+  "teams": [
+    {
+      "Team": "Waverley",
+      "Position": 1,
+      "P": 7,
+      "W": 7,
+      "L": 0,
+      "D": 0,
+      "For": 79,
+      "Against": 12,
+      "RD": 67,
+      "WinPercent": 100
+    },
+    {
+      "Team": "Malvern",
+      "Position": 2,
+      "P": 9,
+      "W": 8,
+      "L": 1,
+      "D": 0,
+      "For": 70,
+      "Against": 23,
+      "RD": 47,
+      "WinPercent": 88.89
+    },
+    {
+      "Team": "Geelong",
+      "Position": 3,
+      "P": 9,
+      "W": 8,
+      "L": 1,
+      "D": 0,
+      "For": 78,
+      "Against": 18,
+      "RD": 60,
+      "WinPercent": 88.89
+    },
+    {
+      "Team": "Moorabbin",
+      "Position": 4,
+      "P": 8,
+      "W": 6,
+      "L": 1,
+      "D": 1,
+      "For": 57,
+      "Against": 31,
+      "RD": 26,
+      "WinPercent": 81.25
+    },
+    {
+      "Team": "Sunshine",
+      "Position": 5,
+      "P": 9,
+      "W": 6,
+      "L": 3,
+      "D": 0,
+      "For": 65,
+      "Against": 30,
+      "RD": 35,
+      "WinPercent": 66.67
+    },
+    {
+      "Team": "Newport Premier 1 First Nine",
+      "Position": 6,
+      "P": 10,
+      "W": 6,
+      "L": 3,
+      "D": 1,
+      "For": 50,
+      "Against": 45,
+      "RD": 5,
+      "WinPercent": 65
+    },
+    {
+      "Team": "Essendon",
+      "Position": 7,
+      "P": 8,
+      "W": 4,
+      "L": 4,
+      "D": 0,
+      "For": 48,
+      "Against": 42,
+      "RD": 6,
+      "WinPercent": 50
+    },
+    {
+      "Team": "Melbourne",
+      "Position": 8,
+      "P": 10,
+      "W": 4,
+      "L": 5,
+      "D": 1,
+      "For": 53,
+      "Against": 63,
+      "RD": -10,
+      "WinPercent": 45
+    }
+  ]
+}
