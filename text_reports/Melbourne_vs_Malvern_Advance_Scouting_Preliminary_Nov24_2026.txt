@@ -11,7 +11,7 @@ Hudson Priamo |  | 36 | 33 | 9 | 13 | 11 | 2 | 0 | 0 | 1 | 3 | 0 | 9 | 2 | .394 
 Matthew Johnston |  | 33 | 30 | 5 | 12 | 11 | 1 | 0 | 0 | 3 | 1 | 0 | 4 | 1 | .400 | .419 | .433 | .853 | .033 | 3.0% | THREAT
 Mitchell Kennedy |  | 26 | 24 | 3 | 6 | 5 | 0 | 0 | 1 | 5 | 2 | 0 | 8 | 3 | .250 | .308 | .375 | .683 | .125 | 7.7% | THREAT
 Yoshihiro Kageta |  | 18 | 15 | 3 | 2 | 2 | 0 | 0 | 0 | 0 | 3 | 0 | 3 | 1 | .133 | .278 | .133 | .411 | .000 | 16.7% | ATTACK
-Ryan Dale | R | 9 | 8 | 6 | 7 | 0 | 3 | 0 | 4 | 7 | 0 | 1 | 0 | 0 | .875* | .889 | 2.750 | 3.639 | 1.875 | 0.0% | LIMITED
+Ryan Dale | R | 9 | 8 | 6 | 7 | 0 | 3 | 0 | 4 | 7 | 0 | 1 | 0 | 0 | .875* | .889 | 2.750 | 3.639 | 1.875 | 0.0% | THREAT
 Caleb Johnston |  | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 1.000* | 1.000 | 1.000 | 2.000 | .000 | 0.0% | LIMITED
 Ryan Picollo |  | 13 | 11 | 1 | 6 | 4 | 2 | 0 | 0 | 5 | 1 | 0 | 1 | 0 | .545* | .538 | .727 | 1.266 | .182 | 7.7% | LIMITED
 Brady Whalen |  | 8 | 8 | 0 | 4 | 4 | 0 | 0 | 0 | 1 | 0 | 0 | 2 | 0 | .500* | .500 | .500 | 1.000 | .000 | 0.0% | LIMITED
@@ -41,7 +41,7 @@ TEAM TOTAL |  | 70.0 | 55 | 28 | 19 | 38 | 8 | 93 | 2.44 | 1.33 | 11.96 | 4.89 |
 
 COACHING & LINEUP USAGE
 1. November 7 vs Werribee featured a seven-homer Malvern attack with 21 hits: Ryan Dale 3 HR/6 RBI, Jarryd Dale 1 HR/3 RBI, Ulrich Bojarski 2 HR/3 RBI and Jack Hanger 1 HR. The next supplied Nov 17 game was a five-single shutout loss to Newport; avoid overreacting to either one-game extreme.
-2. Jarryd Dale (.591 AVG, 1.667 OPS, 27 PA) and Tyler Luther-Wilson (.519, 1.448, 34 PA) are priority threats. Ulrich Bojarski now qualifies at 19 PA with three HR and THREAT classification. Ryan Dale has four HR in only nine PA; treat as major power consideration but LIMITED sample.
+2. Jarryd Dale (.591 AVG, 1.667 OPS, 27 PA) and Tyler Luther-Wilson (.519, 1.448, 34 PA) are priority threats. Ulrich Bojarski now qualifies at 19 PA with three HR and THREAT classification. Ryan Dale has four HR in only nine PA; treat as THREAT while noting his limited PA sample.
 3. Zaid Elias Cummins Flynn remains STRONG per coach-selected assessment (17.1 IP, 25 SO, 3.12 ERA, 12.98 K/9) despite one difficult Newport appearance. Mitchell Kennedy had 4 ER in 4.0 IP vs Werribee. Confirm rest and current roles before guessing a starting pitcher.
 4. Nine-game pitching sample totals 93 SO in 70.0 IP (11.96 K/9), with 19 ER and 2.44 source ERA. The player-game pitcher R total of 28 conflicts with the official ladder RA 23; investigate the prior pitching rows rather than altering the official record.
 5. Malvern logged 13 SB in nine supplied games; advance defensive preparation for both qualified hitters and extraordinary small-sample HR threats. Verify recent lineup placement and the running game on new video before issuing individual shifts.
