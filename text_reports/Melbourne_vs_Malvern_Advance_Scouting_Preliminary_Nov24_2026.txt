@@ -1,6 +1,6 @@
 MELBOURNE vs MALVERN | PRELIMINARY | 24 NOV 2026
-Ladder as supplied Nov 16: Malvern 1st 8-0-0 (70 RF/19 RA/+51); Melbourne 9th 4-5-0 (53 RF/63 RA/-10). REFRESH before sharing.
-Seven Malvern GameDay batches; eighth player-stat game not supplied; batting 55 R, pitching 19 R in seven supplied games.
+Ladder as supplied Nov 18: Malvern 2nd 8-1-0 (70 RF/23 RA/+47); Melbourne 8th 4-5-1 (53 RF/63 RA/-10). Reconfirm before sharing.
+Seven Malvern GameDay batches; two of nine official game player boxes missing; batting 55 R, pitching 19 R in seven supplied games.
 BATTING
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
 Tyler Luther-Wilson |  | 26 | 21 | 7 | 12 | 7 | 3 | 0 | 2 | 12 | 3 | 0 | 1 | 1 | .571 | .577 | 1.000 | 1.577 | .429 | 11.5% | THREAT
@@ -51,4 +51,4 @@ HIGHER-LEVEL EXPERIENCE
 Jarryd Dale, Ryan Dale, Ulrich Bojarski (details + sources in PDF); Chris Burke and Tyler Luther-Wilson additional verified involvement.
 
 DATA QUALITY
-One game missing among eight official. Update Malvern, Melbourne and Sunshine standings before publication to club.
+Two games lack Malvern player data among nine official. November 18 standings updated; recheck any new results before publication.
