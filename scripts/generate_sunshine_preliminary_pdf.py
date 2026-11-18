@@ -31,7 +31,7 @@ def table(columns,records,widths):
       ("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),
       ("FONTSIZE",(0,0),(-1,-1),7),
       ("GRID",(0,0),(-1,-1),.25,colors.HexColor("#d7e1e8")),
-      ("ROWBACKGROUNDS",(0,1),(-1,-2 if records[-1].get("Team Total") else -1,[colors.white,colors.HexColor("#edf3f7")]),
+      ("ROWBACKGROUNDS",(0,1),(-1,-2 if records[-1].get("Team Total") else -1),[colors.white,colors.HexColor("#edf3f7")]),
       ("VALIGN",(0,0),(-1,-1),"MIDDLE"),
       ("BOTTOMPADDING",(0,0),(-1,-1),4),
       ("TOPPADDING",(0,0),(-1,-1),4)]
