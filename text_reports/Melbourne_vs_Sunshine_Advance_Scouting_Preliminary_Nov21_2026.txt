@@ -1,6 +1,6 @@
 MELBOURNE vs SUNSHINE | PRELIMINARY | 21 NOV 2026
 Sunshine 5th: 6-3-0 65 RF 30 RA +35 (9 games) | Melbourne 8th: 4-5-1 53 RF 63 RA -10 (10 games)
-Six readable Sunshine game samples; one malformed batch excluded and two newer individual-game boxes missing.
+Six readable Sunshine game samples; three most recent individual boxes unavailable (Nov 17 8-2 Upwey and two preceding); one copied malformed batch excluded.
 
 BATTING
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
@@ -35,4 +35,4 @@ COACHING & LINEUP USAGE
 6. Manager Stuart Clayton described planned multi-pitcher usage early in the season. Prior to Nov 21, review Sunshine's latest lineup and pitching usage; avoid asserting a starting pitcher from an incomplete sample.
 
 DATA QUALITY
-As of Nov 18, official Sunshine 9 games; player stat sample six usable batches, one malformed excluded, newer player games missing. Qualification based on nine official games; historical rates provisional.
+Nov 17 Sunshine 8-2 Upwey result is already in official nine-game ladder (6-3-0, 65-30). Three recent individual-game boxes remain unavailable; six validated historical player batches are the complete supplied sample.
