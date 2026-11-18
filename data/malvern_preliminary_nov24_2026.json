@@ -76,6 +76,12 @@
         "player": "Zaid Elias Cummins Flynn",
         "read": "STRONG",
         "reason": "User-confirmed scouting classification Nov 18, 2026; do not automatically downgrade after one start."
+      },
+      {
+        "section": "batting",
+        "player": "Ulrich Bojarski",
+        "read": "THREAT",
+        "reason": "19 supplied PA now clears 18-PA threshold, 3 HR and OPS 1.526; previously LIMITED."
       }
     ],
     "needsStandingsRefreshBeforeSend": true,
@@ -383,7 +389,7 @@
       "OPS": "1.263",
       "ISO": ".526",
       "BB%": "0.0%",
-      "Scouting Read": "LIMITED",
+      "Scouting Read": "THREAT",
       "Team Total": false,
       "Source": "Nine Malvern game-batch lines recorded; official batting RF 70 reconciles, pitching source R 28 exceeds official RA 23 by five."
     },
