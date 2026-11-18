@@ -51,10 +51,10 @@ def table(columns,records,widths):
 
 heading("MELBOURNE vs SUNSHINE | ADVANCE SCOUTING")
 para("<b>Saturday 21 November 2026 | Melbourne HOME | Time / exact field unconfirmed | PRELIMINARY</b>")
-para("<b>Official ladder:</b> Sunshine 5th, 5-3-0, 57 RF, 28 RA, +29 RD (8 games); Melbourne 9th, 4-5-0, 53 RF, 63 RA, -10 RD (9 games). Sunshine's November 10 6-2 win against Essendon is already included in the ladder, but its individual box score is NOT available.")
-para("<b>Sample rules:</b> Seven copied batches received. Six are arithmetically usable; a separate batch has impossible/repeated batting columns and is excluded. One game (Nov 10) is unpublished. Six usable batches: 43 runs scored, 23 allowed, 46.0 identified pitching IP. Do not substitute those player totals for the eight-game official ladder. All unverified handedness left blank.")
+para("<b>Official ladder (Nov 18 screenshot):</b> Sunshine 5th, 6-3-0, 65 RF, 30 RA, +35 RD (9 games); Melbourne 8th, 4-5-1, 53 RF, 63 RA, -10 RD (10 games). Sunshine individual player data cover only six usable prior game batches; the newest games are not included.")
+para("<b>Sample rules:</b> Seven copied batches received, six reliable. One batch with impossible/repeated batting columns was excluded. November 10 Essendon individual stats and newer game lines remain unavailable. Six valid player batches: 43 runs scored, 23 allowed, 46.0 identified pitching IP. These do not represent full nine-game official totals. Unverified handedness remains blank.")
 heading("TEAM TENDENCIES & MATCHUP")
-para("Sunshine have scored 7.13 runs and allowed 3.50 per official game (+29 differential), versus Melbourne's 5.89 scored and 7.00 allowed (-10). The six valid player batches yield .307 AVG, .403 OBP (estimated), .438 SLG, .840 OPS and 2 HR. These are limited samples; the missing and corrupted games are excluded.")
+para("Sunshine have scored 7.22 runs and allowed 3.33 per official game (+35 differential), versus Melbourne 5.30 for and 6.30 against across ten (+/- -10). The six valid player batches yield .307 AVG, .403 OBP (estimated), .438 SLG, .840 OPS and 2 HR; those are partial-sample totals and not updated for missing games.")
 para("<b>Offensive approach:</b> Jamie Young is the best established two-way threat in the usable sample, with 12 H, 3 doubles, 1 HR and 9 RBI. Jordan Young, Darryl George and Hunter Jones have 8 H each; Jordan Young has 4 doubles, while Darryl George's hit rate is supported by 19 recorded PA. Adrian Fittock provides another recorded HR and multi-RBI games. Keep priority hitters from extending innings via free passes.")
 para("<b>Pitching outlook:</b> Jamie Young (27.1 IP, 4.61 ERA, 1.21 WHIP), Jeremy Young (13.0 IP, 2.08 ERA, 16.00 K/9) and Hunter Jones (5.2 IP, 6.35 ERA) are the identified contributors. Jeremy Young's zero recorded walks and 16 K in the usable sample stand out; against Jones, force him to throw competitive strikes. Exact Saturday availability is unverified.")
 heading("BATTING | SIX USABLE GAME BATCHES")
@@ -64,21 +64,21 @@ batteam=next(x for x in bat if x.get("Team Total"))
 batcols=["Player","Bats","PA","AB","R","H","1B","2B","3B","HR","RBI","BB","HBP","SO","SB","AVG","OBP","SLG","OPS","ISO","BB%","Scouting Read"]
 batrows=batplayers+[batteam]
 table(batcols,batrows,[105,25]+[25]*13+[35]*5+[38,72])
-para("* AVG qualification uses at least 16 PA (2 per 8 official team games). Only AVG and ERA get qualification asterisks. OBP/OPS and SB are based on readable source columns; partial season results, not official full-season totals. Batting classifications: THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray); Jordan Young and Hunter Jones are specifically rated STRONG (red) per the approved coaching override. Team total assessment: STRONG relative to the uploaded ladder sample.")
+para("* AVG qualification uses 18 PA (2 per 9 official team games). Only AVG and ERA get qualification asterisks; historical player OBP/OPS and SB rely on readable source columns. Batting classifications: THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray); Jordan Young and Hunter Jones STRONG (red) per coaching override. Team total STRONG reflects available sample.")
 heading("PITCHING | SIX USABLE GAME BATCHES")
 pit=source["pitching"]
 pitplayers=sorted([x for x in pit if not x.get("Team Total")],key=lambda x:-(int(x["IP"].split(".")[0])*3+int(x["IP"].split(".")[1])))
 pitteam=next(x for x in pit if x.get("Team Total"))
 pitcols=["Player","Throws","IP","H","R","ER","BB","HBP","SO","ERA","WHIP","K/9","BB/9","Scouting Read"]
 table(pitcols,pitplayers+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
-para("* ERA qualification uses at least 8 recorded outs (2.2 IP) for Sunshine's 8 official games. IP shown as innings.outs. Pitching classifications: STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). TEAM TOTAL Strong reflects the approved league-relative assessment, not a complete eight-game pitching ledger.")
+para("* ERA qualification uses 9 recorded outs (3.0 IP) for nine official team games. Only ERA receives a qualification asterisk; IP uses innings plus outs. Pitching classifications STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). Team total reflects six usable pitching batches, not the full season.")
 heading("COACHING & LINEUP USAGE")
 notes=[
 "1. Manage the middle order as a power/contact combination: Jamie Young's two-way contributions plus Adrian Fittock's HR and Jordan Young's doubles are demonstrated in the usable batches. Avoid unnecessary runners ahead of them.",
 "2. Darryl George is an experienced professional and WBC veteran; do not rely on VSBL box-score sample alone when planning pitch selection and defense.",
 "3. Prepare for Jeremy Young as a strike-throwing, swing-and-miss option (16 SO, 0 BB in 13.0 verified IP). Be ready to adjust for chase tendencies, count leverage and bullpen sequencing.",
 "4. When facing Hunter Jones, take a disciplined approach: 6 walks over 5.2 recorded IP. Use pitches-per-plate-appearance and timing to test whether command issues persist.",
-"5. Sunshine's staff allowed 28 runs through 8 official games (3.50/game). Melbourne had ten singles but only one run in the November 14 Waverley loss: prioritize advancing runners, productive contact and situational hitting.",
+"5. Sunshine has allowed 30 runs through nine official games (3.33/game). Melbourne generated four singles but no runs in the November 17 Moorabbin draw: prioritize baserunner advancement, productive contact and situational hitting.",
 "6. Manager Stuart Clayton described planned multi-pitcher usage early in the season. Prior to Nov 21, review Sunshine's latest lineup and pitching usage; avoid asserting a starting pitcher from an incomplete sample."
 ]
 for n in notes: para(n)
@@ -87,13 +87,13 @@ para("<b>Darryl George:</b> Long-time Melbourne Aces professional (ABL), former 
 para("<b>Jamie Young:</b> NCAA Division II Maryville, NJCAA Division I Lake Land, Melbourne Aces development roster and Australia junior representative; bats/throws R/R. Source: baseballjobsoverseas.com/players/jamie-young/ and Baseball-Reference.")
 para("<b>Jeremy Young:</b> Sunshine Baseball Club historical ABL representative listing includes him with Melbourne Aces; verify current active ABL status separately. <b>Hunter Jones & Amerson Dix:</b> named as 2026 Sunshine additions/imports by Brimbank Star Weekly; specific prior levels not established.")
 heading("DATA QUALITY & NEXT UPDATE")
-para("Sources: user-supplied Sunshine GameDay player lines and November 16 ladder screenshot; Baseball Victoria match reports; Sunshine Baseball Club archival records; Melbourne Aces team profile; player resume sources. Seven player batches supplied: six passed hit-decomposition checks, one had impossible repeated totals and was excluded entirely. The Nov 10 Sunshine 6-2 win over Essendon was already counted in the official team ladder but its player-stat lines are absent.")
+para("Sources: user-supplied Sunshine GameDay player lines and November 18 ladder screenshot; Baseball Victoria reporting, Sunshine club and Melbourne Aces player sources. Seven stat batches originally supplied, six arithmetically usable; no data invented for the excluded malformed game or newly missing individual box scores. Official Sunshine 6-3-0/65-30 and Melbourne 4-5-1/53-63 follow the newest ladder.")
 para("Corrections needed before final report: obtain the November 10 Essendon box score, re-send the malformed game batch with aligned 38-column headers, verify latest starting-pitcher usage and batting/throwing handedness. Until then, do NOT equate the six-batch player aggregates with the eight-game standings, nor infer missing data as zeros.")
 SimpleDocTemplate(str(pdf),pagesize=landscape(A4),leftMargin=24,rightMargin=24,topMargin=25,bottomMargin=24).build(story)
-lines=["MELBOURNE vs SUNSHINE | PRELIMINARY | 21 NOV 2026","Sunshine 5th: 5-3-0 57 RF 28 RA +29 (8 games) | Melbourne 9th: 4-5-0 53 RF 63 RA -10 (9 games)","Six readable Sunshine game samples; one malformed game excluded and Nov 10 Essendon player box missing.","","BATTING"," | ".join(batcols)]
+lines=["MELBOURNE vs SUNSHINE | PRELIMINARY | 21 NOV 2026","Sunshine 5th: 6-3-0 65 RF 30 RA +35 (9 games) | Melbourne 8th: 4-5-1 53 RF 63 RA -10 (10 games)","Six readable Sunshine game samples; one malformed batch excluded and two newer individual-game boxes missing.","","BATTING"," | ".join(batcols)]
 for r in batrows: lines.append(" | ".join(str(r.get(k,"") or "") for k in batcols))
 lines+=["","PITCHING"," | ".join(pitcols)]
 for r in pitplayers+[pitteam]: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
-lines+=["","COACHING & LINEUP USAGE"]+notes+["","DATA QUALITY","Nov 10 Essendon player stats missing; excluded one game batch with invalid multi-hit decomposition. All cumulative rates provisional."]
+lines+=["","COACHING & LINEUP USAGE"]+notes+["","DATA QUALITY","As of Nov 18, official Sunshine 9 games; player stat sample six usable batches, one malformed excluded, newer player games missing. Qualification based on nine official games; historical rates provisional."]
 txt.write_text("\n".join(lines)+"\n",encoding="utf-8")
 print("Generated",pdf,"and",txt)

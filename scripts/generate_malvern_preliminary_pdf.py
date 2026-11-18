@@ -51,10 +51,10 @@ def table(columns,records,widths):
 
 heading("MELBOURNE vs MALVERN | ADVANCE SCOUTING")
 para("<b>Tuesday 24 November 2026 | Away at Malvern Braves | Start time unconfirmed | PRELIMINARY</b>")
-para("<b>Official ladder (Nov 16 snapshot):</b> Malvern 1st, 8-0-0, 70 RF, 19 RA, +51 RD (8 games); Melbourne 9th, 4-5-0, 53 RF, 63 RA, -10 RD (9 games). Malvern, Melbourne and Sunshine standings MUST be refreshed before this and the Sunshine report are sent to Melbourne.")
-para("<b>Data scope:</b> Seven supplied GameDay player batches, while the official ladder lists eight Malvern games. Those seven batches account for 55 runs scored, 19 allowed and 58.0 recorded pitching innings; the eighth player-level game is not supplied. Neither its score nor individual performance has been inferred. Confirm the latest Saturday results before distributing.")
+para("<b>Official ladder (Nov 18 screenshot):</b> Malvern 2nd, 8-1-0, 70 RF, 23 RA, +47 RD (9 games); Melbourne 8th, 4-5-1, 53 RF, 63 RA, -10 RD (10 games). Records are verified against the supplied screenshot; reconfirm any further games before sending.")
+para("<b>Data scope:</b> Seven supplied Malvern player batches, nine official games. The seven batches contain 55 runs scored, 19 allowed and 58.0 identified pitching IP; individual statistics for two additional games are unavailable. No missing performance or batting order was inferred. The new official ladder supersedes the prior 8-0-0 snapshot.")
 heading("TEAM TENDENCIES & MATCHUP")
-para("Malvern: 8.75 runs scored and 2.38 runs allowed per official game. Melbourne: 5.89 for and 7.00 against over nine. Malvern lead the ladder at +51; Melbourne stand at -10. The seven-batch Malvern attack has 82 hits, seven HR, .371 AVG, .424 OBP (estimated) and .962 OPS, but cannot be treated as a complete eight-game hitting line.")
+para("Malvern: 7.78 runs scored and 2.56 allowed per official game. Melbourne: 5.30 scored and 6.30 against over ten. Malvern are now second at +47; Melbourne eighth at -10. Malvern seven-batch batting sample has 82 H, 7 HR, .371 AVG, .424 estimated OBP and .962 OPS; these do not cover all nine official games.")
 para("<b>Offensive read:</b> Tyler Luther-Wilson has hit .571 with two homers and 1.577 OPS in 26 supplied PA; Jarryd Dale is .588 with 1 HR and 1.564 OPS over 22 PA. Hudson Priamo has 11 hits in 26 AB with a .983 OPS. Ulrich Bojarski has 1 HR and a 1.000 OPS but only 14 recorded PA (LIMITED under eight-game qualification). Focus on the demonstrated power threats, especially with runners aboard.")
 para("<b>Pitching read:</b> Malvern have 11 recorded ER in 58.0 supplied innings (1.71 sample ERA). Matthew Beattie 10.0 IP/0 ER; Zaid Elias Cummins Flynn 14.0 IP/2 ER; James Squire 11.2 IP/3 ER, while Mitchell Kennedy has 17.0 IP/5 ER. Missing game exposure prevents a full rotation or rest assessment. For any projected starter, confirm 21-22 November usage first.")
 heading("BATTING | SEVEN SUPPLIED GAME BATCHES")
@@ -64,14 +64,14 @@ batteam=next(x for x in bat if x.get("Team Total"))
 batcols=["Player","Bats","PA","AB","R","H","1B","2B","3B","HR","RBI","BB","HBP","SO","SB","AVG","OBP","SLG","OPS","ISO","BB%","Scouting Read"]
 batrows=batplayers+[batteam]
 table(batcols,batrows,[105,25]+[25]*13+[35]*5+[38,72])
-para("* Batting AVG qualification: at least 16 PA (2 PA per 8 official team games); only AVG receives a batting qualification asterisk. OBP=(H+BB+HBP)/(AB+BB+HBP+SF), ISO=SLG-AVG. Batting SCOUTING READ: THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). Unverified handedness blank. TEAM TOTAL Very Strong is a league-relative assessment; its counting stats cover only seven provided games.")
+para("* Batting AVG qualification: 18 PA (2 per 9 official team games), with * only beside AVG. OBP=(H+BB+HBP)/(AB+BB+HBP+SF) on available player rows, ISO=SLG-AVG. Scouting classifications THREAT red, CAUTION yellow, ATTACK green, LIMITED gray. Unverified handedness blank. Team total seven supplied batches only.")
 heading("PITCHING | IDENTIFIED APPEARANCES")
 pit=source["pitching"]
 pitplayers=sorted([x for x in pit if not x.get("Team Total")],key=lambda x:-(int(x["IP"].split(".")[0])*3+int(x["IP"].split(".")[1])))
 pitteam=next(x for x in pit if x.get("Team Total"))
 pitcols=["Player","Throws","IP","H","R","ER","BB","HBP","SO","ERA","WHIP","K/9","BB/9","Scouting Read"]
 table(pitcols,pitplayers+[pitteam],[125,35,35]+[35]*6+[42]*4+[85])
-para("* ERA qualification: 8 recorded outs (2.2 IP), one out per 8 official team games. Baseball notation IP .1 is one out; IP .2 is two outs. Only ERA receives a pitching asterisk. Pitching SCOUTING READ: STRONG (red), CAUTION (yellow), ATTACK (green), LIMITED (gray). Unknown handedness blank; team ERA covers only 58.0 identified innings, not a full eight-game season.")
+para("* ERA qualification: 9 outs (3.0 IP), one out per 9 official team games, with * only on ERA. IP shows innings and outs. Scouting read: STRONG red, CAUTION yellow, ATTACK green, LIMITED gray. Unknown handedness blank; recorded team ERA covers seven pitching batches (58.0 IP), not all nine games.")
 heading("COACHING & LINEUP USAGE")
 notes=[
 "1. Malvern's recently supplied lineup has repeatedly involved Hudson Priamo, Jack Hanger, Jarryd Dale, Matthew Johnston and Tyler Luther-Wilson. Do not treat a single order as definitive: confirm the most recent lineup after the weekend game.",
@@ -88,16 +88,16 @@ para("<b>Ryan Dale (R/R):</b> Nine ABL seasons with Melbourne Aces as of 2020-21
 para("<b>Ulrich Bojarski (R/R):</b> Detroit Tigers system through Double-A Erie; longstanding ABL hitter and Australian WBC/Premier12 representative. Sources: Baseball Australia 2026 WBC media notes and theABL player profile.")
 para("<b>Chris Burke:</b> Named on the Melbourne Aces 2022 ABL roster, with Malvern local affiliation in earlier Aces media notes. <b>Tyler Luther-Wilson:</b> Experienced Geelong VSBL Division 1 catcher with U.S. high school baseball; ABL/MiLB level not confirmed. <b>Brady Whalen:</b> Name matches a minor-league profile, but Malvern identity is unverified; no professional affiliation asserted.")
 heading("DATA QUALITY & NEXT UPDATE")
-para("Official ladder supplied November 16: Malvern 8-0-0 (70 RF, 19 RA), Melbourne 4-5-0 (53 RF, 63 RA). Seven GameDay stat batches recorded and validated; their batting R sum is 55 while pitching R sum is 19. The missing eighth game is not reconstructed from the 15-run difference. Player game G counts reflect supplied batches; unknown hands are blank. Source headers contain two SB columns: first is sacrifice bunts, second is steals, and were kept distinct.")
-para("Before sharing with Melbourne: update Malvern, Melbourne and Sunshine standings; obtain the eighth Malvern player-stat batch, if available; verify current lineup, pitcher usage, any newly published player hand information; and then regenerate cumulative tables, qualification marks and scouting categories.")
+para("Official ladder supplied November 18: Malvern 8-1-0 (70 RF, 23 RA), Melbourne 4-5-1 (53 RF, 63 RA). Seven earlier player-stat batches remain unchanged, with batting R=55 and pitching R=19. The two missing player boxes are not reconstructed from ladder run totals. G appearances reflect supplied batches, and two SB source columns separate sacrifice bunts from steals.")
+para("Before sharing with Melbourne: recheck any newly played games, obtain Malvern missing individual-game boxes, confirm recent lineups, pitcher availability and verified handedness, and then re-evaluate sample qualifications and scouting reads without inventing missing performance.")
 SimpleDocTemplate(str(pdf),pagesize=landscape(A4),leftMargin=24,rightMargin=24,topMargin=25,bottomMargin=24).build(story)
 lines=["MELBOURNE vs MALVERN | PRELIMINARY | 24 NOV 2026",
-       "Ladder as supplied Nov 16: Malvern 1st 8-0-0 (70 RF/19 RA/+51); Melbourne 9th 4-5-0 (53 RF/63 RA/-10). REFRESH before sharing.",
-       "Seven Malvern GameDay batches; eighth player-stat game not supplied; batting 55 R, pitching 19 R in seven supplied games.",
+       "Ladder as supplied Nov 18: Malvern 2nd 8-1-0 (70 RF/23 RA/+47); Melbourne 8th 4-5-1 (53 RF/63 RA/-10). Reconfirm before sharing.",
+       "Seven Malvern GameDay batches; two of nine official game player boxes missing; batting 55 R, pitching 19 R in seven supplied games.",
        "BATTING"," | ".join(batcols)]
 for r in batrows: lines.append(" | ".join(str(r.get(k,"") or "") for k in batcols))
 lines+=["","PITCHING"," | ".join(pitcols)]
 for r in pitplayers+[pitteam]: lines.append(" | ".join(str(r.get(k,"") or "") for k in pitcols))
-lines+=["","COACHING & LINEUP USAGE"]+notes+["","HIGHER-LEVEL EXPERIENCE","Jarryd Dale, Ryan Dale, Ulrich Bojarski (details + sources in PDF); Chris Burke and Tyler Luther-Wilson additional verified involvement.","","DATA QUALITY","One game missing among eight official. Update Malvern, Melbourne and Sunshine standings before publication to club."]
+lines+=["","COACHING & LINEUP USAGE"]+notes+["","HIGHER-LEVEL EXPERIENCE","Jarryd Dale, Ryan Dale, Ulrich Bojarski (details + sources in PDF); Chris Burke and Tyler Luther-Wilson additional verified involvement.","","DATA QUALITY","Two games lack Malvern player data among nine official. November 18 standings updated; recheck any new results before publication."]
 txt.write_text("\n".join(lines)+"\n",encoding="utf-8")
 print("Generated",pdf,"and",txt)
