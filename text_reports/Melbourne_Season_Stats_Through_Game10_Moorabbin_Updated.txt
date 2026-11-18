@@ -1,0 +1,42 @@
+MELBOURNE BASEBALL CLUB | TEN-GAME PLAYER & TEAM STATS
+8th | 4-5-1 | RF 53 | RA 63 | RD -10 | Moorabbin D 0-0 (Nov 17)
+
+BATTING
+Player | Bats | PA | AB | H | 2B | 3B | HR | BB | SO | AVG | OBP | SLG | OPS | ISO | BB% | SB
+Joshua Hendricks | R | 30 | 24 | 9 | 2 | 0 | 4 | 4 | 3 | .375 | .464 | .958 | 1.423 | .583 | 13.3% | ·
+Joey White | R | 3 | 3 | 1 | 0 | 0 | 0 | 0 | 1 | .333* | .333 | .333 | .667 | .000 | 0.0% | ·
+Lennard Pietersz |  | 17 | 16 | 4 | 1 | 0 | 0 | 1 | 4 | .250* | .294 | .313 | .607 | .063 | 5.9% | ·
+William Kent |  | 32 | 28 | 7 | 1 | 1 | 0 | 3 | 8 | .250 | .323 | .357 | .680 | .107 | 9.4% | ·
+Blake Mitchell |  | 42 | 33 | 8 | 3 | 1 | 0 | 8 | 4 | .242 | .390 | .394 | .784 | .152 | 19.0% | 6
+Oscar Hargreaves |  | 34 | 28 | 9 | 1 | 0 | 0 | 6 | 6 | .321 | .441 | .357 | .798 | .036 | 17.6% | ·
+Lochlann O'Connor |  | 37 | 34 | 7 | 2 | 0 | 0 | 3 | 10 | .206 | .270 | .265 | .535 | .059 | 8.1% | ·
+Lachlan Brennan |  | 22 | 20 | 4 | 2 | 0 | 0 | 2 | 7 | .200 | .273 | .300 | .573 | .100 | 9.1% | ·
+Wade Mcconnon |  | 37 | 30 | 8 | 1 | 0 | 0 | 4 | 6 | .267 | .353 | .300 | .653 | .033 | 10.8% | ·
+Ben Aslett | L | 24 | 16 | 3 | 0 | 0 | 0 | 3 | 2 | .188 | .316 | .188 | .503 | .000 | 12.5% | ·
+Harvey Chinn |  | 35 | 32 | 5 | 0 | 0 | 0 | 3 | 11 | .156 | .229 | .156 | .385 | .000 | 8.6% | 1
+Zak Skinner |  | 14 | 9 | 1 | 0 | 0 | 0 | 4 | 2 | .111* | .385 | .111 | .496 | .000 | 28.6% | 1+
+Angus Saggers |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+Taylor Perrett | R | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+TEAM TOTAL |  | 330 | 275 | 66 | 13 | 2 | 4 | 41 | 65 | .240 | .339 | .345 | .684 | .105 | 12.4% | 8
+
+PITCHING
+Player | IP | H | BB | SO | ER | ERA | WHIP | K/9 | BB/9 | K/BB
+Simon Fitzmaurice | 3.0 | 5 | 0 | 2 | 4 | 12.00 | 1.67 | 6.00 | 0.00 | 
+Angus Saggers | 7.2 | 9 | 1 | 2 | 3 | 3.52 | 1.30 | 2.35 | 1.17 | 2.00
+Taylor Perrett | 25.1 | 32 | 5 | 33 | 14 | 4.97 | 1.46 | 11.72 | 1.78 | 6.60
+Joey White | 20.1 | 30 | 15 | 23 | 19 | 8.41 | 2.21 | 10.18 | 6.64 | 1.53
+Max Saggers | 5.1 | 10 | 2 | 5 | 6 | 10.13 | 2.25 | 8.44 | 3.38 | 2.50
+Charles Chislett | 6.2 | 8 | 10 | 2 | 9 | 12.15 | 2.70 | 2.70 | 13.50 | 0.20
+Christian Caminiti | 1.1 | 4 | 1 | 0 | 3 | 20.25* | 3.75 | 0.00 | 6.75 | 0.00
+Henry Mcintyre | 0.2 | 2 | 2 | 0 | 2 | 27.00* | 6.00 | 0.00 | 27.00 | 0.00
+TEAM TOTAL | 70.1 | 100 | 36 | 67 | 60 | 7.68 | 1.93 | 8.57 | 4.61 | 1.86
+
+NOTES
+November 17 0–0 draw vs Moorabbin: four singles and two walks, five offensive strikeouts, no runs. Wade Mcconnon collected two singles; Harvey Chinn and Oscar Hargreaves had one apiece.
+Zak Skinner drew a walk and recorded one stolen base. A listed sacrifice bunt conflicts with 2 PA, 1 AB and 1 BB; verify before inferring bunting tactics.
+Taylor Perrett: 5.0 IP, 6 H, 7 SO, 0 BB, 0 ER; Joey White: 1.0 IP, 1 H, 2 SO, 0 BB, 0 ER. Their combined 6.0 IP, 9 SO and no walks offer a positive command indicator, without inferring an additional inning.
+Joshua Hendricks remains the leading documented power bat with four homers; Blake Mitchell (8 BB, 6 verified SB) and Oscar Hargreaves (9 H, 6 BB) offer on-base contributions, subject to current lineup and defense.
+Sunshine official ladder: 5th, 6-3-0, +35. Malvern: 2nd, 8-1-0, +47. The existing opponent player samples exclude their latest unavailable individual box scores.
+Qualification: AVG 20 PA, ERA 3.1 IP. Historical OBP/OPS estimates and provisional Game 8 Perrett pitching values remain labeled.
+
+Game 10 Moorabbin data verified against supplied GameDay rows; sacrifice bunt/PA discrepancy flagged; Game 8 provisional; OBP/OPS estimated.
