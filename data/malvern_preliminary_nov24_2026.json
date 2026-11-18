@@ -80,6 +80,12 @@
         "player": "Ulrich Bojarski",
         "read": "THREAT",
         "reason": "19 supplied PA now clears 18-PA threshold, 3 HR and OPS 1.526; previously LIMITED."
+      },
+      {
+        "section": "batting",
+        "player": "Ryan Dale",
+        "read": "THREAT",
+        "reason": "User-approved exception for 3 2B, 4 HR, 7 RBI in 9 PA; retain * on AVG and original small-sample row grouping."
       }
     ],
     "needsStandingsRefreshBeforeSend": true,
@@ -585,7 +591,7 @@
       "OPS": "3.639",
       "ISO": "1.875",
       "BB%": "0.0%",
-      "Scouting Read": "LIMITED",
+      "Scouting Read": "THREAT",
       "Team Total": false,
       "Source": "Nine Malvern game-batch lines recorded; official batting RF 70 reconciles, pitching source R 28 exceeds official RA 23 by five."
     },

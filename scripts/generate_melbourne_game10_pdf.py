@@ -28,15 +28,29 @@ def addtable(rows,cols,widths):
     t=Table(data,colWidths=widths,repeatRows=1,hAlign='LEFT')
     t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#15384e')),('TEXTCOLOR',(0,0),(-1,0),colors.white),('FONTNAME',(0,0),(-1,0),'Helvetica-Bold'),('FONTNAME',(0,-1),(-1,-1),'Helvetica-Bold'),('BACKGROUND',(0,-1),(-1,-1),colors.HexColor('#dcebed')),('ROWBACKGROUNDS',(0,1),(-1,-2),[colors.white,colors.HexColor('#f2f6f8')]),('FONTSIZE',(0,0),(-1,-1),7.3),('BOTTOMPADDING',(0,0),(-1,-1),5),('TOPPADDING',(0,0),(-1,-1),5),('LINEBELOW',(0,0),(-1,0),0.5,colors.HexColor('#95aebc'))]))
     story.append(t)
-addtable(d['melbourne']['batting'],batcols,[112,29]+[35]*8+[38]*7)
+# Preserve the team total at the bottom, and order Melbourne hitters by numeric OPS, highest first.
+def rate(row, metric):
+    value=str(row.get(metric,'')).replace('*','').strip()
+    try:
+        return float(value)
+    except ValueError:
+        return float('inf') if metric=='ERA' else float('-inf')
+batrows=sorted((r for r in d['melbourne']['batting'] if not r.get('Team Total')),
+               key=lambda r:(-rate(r,'OPS'),str(r.get('Player','')).casefold()))
+batrows += [r for r in d['melbourne']['batting'] if r.get('Team Total')]
+addtable(batrows,batcols,[112,29]+[35]*8+[38]*7)
 story.append(Spacer(1,9))
-story.append(Paragraph('* AVG qualifies at 20 PA (2 per 10 games): only AVG has the asterisk. OBP/OPS are estimates because historic HBP, SF and CI are incomplete. Unverified handedness and stolen bases blank; Zak Skinner 1+ indicates at least one recorded stolen base. RBI omitted by design.',styles['SmallNote']))
+story.append(Paragraph('* AVG qualifies at 20 PA (2 per 10 games): only AVG has the asterisk. OBP/OPS are estimates because historic HBP, SF and CI are incomplete. Unverified handedness and stolen bases blank; Zak Skinner has one recorded stolen base. RBI omitted by design.',styles['SmallNote']))
 story.append(Paragraph('November 17 game 10 adds four singles, two walks, five offensive strikeouts and one recorded stolen base. Zak Skinner sacrifice bunt conflicts with his supplied PA/AB/BB counts; source unchanged pending verification. Game 8 Perrett pitching provisional.',styles['SmallNote']))
 story.append(PageBreak())
 story.append(Paragraph('MELBOURNE BASEBALL CLUB | PITCHING & COACHING',styles['ReportTitle']))
 story.append(Paragraph('PITCHING | TEN-GAME CUMULATIVE | Innings displayed as full innings plus outs',styles['Sect']))
 pitcols=['Player','IP','H','BB','SO','ER','ERA','WHIP','K/9','BB/9','K/BB']
-addtable(d['melbourne']['pitching'],pitcols,[155]+[60]*10)
+# ERA low-to-high; ignore asterisk for comparison; team total stays last.
+pitrows=sorted((r for r in d['melbourne']['pitching'] if not r.get('Team Total')),
+               key=lambda r:(rate(r,'ERA'),str(r.get('Player','')).casefold()))
+pitrows += [r for r in d['melbourne']['pitching'] if r.get('Team Total')]
+addtable(pitrows,pitcols,[155]+[60]*10)
 story.append(Spacer(1,10))
 story.append(Paragraph('* ERA qualifies at 10 outs (3.1 IP), one out per ten team games. Only ERA carries *. New pitchers total 6.0 scoreless IP, 7 H, 9 SO and 0 BB. Earlier Sandringham Game 8 Perrett inputs remain provisional.',styles['SmallNote']))
 story.append(Paragraph('LINEUP & COACHING USAGE',styles['Sect']))
@@ -53,9 +67,9 @@ story.append(Paragraph('SOURCE & LIMITATIONS',styles['Sect']))
 story.append(Paragraph('Official ten-game ladder and November 17 Moorabbin player rows supplied by user. Original nine-game archive remains frozen. Historical OBP/OPS estimated, sacrifice bunt PA conflict flagged, older Game 8 pitcher input provisional. Not official VSBL certification.',styles['SmallNote']))
 doc.build(story)
 lines=['MELBOURNE BASEBALL CLUB | TEN-GAME PLAYER & TEAM STATS','8th | 4-5-1 | RF 53 | RA 63 | RD -10 | Moorabbin D 0-0 (Nov 17)','','BATTING',' | '.join(batcols)]
-for r in d['melbourne']['batting']:lines.append(' | '.join(str(r.get(k,'') or '') for k in batcols))
+for r in batrows:lines.append(' | '.join(str(r.get(k,'') or '') for k in batcols))
 lines+=['','PITCHING',' | '.join(pitcols)]
-for r in d['melbourne']['pitching']:lines.append(' | '.join(str(r.get(k,'') or '') for k in pitcols))
+for r in pitrows:lines.append(' | '.join(str(r.get(k,'') or '') for k in pitcols))
 lines+=['','NOTES']+notes+['','Game 10 Moorabbin data verified against supplied GameDay rows; sacrifice bunt/PA discrepancy flagged; Game 8 provisional; OBP/OPS estimated.']
 with open(txt,'w',encoding='utf-8') as f:f.write('\n'.join(lines)+'\n')
 print(out)
