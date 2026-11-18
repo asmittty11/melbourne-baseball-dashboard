@@ -50,7 +50,7 @@ def table(columns,records,widths):
 
 
 heading("MELBOURNE vs MALVERN | ADVANCE SCOUTING")
-para("<b>Tuesday 24 November 2026 | Away at Malvern Braves | Start time unconfirmed | PRELIMINARY</b>")
+para("<b>Tuesday 24 November 2026 | Away at Malvern Braves | PRELIMINARY</b>")
 para("<b>Official ladder (Nov 18 screenshot):</b> Malvern 2nd, 8-1-0, 70 RF, 23 RA, +47 RD (9 games); Melbourne 8th, 4-5-1, 53 RF, 63 RA, -10 RD (10 games). Records are verified against the supplied screenshot; reconfirm any further games before sending.")
 para("<b>Data scope:</b> NINE GameDay player boxes for Malvern’s NINE official games. New November 7 Werribee 15–5 win contributes 21 H, seven HR and 15 R; independently corroborated in Baseball Victoria’s VSBL Week 6 Wrap Up. Earlier Sunshine 8–3 is already batch 7 and Newport 0–4 remains batch 8; Werribee is batch 9 with no double-count. The nine supplied batting boxes now total 70 runs, agreeing with official RF 70. Pitcher run fields total 28, exceeding official RA 23 by five; preserve the discrepancy for review rather than changing original game stats.")
 heading("TEAM TENDENCIES & MATCHUP")
