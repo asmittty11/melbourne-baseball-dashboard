@@ -17,7 +17,7 @@ const exportButton=document.createElement('button');exportButton.textContent='Ex
 function render(){let matched=rows.filter(r=>(state.team==='All teams'||r.Team===state.team)&&Object.values(r).some(v=>String(v).toLowerCase().includes(state.search)));let people=matched.filter(r=>!r['Team Total']);let totals=matched.filter(r=>r['Team Total']);people.sort((a,b)=>{if(state.limited&&columns.includes('Scouting Read')){const d=Number(className(a['Scouting Read'])==='limited')-Number(className(b['Scouting Read'])==='limited');if(d)return d}let x=a[state.sort],y=b[state.sort],xn=state.sort==='IP'?ip(x):num(x),yn=state.sort==='IP'?ip(y):num(y);let cmp=xn!==null&&yn!==null?xn-yn:String(x??'').localeCompare(String(y??''));return (state.desc?-1:1)*cmp||String(a.Player).localeCompare(String(b.Player))});visible=people;function draw(data,keys,location){let out='<table><thead><tr>'+keys.map(k=>'<th data-col="'+esc(k)+'" title="Sort by '+esc(k)+'">'+esc(k)+(state.sort===k?' '+(state.desc?'↓':'↑'):'')+'</th>').join('')+'</tr></thead><tbody>'+data.map(r=>'<tr class="'+(r['Team Total']?'total':'')+'">'+keys.map(k=>'<td>'+(k==='Scouting Read'&&r[k]&&!r['Team Total']?'<span class="tag '+className(r[k])+'">'+esc(r[k])+'</span>':esc(r[k]??''))+'</td>').join('')+'</tr>').join('')+'</tbody></table>';$(location).innerHTML=data.length?out:'<div class="empty">No matching records</div>';$(location).querySelectorAll('th').forEach(th=>th.addEventListener('click',()=>{let k=th.dataset.col;if(state.sort===k)state.desc=!state.desc;else{state.sort=k;state.desc=!ascendingByDefault(k);sort.value=k}dir.textContent=state.desc?'Descending ↓':'Ascending ↑';render()}))}
 draw(people,columns,target);if(totalsTarget){const unique=totals.filter(r=>state.team==='All teams'||r.Team===state.team);$(totalsTarget).innerHTML=unique.length?'<h3>'+esc(totalsHeading)+'</h3>':'';if(unique.length){let t=document.createElement('div');t.className='scroll';$(totalsTarget).append(t);let id='#'+totalsTarget.slice(1)+'Grid';t.id=id.slice(1);draw(unique,columns,id)}}if(countTarget)$(countTarget).textContent=people.length+' player rows across '+new Set(people.map(x=>x.Team)).size+' team(s)';}
 render()}
-fetch('data/league_stats.json?v=20261124-werribee-manuel-jackson-threat').then(r=>{if(!r.ok)throw Error('Unable to load league_stats.json');return r.json()}).then(d=>{
+fetch('data/league_stats.json?v=20261124-werribee-very-weak-oppbat-10pa').then(r=>{if(!r.ok)throw Error('Unable to load league_stats.json');return r.json()}).then(d=>{
 if(d.metadata){const m=d.metadata;const uploadedGames=Number(m.melbournePlayerGames??m.melbourneGames);if(Number.isInteger(uploadedGames)&&uploadedGames>0)$('#melbourneUploadedGames').textContent=uploadedGames+'-game';$('#melbRecord').textContent=m.melbourneRecord||'3–4–0';$('#melbRuns').textContent=(m.melbourneRF??47)+' / '+(m.melbourneRA??56);$('#melbPos').textContent=m.melbournePosition||'10th';$('#melbRD').textContent=Number(m.melbourneRD??-9).toLocaleString('en-US',{signDisplay:'always'}).replace('-','−');}
 
 if(Array.isArray(d.metadata?.officialLadder) && d.metadata.officialLadder.length){
@@ -39,7 +39,23 @@ for(const p of d.melbourne.batting){
 }
 const unknownStat=v=>v==null||['','.','·','—','-'].includes(String(v).trim());
 makeGrid({target:'#melbBat',controls:'#melbBatControls',rows:d.melbourne.batting.map(p=>({...p,SB:unknownStat(p.SB)?'':p.SB})),columns:melbBatCols,totalsTarget:'#melbBatTotal',teamFilter:false,defaultSort:'AVG'});makeGrid({target:'#melbPit',controls:'#melbPitControls',rows:d.melbourne.pitching.map(p=>({...p,'K/BB':unknownStat(p['K/BB'])?'':p['K/BB']})),columns:melbPitCols,totalsTarget:'#melbPitTotal',teamFilter:false,defaultSort:'ERA'});
-makeGrid({target:'#oppBat',controls:'#oppBatControls',rows:d.opponents.batting,columns:oppBatCols,totalsTarget:'#oppBatTotals',countTarget:'#oppBatCount',defaultSort:'AVG'});makeGrid({target:'#oppPit',controls:'#oppPitControls',rows:d.opponents.pitching,columns:oppPitCols,totalsTarget:'#oppPitTotals',countTarget:'#oppPitCount',defaultSort:'ERA'});
+// Opponent Batting page only: 10 PA qualifies (10 included); other pages retain stored/report scouting classifications.
+const opponentBattingTenPaRows=d.opponents.batting.map(r=>{
+  if(r['Team Total'])return r;
+  const rawPA=r.PA;
+  if(rawPA===undefined||rawPA===null||String(rawPA).trim()==='')return r; // Never assume missing PA is zero.
+  const pa=Number(rawPA);
+  if(!Number.isFinite(pa))return r;
+  let avg=String(r.AVG??'');
+  if(pa>=10&&avg.endsWith('*'))avg=avg.slice(0,-1);
+  else if(pa<10&&avg&&!avg.endsWith('*')&&/^(?:\d*\\.)?\d+$/.test(avg))avg+='*';
+  if(pa<10)return {...r,AVG:avg,'Scouting Read':'LIMITED'};
+  if(String(r['Scouting Read']??'').trim().toUpperCase()!=='LIMITED')return {...r,AVG:avg};
+  const ops=Number(String(r.OPS??'').replace('*',''));
+  const reassessed=String(r.OPS??'').trim()!==''&&Number.isFinite(ops)?(ops>=0.90?'THREAT':ops>=0.68?'CAUTION':'ATTACK'):'LIMITED';
+  return {...r,AVG:avg,'Scouting Read':reassessed};
+});
+makeGrid({target:'#oppBat',controls:'#oppBatControls',rows:opponentBattingTenPaRows,columns:oppBatCols,totalsTarget:'#oppBatTotals',countTarget:'#oppBatCount',defaultSort:'AVG'});makeGrid({target:'#oppPit',controls:'#oppPitControls',rows:d.opponents.pitching,columns:oppPitCols,totalsTarget:'#oppPitTotals',countTarget:'#oppPitCount',defaultSort:'ERA'});
 const leagueCompareBatRows=[...d.melbourne.batting,...d.opponents.batting].map(p=>{
   if(p['Team Total'])return p;
   if(p.Team==='Melbourne'&&unknownStat(p.SB))return {...p,SB:''};
