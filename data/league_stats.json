@@ -453,7 +453,8 @@
       "sourcePath": "data/werribee_preliminary_nov28_2026.json",
       "lastCompiled": "2026-11-24",
       "status": "PRELIMINARY",
-      "pending": "Nov 24 vs Doncaster result/player box and two+ unsupplied player games; review outlier 16 ER/14 R line before finalizing"
+      "pending": "Nov 24 vs Doncaster result/player box and two+ unsupplied player games; review outlier 16 ER/14 R line before finalizing",
+      "scoutingOverride": "Manuel Jackson BATTING THREAT despite 17 PA; retain AVG asterisk and small sample caveat."
     }
   },
   "melbourne": {
@@ -4488,9 +4489,10 @@
         "OPS": "2.037",
         "ISO": ".636",
         "BB%": "29.4%",
-        "Scouting Read": "LIMITED",
+        "Scouting Read": "THREAT",
         "Team Total": false,
-        "Source": "Eight supplied game batches; ten official games; incomplete player coverage"
+        "Source": "Eight supplied game batches; ten official games; incomplete player coverage",
+        "ScoutingOverride": "Coaching-approved exception: red THREAT based on exceptionally strong batting and higher-level experience. Below 20 PA threshold; AVG remains starred."
       },
       {
         "Team": "Werribee",
