@@ -1,7 +1,8 @@
 """Shared advance-scouting presentation sorting rules.
 
-For opponent batting, sort every player by numeric OPS descending regardless
-of scouting classification or AVG qualification; keep TEAM TOTAL last.
+For opponent batting, put qualified (non-LIMITED) players first by OPS
+descending, followed by LIMITED players separately by OPS descending.
+Keep TEAM TOTAL last; never include it in player sorting.
 For opponent pitching, group by recorded innings qualification, qualified first
 and non-qualified next; sort each group by numeric ERA ascending.
 Report generators keep TEAM TOTAL at the bottom of the full pitching section.
@@ -20,10 +21,11 @@ def _ops_score(row):
 
 
 def sort_batters_by_ops(rows):
-    """Sort all individual batters by OPS descending, regardless of qualification."""
+    """Qualified batters by OPS desc; LIMITED batters by OPS desc, total excluded."""
     return sorted(
         (row for row in rows if not row.get("Team Total")),
         key=lambda row: (
+            str(row.get("Scouting Read", "")).strip().upper() == "LIMITED",
             -_ops_score(row),
             str(row.get("Player", "")).casefold(),
         ),
