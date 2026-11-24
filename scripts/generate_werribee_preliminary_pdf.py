@@ -6,7 +6,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, 
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import landscape, A4
-from advance_report_sort import sort_batters_by_ops, sort_pitchers_by_era_qualification
+from advance_report_sort import apply_advance_batting_pa_cutoff, sort_batters_by_ops, sort_pitchers_by_era_qualification
 
 ROOT=Path(__file__).resolve().parent.parent
 source=json.loads((ROOT/"data/werribee_preliminary_nov28_2026.json").read_text(encoding="utf-8"))
@@ -62,17 +62,17 @@ para("<b>Available batting sample:</b> 250 PA, 220 AB, 54 hits, eight doubles, f
 para("<b>Available pitching sample:</b> 58.1 recorded innings, 108 hits, 52 walks, 45 strikeouts and 99 runs allowed. The calculated 13.27 sample ERA (86 ER) is especially provisional because Trent Pantalleresco has an impossible 14 R / 16 ER entry in one supplied game; his line is preserved for review rather than altered.")
 para("<b>Matchup priority:</b> Do not equate a poor team record with a lack of dangerous individuals. Manuel Jackson has documented NCAA Division I and additional U.S. high-level experience. Tevz Gantar brings Slovenian national-team and Swedish top-division experience. Their limited VSBL batting samples should not be used to dismiss them.")
 heading("BATTING | 8 SUPPLIED GAME BATCHES / 10 OFFICIAL / OPS - HIGH TO LOW")
-bat=source["batting"]
+bat=apply_advance_batting_pa_cutoff(source["batting"])
 batteam=next(x for x in bat if x.get("Team Total"))
 def opsval(r):
     try: return float(str(r.get("OPS","")).replace("*",""))
     except ValueError: return -1.0
-batplayers=sorted((x for x in bat if not x.get("Team Total")),key=lambda x:(str(x.get("Scouting Read","")).upper()=="LIMITED",-opsval(x),x["Player"]))
+batplayers=sort_batters_by_ops(bat)
 batcols=["Player","Bats","PA","AB","R","H","1B","2B","3B","HR","RBI","BB","HBP","SO","SB","AVG","OBP","SLG","OPS","ISO","BB%","Scouting Read"]
 # Normalize only the font-limited accented spelling; raw JSON preserves Tevž.
 batrows=[dict(r,Player=("Tevz Gantar" if r["Player"]=="Tevž Gantar" else r["Player"])) for r in batplayers]+[batteam]
 table(batcols,batrows,[105,25]+[25]*13+[35]*5+[38,72])
-para("* AVG qualification: 20 PA (two per ten official team games). Only AVG gets a qualification asterisk. Qualified batters and coaching-approved THREAT exceptions appear first in descending OPS, then LIMITED batters in descending OPS, with TEAM TOTAL last. Manuel Jackson is explicitly promoted to THREAT despite 17 PA; his AVG still carries the qualification asterisk. BATTING classifications: THREAT red, CAUTION yellow, ATTACK green, LIMITED gray; unknown handedness is blank and retains row shading.")
+para("* AVG and batting scouting qualification: 10 PA (double-digit plate appearances). Only AVG gets a qualification asterisk. Qualified batters appear first in descending OPS, then LIMITED batters in descending OPS, with TEAM TOTAL last. Manuel Jackson (17 PA) qualifies at this cutoff and remains THREAT. BATTING classifications: THREAT red, CAUTION yellow, ATTACK green, LIMITED gray; unknown handedness is blank and retains row shading.")
 para("The source has inconsistent hits vs singles/doubles for Jimmy Bent in one batch, and PA vs sacrifice bunt for Cooper Bishop-Worn and Tevz Gantar. Supplied figures are retained. Sample team total is WEAK based on league-relative official team results, and is not a substitute for all ten complete games.")
 heading("PITCHING | IDENTIFIED APPEARANCES")
 pit=source["pitching"]
@@ -89,8 +89,8 @@ para("* ERA qualification: 10 recorded outs (3.1 IP), one out per ten official t
 para("Werribee TEAM TOTAL pitching scouting read is VERY WEAK compared with league-wide team run prevention, but the uploaded pitching totals are incomplete. Trent Pantalleresco's batch D lists 14 runs but 16 earned. Do not interpret his calculated ERA or team-source ERA as officially verified until the scorer's box is reconciled; other missing games may affect totals.")
 heading("COACHING & LINEUP USAGE")
 notes=[
-"1. Offensive target: Manuel Jackson (17 PA, 2.037 OPS, two HR) is the coaching-approved top red THREAT despite a sub-qualification sample. Among normally qualified hitters, Parks Halasz (29 PA, .845 OPS) and Thomas Kerr-Chapman (31 PA, .700 OPS) warrant caution.",
-"2. Manuel Jackson is a verified left-handed hitter with Norfolk State Division I, MLB Draft League and Pioneer League experience. His 2.037 OPS, two home runs and advanced playing experience warrant a coaching-approved red THREAT exception (placed first in batting) despite only 17 PA. Keep his .636* AVG marked as unqualified and do not overstate the sample.",
+"1. Offensive target: Manuel Jackson (17 PA, 2.037 OPS, two HR) is the coaching-approved top red THREAT and meets the new 10-PA qualifier. Parks Halasz (29 PA, .845 OPS) and Thomas Kerr-Chapman (31 PA, .700 OPS) warrant caution.",
+"2. Manuel Jackson is a verified left-handed hitter with Norfolk State Division I, MLB Draft League and Pioneer League experience. His 2.037 OPS, two home runs and advanced playing experience warrant the coaching-approved red THREAT classification (placed first in batting). His .636 AVG is qualified under the new 10-PA rule, but the sample remains only 17 PA.",
 "3. Tevz Gantar is a right-handed pitcher with national-team and Swedish Elitserien experience. His five recorded innings include five strikeouts and three walks, but usage after the supplied batches is unverified. His limited sample should not be confused with overall ability.",
 "4. Werribee's uploaded pitchers have allowed substantial walks and hits: 52 walks and 108 hits in 58.1 identified innings. Prioritize plate discipline, quality at-bats and productive contact, while checking their most recent starter and bullpen availability.",
 "5. Roster usage / depth: Eight supplied Werribee box scores list only 9 to 12 named players each (four with 9 players, three with 10, one with 12). This points to potentially shallow game-day depth, especially for substitutes and bullpen options, but the full active roster and available bench are not verified. Cooper Bishop-Worn, Jimmy Bent, Parks Halasz, Thomas Kerr-Chapman and Erdrin Berisha appear repeatedly; exact batting-order positions and November 24 usage remain unknown.",
