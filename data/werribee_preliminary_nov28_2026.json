@@ -100,6 +100,15 @@
         "detail": "2025 Victorian youth state representative; competed in national championship. Higher professional level not verified.",
         "url": "https://baseballvictoria.com.au/victoria-sets-sights-high-australian-youth-championships-preview/"
       }
+    ],
+    "scoutingOverrides": [
+      {
+        "Player": "Manuel Jackson",
+        "Type": "BATTING",
+        "Read": "THREAT",
+        "Reason": "Coaching-approved exception for unusually strong offensive production and advanced playing experience; 17 PA remains below normal 20 PA threshold.",
+        "QualificationUnchanged": true
+      }
     ]
   },
   "batting": [
@@ -264,9 +273,10 @@
       "OPS": "2.037",
       "ISO": ".636",
       "BB%": "29.4%",
-      "Scouting Read": "LIMITED",
+      "Scouting Read": "THREAT",
       "Team Total": false,
-      "Source": "Eight supplied game batches; ten official games; incomplete player coverage"
+      "Source": "Eight supplied game batches; ten official games; incomplete player coverage",
+      "ScoutingOverride": "Coaching-approved exception: red THREAT despite 17 PA due to unusually strong supplied offense and substantial higher-level playing experience; AVG qualification remains 20 PA."
     },
     {
       "Team": "Werribee",
