@@ -36,7 +36,7 @@ NON-QUALIFIED PITCHERS | ERA
 Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Scouting Read
 Jimmy Bent |  | 1.2 | 4 | 1 | 1 | 2 | 0 | 1 | 5.40* | 3.60 | 5.40 | 10.80 | LIMITED
 Thomas Kerr-Chapman |  | 2.0 | 5 | 3 | 3 | 7 | 2 | 3 | 13.50* | 6.00 | 13.50 | 31.50 | LIMITED
-TEAM TOTAL |  | 58.1 | 108 | 99 | 86 | 52 | 12 | 45 | 13.27 | 2.74 | 6.94 | 8.02 | Weak
+TEAM TOTAL |  | 58.1 | 108 | 99 | 86 | 52 | 12 | 45 | 13.27 | 2.74 | 6.94 | 8.02 | Very Weak
 
 COACHING & LINEUP USAGE
 1. Offensive target: Manuel Jackson (17 PA, 2.037 OPS, two HR) is the coaching-approved top red THREAT despite a sub-qualification sample. Among normally qualified hitters, Parks Halasz (29 PA, .845 OPS) and Thomas Kerr-Chapman (31 PA, .700 OPS) warrant caution.
