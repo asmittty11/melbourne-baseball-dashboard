@@ -60,7 +60,7 @@
         "HBP": 1
       }
     ],
-    "qualifierAVG": "20 PA (2 per 10 official team games)",
+    "qualifierAVG": "10 PA minimum for opponent batting (effective November 24, 2026; applies to scouting qualification and AVG asterisk)",
     "qualifierERA": "10 outs (1 out per 10 official games)",
     "battingMethod": "(H+BB+HBP)/(AB+BB+HBP+SF) OBP; SLG=total bases / AB; ISO=SLG-AVG",
     "unverified": "Nov 24 Werribee vs Doncaster score and individual stats not provided. Do not include or invent.",
@@ -106,8 +106,8 @@
         "Player": "Manuel Jackson",
         "Type": "BATTING",
         "Read": "THREAT",
-        "Reason": "Coaching-approved exception for unusually strong offensive production and advanced playing experience; 17 PA remains below normal 20 PA threshold.",
-        "QualificationUnchanged": true
+        "Reason": "Coaching-approved THREAT based on outstanding offensive production and higher-level experience; his 17 PA now meets the 10-PA batting minimum.",
+        "QualificationUnchanged": false
       }
     ],
     "sampleBoxScoreLineupSizeRange": {
@@ -126,7 +126,8 @@
       ],
       "interpretation": "Nine to twelve unique named players in each supplied batch. Appears shallow game-to-game depth, but not verified complete roster capacity."
     },
-    "pitchingTeamScoutingRead": "Very Weak"
+    "pitchingTeamScoutingRead": "Very Weak",
+    "battingMinPA": 10
   },
   "batting": [
     {
@@ -284,7 +285,7 @@
       "SB": "0",
       "CS": "0",
       "LOB": "6",
-      "AVG": ".636*",
+      "AVG": ".636",
       "OBP": ".765",
       "SLG": "1.273",
       "OPS": "2.037",
@@ -293,7 +294,7 @@
       "Scouting Read": "THREAT",
       "Team Total": false,
       "Source": "Eight supplied game batches; ten official games; incomplete player coverage",
-      "ScoutingOverride": "Coaching-approved exception: red THREAT despite 17 PA due to unusually strong supplied offense and substantial higher-level playing experience; AVG qualification remains 20 PA."
+      "ScoutingOverride": "Coaching-approved THREAT for high offensive production and higher-level experience; 17 PA now meets the 10-PA batting qualifier."
     },
     {
       "Team": "Werribee",
@@ -384,13 +385,13 @@
       "SB": "1",
       "CS": "0",
       "LOB": "1",
-      "AVG": ".300*",
+      "AVG": ".300",
       "OBP": ".417",
       "SLG": ".600",
       "OPS": "1.017",
       "ISO": ".300",
       "BB%": "7.7%",
-      "Scouting Read": "LIMITED",
+      "Scouting Read": "THREAT",
       "Team Total": false,
       "Source": "Eight supplied game batches; ten official games; incomplete player coverage"
     },
@@ -450,13 +451,13 @@
       "SB": "0",
       "CS": "0",
       "LOB": "3",
-      "AVG": ".333*",
+      "AVG": ".333",
       "OBP": ".412",
       "SLG": ".333",
       "OPS": ".745",
       "ISO": ".000",
       "BB%": "5.6%",
-      "Scouting Read": "LIMITED",
+      "Scouting Read": "CAUTION",
       "Team Total": false,
       "Source": "Eight supplied game batches; ten official games; incomplete player coverage"
     },
@@ -516,13 +517,13 @@
       "SB": "0",
       "CS": "0",
       "LOB": "1",
-      "AVG": ".143*",
+      "AVG": ".143",
       "OBP": ".200",
       "SLG": ".143",
       "OPS": ".343",
       "ISO": ".000",
       "BB%": "6.7%",
-      "Scouting Read": "LIMITED",
+      "Scouting Read": "ATTACK",
       "Team Total": false,
       "Source": "Eight supplied game batches; ten official games; incomplete player coverage"
     },
@@ -549,13 +550,13 @@
       "SB": "0",
       "CS": "0",
       "LOB": "1",
-      "AVG": ".100*",
+      "AVG": ".100",
       "OBP": ".100",
       "SLG": ".100",
       "OPS": ".200",
       "ISO": ".000",
       "BB%": "0.0%",
-      "Scouting Read": "LIMITED",
+      "Scouting Read": "ATTACK",
       "Team Total": false,
       "Source": "Eight supplied game batches; ten official games; incomplete player coverage"
     },
@@ -615,13 +616,13 @@
       "SB": "0",
       "CS": "0",
       "LOB": "1",
-      "AVG": ".200*",
+      "AVG": ".200",
       "OBP": ".333",
       "SLG": ".200",
       "OPS": ".533",
       "ISO": ".000",
       "BB%": "8.3%",
-      "Scouting Read": "LIMITED",
+      "Scouting Read": "ATTACK",
       "Team Total": false,
       "Source": "Eight supplied game batches; ten official games; incomplete player coverage"
     },
