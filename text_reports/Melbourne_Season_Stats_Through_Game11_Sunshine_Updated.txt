@@ -1,0 +1,44 @@
+MELBOURNE BASEBALL CLUB | ELEVEN SUPPLIED PLAYER GAMES / TWELVE OFFICIAL GAMES
+9th | 5-6-1 | RF 67 | RA 89 | RD -22 | Sunshine L 5-18 (Nov 21) + Malvern W 9-8 (Nov 24, player box pending)
+
+BATTING
+Player | Bats | PA | AB | H | 2B | 3B | HR | BB | SO | AVG | OBP | SLG | OPS | ISO | BB% | SB
+Joshua Hendricks | R | 34 | 27 | 9 | 2 | 0 | 4 | 5 | 3 | .333 | .438 | .852 | 1.289 | .519 | 14.7% | ·
+Oscar Hargreaves |  | 38 | 32 | 11 | 1 | 0 | 0 | 6 | 8 | .344 | .447 | .375 | .822 | .031 | 15.8% | ·
+Blake Mitchell |  | 46 | 37 | 9 | 3 | 1 | 0 | 8 | 5 | .243 | .378 | .378 | .756 | .135 | 17.4% | 6
+Ben Aslett | L | 27 | 18 | 4 | 0 | 0 | 1 | 4 | 3 | .222 | .364 | .389 | .753 | .167 | 14.8% | ·
+Lennard Pietersz |  | 21 | 20 | 6 | 1 | 0 | 0 | 1 | 5 | .300* | .333 | .350 | .683 | .050 | 4.8% | 1
+Joey White | R | 3 | 3 | 1 | 0 | 0 | 0 | 0 | 1 | .333* | .333 | .333 | .667 | .000 | 0.0% | ·
+William Kent |  | 35 | 31 | 7 | 1 | 1 | 0 | 3 | 9 | .226 | .294 | .323 | .617 | .097 | 8.6% | ·
+Lochlann O'Connor |  | 41 | 38 | 8 | 2 | 0 | 1 | 3 | 12 | .211 | .268 | .342 | .610 | .132 | 7.3% | ·
+Wade Mcconnon |  | 41 | 34 | 8 | 1 | 0 | 0 | 4 | 7 | .235 | .316 | .265 | .580 | .029 | 9.8% | ·
+Lachlan Brennan |  | 22 | 20 | 4 | 2 | 0 | 0 | 2 | 7 | .200* | .273 | .300 | .573 | .100 | 9.1% | ·
+Zak Skinner |  | 14 | 9 | 1 | 0 | 0 | 0 | 4 | 2 | .111* | .385 | .111 | .496 | .000 | 28.6% | 1
+Harvey Chinn |  | 39 | 36 | 7 | 1 | 0 | 0 | 3 | 11 | .194 | .256 | .222 | .479 | .028 | 7.7% | 1
+Angus Saggers |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+Taylor Perrett | R | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+Zachary Dawes |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | ·
+TEAM TOTAL |  | 365 | 308 | 75 | 14 | 2 | 6 | 43 | 74 | .244 | .336 | .360 | .697 | .117 | 11.8% | 9
+
+PITCHING
+Player | IP | H | BB | SO | ER | ERA | WHIP | K/9 | BB/9 | K/BB
+Blake Mitchell | 0.2 | 1 | 0 | 1 | 0 | 0.00* | 1.50 | 13.50 | 0.00 | 0.00
+Angus Saggers | 7.2 | 9 | 1 | 2 | 3 | 3.52 | 1.30 | 2.35 | 1.17 | 2.00
+Taylor Perrett | 25.1 | 32 | 5 | 33 | 14 | 4.97 | 1.46 | 11.72 | 1.78 | 6.60
+Joey White | 21.1 | 30 | 15 | 25 | 19 | 8.02 | 2.11 | 10.55 | 6.33 | 1.67
+Max Saggers | 6.2 | 14 | 3 | 6 | 8 | 10.80 | 2.55 | 8.10 | 4.05 | 2.00
+Charles Chislett | 8.0 | 11 | 10 | 4 | 10 | 11.25 | 2.63 | 4.50 | 11.25 | 0.40
+Simon Fitzmaurice | 6.1 | 15 | 3 | 5 | 11 | 15.63 | 2.84 | 7.11 | 4.26 | 1.67
+Christian Caminiti | 1.1 | 4 | 1 | 0 | 3 | 20.25* | 3.75 | 0.00 | 6.75 | 0.00
+Henry Mcintyre | 1.0 | 3 | 6 | 0 | 3 | 27.00* | 9.00 | 0.00 | 54.00 | 0.00
+TEAM TOTAL | 78.1 | 119 | 44 | 76 | 71 | 8.16 | 2.08 | 8.73 | 5.06 | 1.73
+
+NOTES
+Sunshine 18–5 loss (November 21): 9 hits, including Ben Aslett and Lochlann O'Connor home runs, plus Harvey Chinn's double; 5 runs on 35 reported PA and 9 strikeouts to 2 walks.
+Joshua Hendricks still has four tracked homers. Aslett and O'Connor supplied the other two. Oscar Hargreaves (11 hits, 6 walks) and Blake Mitchell (9 hits, 8 walks) remain useful baserunner-creation options subject to lineup and RISP confirmation.
+Six Melbourne pitchers allowed 18 R / 11 ER over 8.0 IP, giving up 19 H and 8 BB; Simon Fitzmaurice yielded 8 R / 7 ER on 10 hits in 3.1 IP. Henry Mcintyre was charged with 7 R / 1 ER and four walks in 0.1 IP. Verify the scorer's earned/unearned assignments before attributing causes.
+Joey White worked one scoreless inning with two strikeouts; Blake Mitchell contributed 0.2 scoreless IP with one strikeout. Prior appearances and 12-game qualification rules should inform any available-arm assessment.
+Melbourne's November 24 9–8 road win over Malvern improves the official record to 5–6–1 (ninth place) but its individual batting/pitching game lines are still pending. Team RF 67 / RA 89 differ from the eleven-game player batch totals.
+2026–27 top-eight playoff cutoff: Melbourne is ninth, immediately behind Cheltenham in the dated Nov 24 ladder. Qualification: AVG 24 PA, ERA 4.0 IP; prior sacrifice-bunt source inconsistencies and older Game 8 pitching remain flagged.
+
+11th player batch Nov 21 Sunshine reconciled at 5 scored / 18 allowed (11 ER); Malvern Nov 24 win official only, missing individual game stats. Sacrifice-bunt/PA conflicts and Game 8 remain provisional.
