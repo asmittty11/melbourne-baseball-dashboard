@@ -6846,6 +6846,12 @@
   },
   "reports": [
     {
+      "title": "Fitzroy Advance Scouting — Preliminary (Dec 1)",
+      "file": "reports/Melbourne_vs_Fitzroy_Advance_Scouting_Preliminary_Dec01_2026.pdf",
+      "text": "text_reports/Melbourne_vs_Fitzroy_Advance_Scouting_Preliminary_Dec01_2026.txt",
+      "category": "Opponent"
+    },
+    {
       "title": "Werribee Advance Scouting — Preliminary (Nov 28)",
       "file": "reports/Melbourne_vs_Werribee_Advance_Scouting_Preliminary_Nov28_2026.pdf",
       "text": "text_reports/Melbourne_vs_Werribee_Advance_Scouting_Preliminary_Nov28_2026.txt",
