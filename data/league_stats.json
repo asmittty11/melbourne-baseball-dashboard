@@ -454,7 +454,9 @@
       "lastCompiled": "2026-11-24",
       "status": "PRELIMINARY",
       "pending": "Nov 24 vs Doncaster result/player box and two+ unsupplied player games; review outlier 16 ER/14 R line before finalizing",
-      "scoutingOverride": "Manuel Jackson BATTING THREAT despite 17 PA; retain AVG asterisk and small sample caveat."
+      "scoutingOverride": "Manuel Jackson BATTING THREAT despite 17 PA; retain AVG asterisk and small sample caveat.",
+      "pitchingTeamScoutingRead": "Very Weak",
+      "sampleLineupDepthNote": "Across eight supplied game batches, 9–12 named players appear per box score (9, 9, 9, 9, 10, 10, 10, 12); observed game-day usage suggests limited depth, but the full roster is unverified."
     }
   },
   "melbourne": {
@@ -5035,7 +5037,7 @@
         "Team": "Upwey FTG",
         "Source": "Melbourne_vs_Upwey_FTG_Advance_Scouting_Nov7_2026_Color_Coded.pdf",
         "Games in source": "4",
-        "Scouting Read": "Weak"
+        "Scouting Read": "Very Weak"
       },
       {
         "Player": "Gage Mason",
@@ -6035,7 +6037,7 @@
         "K/9": "6.94",
         "BB/9": "8.02",
         "K/BB": "0.87",
-        "Scouting Read": "Weak",
+        "Scouting Read": "Very Weak",
         "Source": "Eight supplied batches, conflicting ER/R in Trent Pantalleresco's batch D; not an official complete-team ERA"
       }
     ]
