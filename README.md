@@ -1,82 +1,86 @@
-# Melbourne Baseball Club — Interactive League Scouting Dashboard
+# Melbourne Baseball Analytics & Scouting
+### An interactive 2026–27 season resource for Melbourne Baseball Club
 
-**Public dashboard:** https://asmittty11.github.io/melbourne-baseball-dashboard/
+A public-facing dashboard for exploring player performance, team tendencies, opponent scouting and coaching reports in Australia's Victorian Summer Baseball League (VSBL) Premier Division 1.
 
-This is a public, browser-based analytics and advance-scouting dashboard for Melbourne Baseball Club in the semi-professional VSBL Premier Division 1. It is a **living 2026–27 season project**, built to grow as games are played across Melbourne's scheduled **30-game season**. The current Melbourne dataset covers **ten games** (4–5–1); future updates are added when source statistics are available and checked. Updates are manual, not an automatic live-game feed. Scouting and performance reports are published as completed with Melbourne Baseball Club's approval. No RStudio or Shiny server is required.
+**[Explore the Live Website ↗](https://asmittty11.github.io/melbourne-baseball-dashboard/)** &nbsp; | &nbsp; **[View the Latest Season PDF](reports/Melbourne_Season_Stats_Through_Game11_Sunshine_Updated.pdf)** &nbsp; | &nbsp; **[Read Weekly Tendencies](text_reports/Melbourne_Weekly_Season_Tendencies_2026-11-24.md)**
 
-## Interactive views
-- **Overview:** Melbourne's latest uploaded ten-game snapshot (4–5–1, 8th; 53 runs for and 63 against), updated as the season progresses.
-- **Melbourne Players:** sortable cumulative batting and pitching data through ten games, with separate team totals and provisional source fields labeled.
-- **Opponent Batting / Opponent Pitching:** filter available opponent data by club; search and sort columns; export filtered CSV.
-- **League Comparison:** Melbourne and available scouting opponents (including Doncaster, Upwey FTG, Sandringham, Waverley, and Moorabbin) for cross-team comparisons; coverage varies by opponent.
-- **Report Text:** searchable text versions of available published reports.
-- **Original PDFs:** scouting, season performance, and historical reports published and archived as completed with club approval.
-- **Data Notes:** scope, source and missing-data cautions.
+---
 
-## Matchup report venue and start-time policy
-- **Melbourne home games:** Always name Melbourne's home field **Surrey Park Arthur Field** in the advance-scouting PDF and home matchup metadata.
-- **Melbourne away games:** Never mention a stadium, ground, field name, venue, or start time in the advance-scouting PDF or matchup metadata. Use the opponent/team and date without those location or time details. Do not insert "unconfirmed" placeholders for away fields or times.
-- Preserve all other scouting content, cumulative player statistics, standings, classifications, and historical archives unless separately instructed. Apply these rules to all newly generated Melbourne opponent reports going forward.
+## The Project at a Glance
 
-## Source data
-- `data/league_stats.json`: structured player rows and report references.
-- `data/dashboard.json`: earlier Sandringham scouting snapshot.
-- `text_reports/`: searchable text extracted from available uploaded reports.
-- `reports/`: published scouting, performance, and archived PDF reports.
-- `assets/Melbourne_Baseball_Web_Dashboard.zip`: complete dashboard source archive.
+| Season snapshot | November 24, 2026 |
+| :--- | :--- |
+| **Melbourne official record** | **5–6–1**, 9th place, 67 runs for / 89 against (−22) |
+| **Official Melbourne games** | 12 |
+| **Melbourne player-stat batches** | 11 (November 24 Malvern player box score pending) |
+| **Official ladder coverage** | 16 teams, dated snapshot with top-eight playoff cutoff |
+| **Regular-season schedule** | Approximately 30 Melbourne games |
+| **Publishing approach** | Manual, source-checked game uploads and GitHub-hosted reports |
 
-Data windows differ: Melbourne currently covers **ten games**; uploaded opponent samples cover different numbers of games and may be preliminary. These are **only the uploaded opponent teams**, not the entire VSBL. Some source reports omit PA, OPS, or pitching appearances; those fields are blank or explicitly labeled as estimates rather than invented. Team totals are displayed separately and are not ranked as players. The Melbourne Round 5 weekly report is archival and is not counted twice in cumulative season totals.
+The **live website** is the best place to explore the project. This repository documents its data, production workflow and archived outputs.
 
-## Publishing
-The `.github/workflows/extract-assets.yml` workflow extracts the dashboard archive into the repository and commits the website, data, PDFs, and text reports. GitHub Pages builds from the `main` branch.
+## What the Website Includes
 
-Underlying data last compiled: November 18, 2026 (per `data/league_stats.json` metadata).
+| Section | Purpose |
+| :--- | :--- |
+| **Overview** | Official standings, season results, top-eight playoff cutoff and direct links into the analysis |
+| **Melbourne Players** | Sortable cumulative batting and pitching, advanced rates and independent TEAM TOTAL rows |
+| **Opponent Batting** | Filterable hitter performance and color-coded scouting assessments |
+| **Opponent Pitching** | Pitcher usage, ERA, WHIP, strikeout/walk rates and scouting assessments |
+| **League Comparison** | Combined uploaded statistical samples across Melbourne and scouted opponents |
+| **Report Text** | Searchable versions of completed tendencies and advance scouting reports |
+| **Original PDFs** | Downloadable club reports and preserved historical versions |
+| **Data Notes** | Missing games, source exceptions, estimates and reporting-window definitions |
 
-## Season coverage, publication and refresh policy
-Melbourne's schedule includes **30 games** for 2026–27. This project will grow throughout the season, with the latest uploaded Melbourne data currently spanning **ten games**. The ten-game snapshot is a reporting cutoff, not a final season dataset or a claim that all 30 games have been played.
+All interactive data remains on the site; the README is an orientation page, not a replacement for the dashboard.
 
-Melbourne player and team statistics are refreshed after new game statistics are uploaded and checked. Opponent datasets are updated when new advance-scouting work is completed, often before a matchup. Reports are **published as they are completed with Melbourne Baseball Club's approval**. Updates are manual and do **not** represent automatic live GameDay synchronization. Where a source contains missing fields, estimates, or provisional stat mappings, those limitations are documented.
+## Where the Data Come From
 
-## Table sorting and pitching display
-**Advance-scouting PDF section headings (all future reports):**
-- Batting: `BATTING | (number of games) SUPPLIED GAME BATCHES / (number of games) OFFICIAL / OPS - HIGH TO LOW`. Use actual usable/supplied player-game batches and the official team game count respectively.
-- Qualified pitching: `QUALIFIED PITCHERS | ERA`.
-- Non-qualified pitching: `NON-QUALIFIED PITCHERS | ERA`.
-- Keep the existing ordering (all batters together by OPS descending; qualified and then non-qualified pitchers, each by ERA ascending), statistics, qualification marks, colors, classifications, and all other report content.
+Game-level player statistics are compiled from supplied GameDay scoring records; official league standings are maintained as separately dated snapshots. The central structured source is **[`data/league_stats.json`](data/league_stats.json)**, with report PDFs in [`reports/`](reports/) and text versions in [`text_reports/`](text_reports/).
 
-**Opponent Scouting Read colors:** For individual opponent **BATTING**, red is always labeled **THREAT** (never STRONG); for opponent **PITCHING**, red remains **STRONG**. Team-total strength assessments are separate and retain their existing descriptions. This rule applies to future opponent reports and dashboard/database updates.
+The dashboard is **not** a live GameDay synchronization or an authoritative replacement for the VSBL's official records. Player-level game coverage often trails the official ladder until the game's box scores are published. Missing or unverified statistics remain blank or explicitly flagged, rather than treated as zero.
 
-Melbourne season-stat PDFs always sort batting player rows by OPS (highest to lowest) and pitching player rows by ERA (lowest to highest), disregarding qualification asterisks for sorting. TEAM TOTAL stays last in both tables. For opponent reports, approved THREAT/STRONG scouting classifications are independent of statistical qualification asterisks; a small sample may still carry a scouting threat rating.
+### Statistical conventions
 
-ERA and WHIP default to ascending order (lowest first) when selected, including on initial ERA-based views; AVG remains descending. Melbourne pitching displays neither Throws nor games/appearances. The Melbourne batting table does not display RBI.
+- **Batting:** AVG, estimated OBP, SLG, OPS, ISO and BB%. Historical HBP/SF/CI may be incomplete; OBP and OPS are labeled estimates. Known stolen bases are retained; unknown values stay blank.
+- **Pitching:** Baseball innings notation (`0.1` = one out, `0.2` = two outs), ERA, WHIP, K/9, BB/9 and K/BB.
+- **Melbourne qualification:** AVG requires two PA per official team game; ERA requires one out per official team game. Qualification asterisks appear only on AVG and ERA.
+- **Opponent batting PDF order:** Qualified batters in **descending OPS**, followed by LIMITED batters in **descending OPS**, with TEAM TOTAL last.
+- **Opponent pitching PDF order:** QUALIFIED PITCHERS | ERA, then NON-QUALIFIED PITCHERS | ERA; each subsection by ascending ERA.
+- **Scouting classifications:** Batting THREAT (red), CAUTION (yellow), ATTACK (green), LIMITED (gray); pitching STRONG (red), CAUTION, ATTACK, LIMITED. Explicit coaching-approved player overrides, such as the Sunshine batting STRONG cases, are retained as supplied. Team assessments are evaluated separately relative to league-wide team performances.
+- **Handedness:** Only verified batter/pitcher handedness is displayed. Unknown cells remain empty and inherit their row background.
 
-The package extraction workflow refreshes archived reports only; it deliberately avoids overwriting independently maintained dashboard code or statistical tables.
+All TEAM TOTAL and LEAGUE TOTAL rows are separated from player sorting. The official team ladder is never derived by summing incomplete player scouting samples.
 
-## Current Melbourne snapshot — through Game 10 (November 17, 2026)
-Melbourne is **8th, 4–5–1** on the November 18 user-supplied ladder after the **0–0 draw with Moorabbin**. Runs scored and allowed remain **53–63 (−10)**. The new game adds four singles, two walks, five offensive strikeouts and six recorded scoreless pitching innings (Taylor Perrett 5.0, Joey White 1.0). The current cumulative team batting line is **330 PA / 275 AB / 66 H / .240 AVG / .339 estimated OBP / .345 SLG / .684 estimated OPS / .105 ISO**; pitching is **70.1 IP / 100 H / 36 BB / 67 SO / 60 ER / 7.68 ERA / 1.93 WHIP**. Game 8 Perrett statistics remain provisional; one Zak Skinner source row has a PA/sacrifice-bunt inconsistency. Melbourne's eight documented stolen bases are a known minimum, not a verified complete team total. The latest PDF is `reports/Melbourne_Season_Stats_Through_Game10_Moorabbin_Updated.pdf` and weekly analysis is `text_reports/Melbourne_Weekly_Season_Tendencies_2026-11-18.md`.
+## Report Generation and Site Updates
 
-November 18 opponent standings update: **Waverley 7–0 (1st), Malvern 8–1 (2nd), Moorabbin 6–1–1 (4th), Sunshine 6–3 (5th)**. Sunshine scouting remains based on **six usable of nine official player-game batches**; its November 17 8–2 win over Upwey FTG is already counted in the team ladder, with three recent player boxes missing. Malvern scouting now includes **eight of nine official game boxes**, including the November 17 0–4 loss to Newport; the 8–3 victory over Sunshine was previously batch 7 and is not double-counted. The one remaining missing Malvern game leaves 15 official runs not reflected in the cumulative batting ledger.
+This is a static website deployed with **GitHub Pages**, using JavaScript, HTML, CSS and JSON. Python report generators and GitHub Actions produce and publish downloadable PDFs. The dashboard fetches the structured data at page load; it does not require a backend server or a live sports-data API.
 
+The normal sequence is:
 
-## November 18 opponent source reconciliation
+1. Collect the newly published game box score, verify its column mapping and check hits, runs, innings and possible scoring discrepancies.
+2. Add the game **once** to the player-stat dataset; update the official ladder separately when supplied.
+3. Regenerate cumulative season reporting and, for upcoming opponents, the advance scouting reports.
+4. Publish PDFs, update the dashboard and retain a dated explanation of missing or provisional data.
 
-**Malvern (2nd, 8–1–0, official 70 RF / 23 RA):** All **nine official-game batting boxes** are now represented. The November 7 **15–5 victory over Werribee** was corroborated by [Baseball Victoria's Week 6 Wrap Up](https://baseballvictoria.com.au/vsbl-week-6-wrap-up/): the supplied box shows 21 H, seven HR, 15 R and Ryan Dale's three HR/six RBI. This game was added exactly once as batch 9, leaving the earlier 8–3 Sunshine win as batch 7 and 0–4 Newport as batch 8. Nine-game player batting totals are **321 PA, 283 AB, 108 H, 14 HR, .382 AVG, .434 OBP, .604 SLG, 1.038 OPS**; 70 summed batting runs reconcile to official RF 70. Nine supplied pitching lines total **70.0 IP, 55 H, 38 BB, 93 SO, 19 ER, 2.44 ERA**, but the pitcher run ledger shows **28 R**, five above official RA **23**. This remains unresolved and should not be silently adjusted. The November 7 Matthew Johnston row also lists 4 PA, 4 AB and 1 sacrifice bunt; this internally inconsistent scoring field remains flagged. User-approved pitching classification for **Zaid Elias Cummins Flynn is STRONG**.
+**Advance report venue policy:** Melbourne home games list **Surrey Park Arthur Field**. For away games, reports omit the venue and start time rather than inserting unknown placeholders.
 
-**Sunshine (5th, 6–3–0, 65 RF / 30 RA):** The November 17 **8–2 win against Upwey FTG** is already counted in the official nine-game ladder. Sunshine's three latest player boxes, including November 17 and the prior two games, remain unavailable. Six valid individual-game batches are included; one malformed copied batch was excluded, without assuming missing statistics.
+## Source Files and Reporting Archive
 
-## Historical Melbourne snapshot — through Game 8 (archived)
-The archived Melbourne Game 8 dataset covers **eight games**: **4–4–0**, **8th** in the supplied ladder, **52 runs scored**, **57 runs allowed**, and a **−5 run differential**. Game 8 was a **5–1 win over Sandringham**. The current cumulative report is `reports/Melbourne_Season_Stats_Through_Game8_Sandringham_Updated.pdf`.
+- [Dashboard website](index.html)
+- [Structured season/scouting data](data/league_stats.json)
+- [Current November 24 league ladder snapshot](data/official_ladder_20261124.json)
+- [November 21 Melbourne–Sunshine player scorebook](data/melbourne_sunshine_game11_20261121.json)
+- [11-player-game cumulative snapshot](data/melbourne_game11_snapshot.json)
+- [Latest weekly tendencies report](text_reports/Melbourne_Weekly_Season_Tendencies_2026-11-24.md)
+- [Published PDFs](reports/) and [report-generation scripts](scripts/)
+- [Historical project and methodology notes](docs/Project_Methodology_Archive_2026-11-18.md)
 
-**Data-quality note:** The supplied Game 8 player table did not include complete column headers, so some player-stat mappings remain provisional. The record and team runs use the official ladder/final-score information; provisional player-stat interpretations should not be treated as verified official totals. Some OBP/OPS values are also explicitly estimated because historical HBP/SF/CI data are incomplete.
+## Project Context
 
-### Historical Game 7 source note (November 7, 2026)
-The earlier 21–4 win over Upwey FTG brought Melbourne to 3–4–0 (47 runs for, 56 against). Its report, `reports/Melbourne_Season_Stats_Through_Game7_UpweyFTG_Updated.pdf`, is preserved for reference. The Game 7 pitching row's R values conflicted with the official runs allowed, so the official final score was used for team runs. Previous six-game files remain archived. Melbourne's RBI column is omitted from the player dashboard.
+Melbourne Baseball Club receives recurring performance and opponent analysis from this project during the VSBL 2026–27 season. The goal is to translate available statistics into useful, clearly qualified insights for preparation and coaching. Source quality is treated as part of the analysis: missing game boxes, inconsistent scorebook entries, and provisional historical mappings are documented instead of obscured.
 
-## Melbourne OBP and OPS estimates
-The sortable Melbourne player/team tables now display **estimated** OBP and OPS for every batter and the team total. OBP uses `(H+BB)/(AB+BB)` because full historical HBP, SF and CI are unavailable; OPS adds SLG calculated from cumulative total bases divided by AB before rounding. These are approximations rather than verified official OBP/OPS. Opponent scouting tables, reports, source windows and game totals remain unchanged.
+**[Open the Dashboard](https://asmittty11.github.io/melbourne-baseball-dashboard/)** · **[See More SQL & Analytics Projects](https://github.com/asmittty11/baseball-analytics-portfolio)**
 
-## Sandringham advance scouting — November 8, 2026 update
-New six-game report for the November 10 matchup incorporates the November 7 4–3 win: Sandringham 9th (3–3, RF 34, RA 43, RD −9), Melbourne 10th (3–4). Player batting and pitching tables now reflect six games. OBP and OPS are explicitly estimated due to incomplete historical HBP/SF/CI. Original five-game PDF remains archived. New PDF: `reports/Melbourne_vs_Sandringham_Advance_Scouting_Nov10_2026_Six_Game_Updated.pdf`.
-
-## Waverley preliminary advance — November 14, 2026 away matchup
-Added preliminary Waverley scouting with four scored games (4–0, 54 RF, 8 RA, 3rd) and 13 batters, five pitchers. The games scheduled October 3, October 31 and November 7 are unreported and **not** included. Updated standings and player totals only after source verification. Original PDF and readable text are in `reports/` and `text_reports/`; source dataset is `data/waverley_preliminary_20261109.json`. Existing opponents and Melbourne data remain preserved.
+<sub>Last README refresh: November 24, 2026. The published dashboard and latest dated source files should be consulted for newer results as the season progresses.</sub>
