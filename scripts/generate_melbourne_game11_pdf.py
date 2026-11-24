@@ -41,7 +41,7 @@ batrows += [r for r in d['melbourne']['batting'] if r.get('Team Total')]
 addtable(batrows,batcols,[112,29]+[35]*8+[38]*7)
 story.append(Spacer(1,9))
 story.append(Paragraph('* AVG qualifies at 24 PA (2 per 12 official games): only AVG carries the asterisk. OBP/OPS estimates use H, BB and AB because historical HBP, SF, CI are incomplete. Unknown hands and SB blank; 9 team steals are documented minimums. RBI omitted by design.',styles['SmallNote']))
-story.append(Paragraph('November 21 Sunshine loss adds 9 H, 1 double, 2 HR (Aslett and O'Connor), 2 BB, 9 SO and 5 R. Lennard Pietersz row lists 4 PA/4 AB/1 sac bunt, a source conflict. Nov 24 Malvern 9–8 win is standings-only pending its box; Game 8 Perrett remains provisional.',styles['SmallNote']))
+story.append(Paragraph('November 21 Sunshine loss adds 9 H, 1 double, 2 HR (Aslett and O\'Connor), 2 BB, 9 SO and 5 R. Lennard Pietersz row lists 4 PA/4 AB/1 sac bunt, a source conflict. Nov 24 Malvern 9–8 win is standings-only pending its box; Game 8 Perrett remains provisional.',styles['SmallNote']))
 story.append(PageBreak())
 story.append(Paragraph('MELBOURNE BASEBALL CLUB | PITCHING & COACHING',styles['ReportTitle']))
 story.append(Paragraph('PITCHING | ELEVEN SUPPLIED PLAYER GAMES | Innings displayed as full innings plus outs',styles['Sect']))
