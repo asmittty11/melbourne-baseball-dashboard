@@ -109,7 +109,24 @@
         "Reason": "Coaching-approved exception for unusually strong offensive production and advanced playing experience; 17 PA remains below normal 20 PA threshold.",
         "QualificationUnchanged": true
       }
-    ]
+    ],
+    "sampleBoxScoreLineupSizeRange": {
+      "minimum": 9,
+      "maximum": 12,
+      "observedBatches": 8,
+      "countsSorted": [
+        9,
+        9,
+        9,
+        9,
+        10,
+        10,
+        10,
+        12
+      ],
+      "interpretation": "Nine to twelve unique named players in each supplied batch. Appears shallow game-to-game depth, but not verified complete roster capacity."
+    },
+    "pitchingTeamScoutingRead": "Very Weak"
   },
   "batting": [
     {
@@ -874,7 +891,7 @@
       "K/9": "6.94",
       "BB/9": "8.02",
       "K/BB": "0.87",
-      "Scouting Read": "Weak",
+      "Scouting Read": "Very Weak",
       "Source": "Eight supplied batches, conflicting ER/R in Trent Pantalleresco's batch D; not an official complete-team ERA"
     }
   ]
