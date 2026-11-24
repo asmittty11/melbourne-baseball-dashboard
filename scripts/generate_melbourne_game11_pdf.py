@@ -67,7 +67,7 @@ story.append(Paragraph('SOURCE & LIMITATIONS',styles['Sect']))
 story.append(Paragraph('November 24 16-team official ladder and Sunshine Nov 21 full GameDay player rows supplied by user. Eleven-game cumulative archive frozen; 12 official games. Malvern Nov 24 9–8 win player box missing. Historic OBP/OPS estimated, sac-bunt/PA conflicts and Game 8 entry provisional. Independent coaching analysis, not official VSBL certification.',styles['SmallNote']))
 doc.build(story)
 lines=['MELBOURNE BASEBALL CLUB | ELEVEN SUPPLIED PLAYER GAMES / TWELVE OFFICIAL GAMES','9th | 5-6-1 | RF 67 | RA 89 | RD -22 | Sunshine L 5-18 (Nov 21) + Malvern W 9-8 (Nov 24, player box pending)','','BATTING',' | '.join(batcols)]
-for r in batrows:lines.append(' | '.join(str(r.get(k,'') or '') for k in batcols))
+for r in batrows:lines.append(' | '.join('' if k=='SB' and str(r.get(k,'')) in ['·','.','—','-'] else str(r.get(k,'') or '') for k in batcols))
 lines+=['','PITCHING',' | '.join(pitcols)]
 for r in pitrows:lines.append(' | '.join(str(r.get(k,'') or '') for k in pitcols))
 lines+=['','NOTES']+notes+['','11th player batch Nov 21 Sunshine reconciled at 5 scored / 18 allowed (11 ER); Malvern Nov 24 win official only, missing individual game stats. Sacrifice-bunt/PA conflicts and Game 8 remain provisional.']
