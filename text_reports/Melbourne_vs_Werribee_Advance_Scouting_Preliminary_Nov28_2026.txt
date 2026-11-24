@@ -39,8 +39,8 @@ Thomas Kerr-Chapman |  | 2.0 | 5 | 3 | 3 | 7 | 2 | 3 | 13.50* | 6.00 | 13.50 | 3
 TEAM TOTAL |  | 58.1 | 108 | 99 | 86 | 52 | 12 | 45 | 13.27 | 2.74 | 6.94 | 8.02 | Weak
 
 COACHING & LINEUP USAGE
-1. Offensive target: Parks Halasz (29 PA, .845 OPS, one documented HR) and Thomas Kerr-Chapman (31 PA, .700 OPS) are the most productive hitters in the qualified uploaded sample. Treat both as priority scouting targets, not automatic green-light matchups.
-2. Manuel Jackson is a verified left-handed hitter with Norfolk State Division I, MLB Draft League and Pioneer League experience. His extremely strong uploaded OPS comes from only 17 PA, so his classification remains LIMITED, but his higher-level experience warrants careful pitch planning.
+1. Offensive target: Manuel Jackson (17 PA, 2.037 OPS, two HR) is the coaching-approved top red THREAT despite a sub-qualification sample. Among normally qualified hitters, Parks Halasz (29 PA, .845 OPS) and Thomas Kerr-Chapman (31 PA, .700 OPS) warrant caution.
+2. Manuel Jackson is a verified left-handed hitter with Norfolk State Division I, MLB Draft League and Pioneer League experience. His 2.037 OPS, two home runs and advanced playing experience warrant a coaching-approved red THREAT exception (placed first in batting) despite only 17 PA. Keep his .636* AVG marked as unqualified and do not overstate the sample.
 3. Tevz Gantar is a right-handed pitcher with national-team and Swedish Elitserien experience. His five recorded innings include five strikeouts and three walks, but usage after the supplied batches is unverified. His limited sample should not be confused with overall ability.
 4. Werribee's uploaded pitchers have allowed substantial walks and hits: 52 walks and 108 hits in 58.1 identified innings. Prioritize plate discipline, quality at-bats and productive contact, while checking their most recent starter and bullpen availability.
 5. Cooper Bishop-Worn, Jimmy Bent, Parks Halasz, Thomas Kerr-Chapman and Erdrin Berisha appear repeatedly in the eight received lineups. Their exact order and most recent November 24 usage are not verified; plan for roles, not a fabricated batting order.
