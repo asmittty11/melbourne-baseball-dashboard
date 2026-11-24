@@ -20,6 +20,53 @@ def _ops_score(row):
         return -inf
 
 
+
+# Effective for new/updated opponent advance batting reports from November 24, 2026.
+# Historical reports remain unchanged unless their individual generator is updated.
+ADVANCE_BATTING_MIN_PA = 10
+
+
+def apply_advance_batting_pa_cutoff(rows, min_pa=ADVANCE_BATTING_MIN_PA):
+    """Classify 10+ PA batters normally; fewer PA as LIMITED unless explicit override.
+
+    Only changes the AVG qualification asterisk and the scouting read where
+    qualification requires it. All counting stats, rates and totals are preserved.
+    Existing qualified read classifications (including coach overrides) are kept.
+    """
+    updated = []
+    for source in rows:
+        r = dict(source)
+        if r.get("Team Total"):
+            updated.append(r)
+            continue
+        try:
+            pa_text = str(r.get("PA", "")).strip()
+            if not pa_text:
+                updated.append(r)
+                continue
+            pa = int(pa_text)
+        except (TypeError, ValueError):
+            updated.append(r)
+            continue
+
+        avg = str(r.get("AVG", "")).strip()
+        if avg:
+            if pa >= min_pa:
+                if avg.endswith("*"):
+                    r["AVG"] = avg[:-1]
+            elif not avg.endswith("*"):
+                r["AVG"] = avg + "*"
+
+        read = str(r.get("Scouting Read", "")).strip().upper()
+        if pa < min_pa and read != "LIMITED" and not r.get("ScoutingOverride"):
+            r["Scouting Read"] = "LIMITED"
+        elif pa >= min_pa and read == "LIMITED":
+            ops = _ops_score(r)
+            if ops != -inf:
+                r["Scouting Read"] = "THREAT" if ops >= 0.90 else "CAUTION" if ops >= 0.68 else "ATTACK"
+        updated.append(r)
+    return updated
+
 def sort_batters_by_ops(rows):
     """Qualified batters by OPS desc; LIMITED batters by OPS desc, total excluded."""
     return sorted(
