@@ -1,34 +1,34 @@
 MELBOURNE vs WERRIBEE | PRELIMINARY | 28 NOV 2026
 Werribee 15th 1-9-0, 40 RF/110 RA/-70 (10 official); Melbourne 9th 5-6-1, 67 RF/89 RA/-22 (12 official).
-8 supplied Werribee statistical batches, not 10 complete games. Nov 24 game vs Doncaster unknown.
+9 supplied Werribee statistical batches: eight undated plus Nov24 player box. Official ten-game ladder remains separately dated; latest result unverified.
 
-BATTING | 8 SUPPLIED GAME BATCHES / 10 OFFICIAL / OPS - HIGH TO LOW
+BATTING | 9 SUPPLIED GAME BATCHES / 10 OFFICIAL / OPS - HIGH TO LOW
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
-Manuel Jackson | L | 17 | 11 | 3 | 7 | 4 | 1 | 0 | 2 | 5 | 5 | 1 | 1 | 0 | .636 | .765 | 1.273 | 2.037 | .636 | 29.4% | THREAT
-Tevz Gantar | R | 13 | 10 | 1 | 3 | 2 | 0 | 0 | 1 | 1 | 1 | 1 | 0 | 1 | .300 | .417 | .600 | 1.017 | .300 | 7.7% | THREAT
-Parks Halasz |  | 29 | 28 | 1 | 9 | 6 | 2 | 0 | 1 | 6 | 1 | 0 | 4 | 0 | .321 | .345 | .500 | .845 | .179 | 3.4% | CAUTION
-Wesley De Jong |  | 18 | 15 | 1 | 5 | 5 | 0 | 0 | 0 | 1 | 1 | 1 | 5 | 0 | .333 | .412 | .333 | .745 | .000 | 5.6% | CAUTION
-Thomas Kerr-Chapman |  | 31 | 29 | 1 | 9 | 8 | 1 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | .310 | .355 | .345 | .700 | .034 | 3.2% | CAUTION
-Cooper Bishop-Worn |  | 28 | 24 | 2 | 5 | 4 | 1 | 0 | 0 | 2 | 4 | 0 | 3 | 1 | .208 | .321 | .250 | .571 | .042 | 14.3% | ATTACK
-Jimmy Bent |  | 27 | 24 | 2 | 5 | 4 | 2 | 0 | 0 | 4 | 0 | 2 | 3 | 0 | .208 | .269 | .292 | .561 | .083 | 0.0% | ATTACK
+Manuel Jackson | L | 20 | 14 | 4 | 9 | 6 | 1 | 0 | 2 | 5 | 5 | 1 | 2 | 0 | .643 | .750 | 1.143 | 1.893 | .500 | 25.0% | THREAT
+Thomas Mckee |  | 8 | 5 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 3 | 0 | 1 | 0 | .400* | .625 | .400 | 1.025 | .000 | 37.5% | LIMITED
+Tevz Gantar | R | 16 | 11 | 1 | 3 | 2 | 0 | 0 | 1 | 1 | 3 | 1 | 0 | 1 | .273 | .467 | .545 | 1.012 | .273 | 18.8% | THREAT
+Parks Halasz |  | 32 | 30 | 2 | 10 | 7 | 2 | 0 | 1 | 6 | 2 | 0 | 4 | 0 | .333 | .375 | .500 | .875 | .167 | 6.3% | CAUTION
+Wesley De Jong |  | 20 | 16 | 2 | 5 | 5 | 0 | 0 | 0 | 1 | 2 | 1 | 5 | 0 | .313 | .421 | .313 | .734 | .000 | 10.0% | CAUTION
+Cooper Bishop-Worn |  | 31 | 27 | 2 | 7 | 5 | 2 | 0 | 0 | 4 | 4 | 0 | 3 | 1 | .259 | .355 | .333 | .688 | .074 | 12.9% | ATTACK
+Thomas Kerr-Chapman |  | 34 | 31 | 2 | 9 | 8 | 1 | 0 | 0 | 1 | 2 | 1 | 1 | 0 | .290 | .353 | .323 | .676 | .032 | 5.9% | CAUTION
+Jimmy Bent |  | 29 | 24 | 2 | 5 | 4 | 2 | 0 | 0 | 5 | 0 | 2 | 4 | 0 | .208 | .259 | .292 | .551 | .083 | 0.0% | ATTACK
 Simon Riches |  | 12 | 10 | 1 | 2 | 2 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | .200 | .333 | .200 | .533 | .000 | 8.3% | ATTACK
-Trent Pantalleresco |  | 15 | 14 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 1 | 0 | 5 | 0 | .143 | .200 | .143 | .343 | .000 | 6.7% | ATTACK
+Michael Studdert |  | 7 | 7 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .143* | .143 | .286 | .429 | .143 | 0.0% | LIMITED
+Darcy Boyd |  | 10 | 10 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | .200 | .200 | .200 | .400 | .000 | 0.0% | ATTACK
+Trent Pantalleresco |  | 18 | 17 | 0 | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 0 | 6 | 0 | .176 | .222 | .176 | .399 | .000 | 5.6% | ATTACK
 Matthew Howe |  | 10 | 10 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 6 | 0 | .100 | .100 | .100 | .200 | .000 | 0.0% | ATTACK
 Erdrin Berisha |  | 22 | 20 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 0 | .050 | .095 | .050 | .145 | .000 | 4.5% | ATTACK
-Thomas Mckee |  | 7 | 4 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | .500* | .714 | .500 | 1.214 | .000 | 42.9% | LIMITED
-Darcy Boyd |  | 8 | 8 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | .250* | .250 | .250 | .500 | .000 | 0.0% | LIMITED
-Michael Studdert |  | 7 | 7 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .143* | .143 | .286 | .429 | .143 | 0.0% | LIMITED
 Bronwyn Gell |  | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | LIMITED
 Jonathon Lowe |  | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | LIMITED
 Samuel Perez |  | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | LIMITED
-TEAM TOTAL |  | 250 | 220 | 13 | 54 | 43 | 8 | 0 | 4 | 20 | 19 | 7 | 50 | 2 | .245 | .325 | .336 | .662 | .091 | 7.6% | Weak
+TEAM TOTAL |  | 275 | 238 | 17 | 60 | 48 | 9 | 0 | 4 | 24 | 24 | 7 | 57 | 2 | .252 | .337 | .340 | .677 | .088 | 8.7% | Weak
 
 PITCHING
 QUALIFIED PITCHERS | ERA
 Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Scouting Read
+Tevz Gantar | R | 8.0 | 10 | 14 | 3 | 8 | 5 | 7 | 3.38 | 2.25 | 7.88 | 9.00 | CAUTION
 Parks Halasz |  | 4.2 | 1 | 2 | 2 | 5 | 2 | 5 | 3.86 | 1.29 | 9.64 | 9.64 | CAUTION
-Tevz Gantar | R | 5.0 | 4 | 5 | 3 | 3 | 4 | 5 | 5.40 | 1.40 | 9.00 | 5.40 | CAUTION
-Cooper Bishop-Worn |  | 9.1 | 16 | 17 | 9 | 12 | 2 | 10 | 8.68 | 3.00 | 9.64 | 11.57 | ATTACK
+Cooper Bishop-Worn |  | 11.1 | 18 | 20 | 9 | 14 | 2 | 15 | 7.15 | 2.82 | 11.91 | 11.12 | ATTACK
 Wesley De Jong |  | 25.2 | 58 | 51 | 47 | 12 | 2 | 11 | 16.48 | 2.73 | 3.86 | 4.21 | ATTACK
 Trent Pantalleresco |  | 10.0 | 20 | 20 | 21 | 11 | 0 | 10 | 18.90 | 3.10 | 9.00 | 9.90 | ATTACK
 
@@ -36,19 +36,19 @@ NON-QUALIFIED PITCHERS | ERA
 Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Scouting Read
 Jimmy Bent |  | 1.2 | 4 | 1 | 1 | 2 | 0 | 1 | 5.40* | 3.60 | 5.40 | 10.80 | LIMITED
 Thomas Kerr-Chapman |  | 2.0 | 5 | 3 | 3 | 7 | 2 | 3 | 13.50* | 6.00 | 13.50 | 31.50 | LIMITED
-TEAM TOTAL |  | 58.1 | 108 | 99 | 86 | 52 | 12 | 45 | 13.27 | 2.74 | 6.94 | 8.02 | Very Weak
+TEAM TOTAL |  | 63.1 | 116 | 111 | 86 | 59 | 13 | 52 | 12.22 | 2.76 | 7.39 | 8.38 | Very Weak
 
 COACHING & LINEUP USAGE
-1. Offensive target: Manuel Jackson (17 PA, 2.037 OPS, two HR) is the coaching-approved top red THREAT and meets the new 10-PA qualifier. Parks Halasz (29 PA, .845 OPS) and Thomas Kerr-Chapman (31 PA, .700 OPS) warrant caution.
-2. Manuel Jackson is a verified left-handed hitter with Norfolk State Division I, MLB Draft League and Pioneer League experience. His 2.037 OPS, two home runs and advanced playing experience warrant the coaching-approved red THREAT classification (placed first in batting). His .636 AVG is qualified under the new 10-PA rule, but the sample remains only 17 PA.
-3. Tevz Gantar is a right-handed pitcher with national-team and Swedish Elitserien experience. His five recorded innings include five strikeouts and three walks, but usage after the supplied batches is unverified. His limited sample should not be confused with overall ability.
-4. Werribee's uploaded pitchers have allowed substantial walks and hits: 52 walks and 108 hits in 58.1 identified innings. Prioritize plate discipline, quality at-bats and productive contact, while checking their most recent starter and bullpen availability.
-5. Roster usage / depth: Eight supplied Werribee box scores list only 9 to 12 named players each (four with 9 players, three with 10, one with 12). This points to potentially shallow game-day depth, especially for substitutes and bullpen options, but the full active roster and available bench are not verified. Cooper Bishop-Worn, Jimmy Bent, Parks Halasz, Thomas Kerr-Chapman and Erdrin Berisha appear repeatedly; exact batting-order positions and November 24 usage remain unknown.
-6. Werribee's official -70 differential indicates significant run prevention challenges, but Baseball Victoria also documented strong recent performances from Parks Halasz and Tevz Gantar against Sandringham. Do not infer pitch shape, injury status or defense from these aggregate statistics.
-7. Melbourne's recent 9-8 road win over Malvern is included in the 5-6-1 ladder but the individual player box score remains pending. The coaching staff should confirm current rest and likely pitching availability from its own internal scorebook before the Werribee game.
+1. Latest November 24 game rows: six hits, five walks and four runs. Cooper Bishop-Worn singled, doubled and drove in two; Manuel Jackson singled twice and Parks Halasz singled and walked. This is player source data, not a verified official result.
+2. Manuel Jackson, a verified left-handed hitter with Norfolk State NCAA Division I, MLB Draft League and Pioneer League experience, is still the lead THREAT. His sample now shows nine H in 14 AB, 20 PA and 1.893 OPS; check latest lineup placement.
+3. Tevz Gantar has international and Swedish top-division pitching experience. On November 24 he recorded 3.0 IP, six H, five BB, two SO and nine R with zero ER entered. That earned-run line requires verification; check bullpen rest and usage.
+4. Cooper Bishop-Worn's November 24 pitching line is 2.0 IP, two H, five SO, two BB, three R and zero ER as supplied. These pitchers allowed seven BB in five source innings; emphasize plate discipline, without guessing pitch mix.
+5. Nine supplied player batches include nine to twelve named players per game; November 24 has eleven including an all-zero line. This is not evidence of a verified roster cap. Recheck game-to-game lineup and fielding assignment.
+6. Werribee's previous official ten-game ladder stands at 1–9–0 with −70 RD. The November 24 batting/pitching figures are added without presuming that the official result or updated league ladder is confirmed.
+7. Melbourne's saved ladder included its 9–8 road win at Malvern. Confirm current Melbourne and Werribee pitcher availability from club scorebooks before November 28.
 
 EXPERIENCE
-Manny Jackson: NCAA D1, MLB Draft League/Pioneer League. Tevz Gantar: Slovenia National Team/Swedish Elitserien Pitcher of Year 2026. See PDF for sources.
+Manuel Jackson: NCAA D1/MLB Draft League/Pioneer League. Tevz Gantar: Slovenia/Swedish Elitserien. Details in PDF.
 
 DATA QUALITY
-Nov24 Werribee vs Doncaster result unknown; sample source flags hit decomposition, PA/sac bunt and pitcher ER > R issues.
+Nov24 4 batting R/12 pitcher R and zero earned are box-score source entries, not independent official final; Jimmy Bent zero AB/one SO, older Trent 14 R/16 ER and batting errors flagged.
