@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Werribee preliminary November 28 advance scouting: user supplied eight undated game batches",
-    "dateCompiled": "2026-11-24",
+    "title": "Werribee eight undated player batches plus Nov24 dated source",
+    "dateCompiled": "2026-11-25",
     "scope": "First 18 batter and first seven pitcher GameDay columns captured from pasted data, in supplied order; fielding and pitch-count columns omitted from derived scouting statistics",
     "officialGames": 10,
     "officialRecord": "1–9–0",
@@ -9,8 +9,8 @@
     "officialRunsAgainst": 110,
     "officialPosition": "15th",
     "officialRunDifferential": -70,
-    "unverifiedNov24Match": "Werribee vs Doncaster, 2026-11-24; no result or player stat batch provided; do not assume or include",
-    "suppliedGameBatches": 8,
+    "unverifiedNov24Match": "Nov24 player rows imported: 4 R scored and 12 R allowed (0 ER); official final unverified",
+    "suppliedGameBatches": 9,
     "battingHeaders": [
       "PA",
       "AB",
@@ -41,7 +41,7 @@
       "ER"
     ],
     "battingSBNote": "First SB(B) is SAC (sacrifice bunt), second SB(B) is SB (stolen bases)",
-    "officialGameDateMapping": "Not supplied for individual batch rows A-H; do not assign dates or opponents",
+    "officialGameDateMapping": "A–H undated, I Nov24 with unconfirmed official result; previous fixture labels Doncaster",
     "qualityWarnings": [
       {
         "batch": "C",
@@ -78,8 +78,50 @@
         "BB": 1,
         "SAC": 1,
         "HBP": 1
+      },
+      {
+        "batch": "I",
+        "date": "2026-11-24",
+        "player": "Jimmy Bent",
+        "issue": "0 at-bats but one strikeout in copied batting line"
+      },
+      {
+        "batch": "I",
+        "date": "2026-11-24",
+        "issue": "two pitchers combined for 12 runs allowed, 0 earned runs listed; scorer verification needed"
       }
-    ]
+    ],
+    "nov24SourceTotals": {
+      "batting": {
+        "PA": 25,
+        "AB": 18,
+        "R": 4,
+        "H": 6,
+        "1B": 5,
+        "2B": 1,
+        "3B": 0,
+        "HR": 0,
+        "RBI": 4,
+        "SAC": 0,
+        "SF": 1,
+        "BB": 5,
+        "HBP": 0,
+        "CI": 0,
+        "SO": 7,
+        "SB": 0,
+        "CS": 0,
+        "LOB": 6
+      },
+      "pitching": {
+        "IP": 5,
+        "H": 8,
+        "SO": 7,
+        "BB": 7,
+        "HBP": 1,
+        "R": 12,
+        "ER": 0
+      }
+    }
   },
   "batches": [
     {
@@ -2143,6 +2185,308 @@
             "R": 12,
             "ER": 11
           }
+        }
+      ]
+    },
+    {
+      "batchId": "I",
+      "date": "2026-11-24",
+      "opponent": "Doncaster per previously saved fixture (unverified final)",
+      "result": "Not independently verified",
+      "source": "User-provided 38-column Nov24 GameDay table",
+      "players": [
+        {
+          "Player": "Cooper Bishop-Worn",
+          "batting": {
+            "PA": 3,
+            "AB": 3,
+            "R": 0,
+            "H": 2,
+            "1B": 1,
+            "2B": 1,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 2,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 0,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 0,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 2
+          },
+          "pitching": {
+            "IP": 2,
+            "H": 2,
+            "SO": 5,
+            "BB": 2,
+            "HBP": 0,
+            "R": 3,
+            "ER": 0
+          }
+        },
+        {
+          "Player": "Darcy Boyd",
+          "batting": {
+            "PA": 2,
+            "AB": 2,
+            "R": 0,
+            "H": 0,
+            "1B": 0,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 0,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 0,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 2,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 0
+          },
+          "pitching": null
+        },
+        {
+          "Player": "Erdrin Berisha",
+          "batting": {
+            "PA": 0,
+            "AB": 0,
+            "R": 0,
+            "H": 0,
+            "1B": 0,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 0,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 0,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 0,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 0
+          },
+          "pitching": null
+        },
+        {
+          "Player": "Jimmy Bent",
+          "batting": {
+            "PA": 2,
+            "AB": 0,
+            "R": 0,
+            "H": 0,
+            "1B": 0,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 1,
+            "SAC": 0,
+            "SF": 1,
+            "BB": 0,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 1,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 0
+          },
+          "pitching": null
+        },
+        {
+          "Player": "Manuel Jackson",
+          "batting": {
+            "PA": 3,
+            "AB": 3,
+            "R": 1,
+            "H": 2,
+            "1B": 2,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 0,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 0,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 1,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 1
+          },
+          "pitching": null
+        },
+        {
+          "Player": "Parks Halasz",
+          "batting": {
+            "PA": 3,
+            "AB": 2,
+            "R": 1,
+            "H": 1,
+            "1B": 1,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 0,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 1,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 0,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 1
+          },
+          "pitching": null
+        },
+        {
+          "Player": "Tevž Gantar",
+          "batting": {
+            "PA": 3,
+            "AB": 1,
+            "R": 0,
+            "H": 0,
+            "1B": 0,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 0,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 2,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 0,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 1
+          },
+          "pitching": {
+            "IP": 3,
+            "H": 6,
+            "SO": 2,
+            "BB": 5,
+            "HBP": 1,
+            "R": 9,
+            "ER": 0
+          }
+        },
+        {
+          "Player": "Thomas Kerr-Chapman",
+          "batting": {
+            "PA": 3,
+            "AB": 2,
+            "R": 1,
+            "H": 0,
+            "1B": 0,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 0,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 1,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 1,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 0
+          },
+          "pitching": null
+        },
+        {
+          "Player": "Thomas Mckee",
+          "batting": {
+            "PA": 1,
+            "AB": 1,
+            "R": 0,
+            "H": 0,
+            "1B": 0,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 0,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 0,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 1,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 0
+          },
+          "pitching": null
+        },
+        {
+          "Player": "Trent Pantalleresco",
+          "batting": {
+            "PA": 3,
+            "AB": 3,
+            "R": 0,
+            "H": 1,
+            "1B": 1,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 1,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 0,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 1,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 1
+          },
+          "pitching": null
+        },
+        {
+          "Player": "Wesley De Jong",
+          "batting": {
+            "PA": 2,
+            "AB": 1,
+            "R": 1,
+            "H": 0,
+            "1B": 0,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 0,
+            "SAC": 0,
+            "SF": 0,
+            "BB": 1,
+            "HBP": 0,
+            "CI": 0,
+            "SO": 0,
+            "SB": 0,
+            "CS": 0,
+            "LOB": 0
+          },
+          "pitching": null
+        }
+      ],
+      "qualityWarnings": [
+        {
+          "batch": "I",
+          "date": "2026-11-24",
+          "player": "Jimmy Bent",
+          "issue": "0 at-bats but one strikeout in copied batting line"
+        },
+        {
+          "batch": "I",
+          "date": "2026-11-24",
+          "issue": "two pitchers combined for 12 runs allowed, 0 earned runs listed; scorer verification needed"
         }
       ]
     }
