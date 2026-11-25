@@ -3,17 +3,17 @@
 
 A public-facing dashboard for exploring player performance, team tendencies, opponent scouting and coaching reports in Australia's Victorian Summer Baseball League (VSBL) Premier Division 1.
 
-**[Explore the Live Website ↗](https://asmittty11.github.io/melbourne-baseball-dashboard/)** &nbsp; | &nbsp; **[View the Latest Season PDF](reports/Melbourne_Season_Stats_Through_Game11_Sunshine_Updated.pdf)** &nbsp; | &nbsp; **[Read Weekly Tendencies](text_reports/Melbourne_Weekly_Season_Tendencies_2026-11-24.md)**
+**[Explore the Live Website ↗](https://asmittty11.github.io/melbourne-baseball-dashboard/)** &nbsp; | &nbsp; **[View the Latest Season PDF](reports/Melbourne_Season_Stats_Through_Game12_Malvern_Updated.pdf)** &nbsp; | &nbsp; **[Read Weekly Tendencies](text_reports/Melbourne_Weekly_Season_Tendencies_2026-11-25.md)**
 
 ---
 
 ## The Project at a Glance
 
-| Season snapshot | November 24, 2026 |
+| Season snapshot | November 25, 2026 (official ladder November 24) |
 | :--- | :--- |
 | **Melbourne official record** | **5–6–1**, 9th place, 67 runs for / 89 against (−22) |
 | **Official Melbourne games** | 12 |
-| **Melbourne player-stat batches** | 11 (November 24 Malvern player box score pending) |
+| **Melbourne player-stat batches** | 12 (all 12 completed official games, through November 24 Malvern win) |
 | **Official ladder coverage** | 16 teams, dated snapshot with top-eight playoff cutoff |
 | **Regular-season schedule** | Approximately 30 Melbourne games |
 | **Publishing approach** | Manual, source-checked game uploads and GitHub-hosted reports |
@@ -73,9 +73,9 @@ The normal sequence is:
 - [Dashboard website](index.html)
 - [Structured season/scouting data](data/league_stats.json)
 - [Current November 24 league ladder snapshot](data/official_ladder_20261124.json)
-- [November 21 Melbourne–Sunshine player scorebook](data/melbourne_sunshine_game11_20261121.json)
-- [11-player-game cumulative snapshot](data/melbourne_game11_snapshot.json)
-- [Latest weekly tendencies report](text_reports/Melbourne_Weekly_Season_Tendencies_2026-11-24.md)
+- [November 24 Melbourne–Malvern player scorebook](data/melbourne_malvern_game12_20261124.json)
+- [12-player-game cumulative snapshot](data/melbourne_game12_snapshot.json)
+- [Latest weekly tendencies report](text_reports/Melbourne_Weekly_Season_Tendencies_2026-11-25.md)
 - [Published PDFs](reports/) and [report-generation scripts](scripts/)
 - [Historical project and methodology notes](docs/Project_Methodology_Archive_2026-11-18.md)
 
@@ -85,4 +85,4 @@ Melbourne Baseball Club receives recurring performance and opponent analysis fro
 
 **[Open the Dashboard](https://asmittty11.github.io/melbourne-baseball-dashboard/)** · **[See More SQL & Analytics Projects](https://github.com/asmittty11/baseball-analytics-portfolio)**
 
-<sub>Last README refresh: November 24, 2026. The published dashboard and latest dated source files should be consulted for newer results as the season progresses.</sub>
+<sub>Last README refresh: November 25, 2026. The published dashboard and latest dated source files should be consulted for newer results as the season progresses.</sub>
