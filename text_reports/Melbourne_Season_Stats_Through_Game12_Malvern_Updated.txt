@@ -1,0 +1,44 @@
+MELBOURNE BASEBALL CLUB | TWELVE SUPPLIED PLAYER GAMES / TWELVE OFFICIAL GAMES
+9th | 5-6-1 | RF 67 | RA 89 | RD -22 | Malvern W 9-8 (Nov 24; player box included exactly once)
+
+BATTING
+Player | Bats | PA | AB | H | 2B | 3B | HR | BB | SO | AVG | OBP | SLG | OPS | ISO | BB% | SB
+Joshua Hendricks | R | 38 | 29 | 9 | 2 | 0 | 4 | 6 | 3 | .310 | .429 | .793 | 1.222 | .483 | 15.8% | 
+Zak Skinner |  | 18 | 13 | 5 | 1 | 0 | 1 | 4 | 2 | .385* | .529 | .692 | 1.222 | .308 | 22.2% | 2
+Oscar Hargreaves |  | 41 | 35 | 12 | 1 | 0 | 0 | 6 | 9 | .343 | .439 | .371 | .810 | .029 | 14.6% | 
+Blake Mitchell |  | 50 | 38 | 9 | 3 | 1 | 0 | 11 | 5 | .237 | .408 | .368 | .777 | .132 | 22.0% | 6
+Ben Aslett | L | 30 | 21 | 5 | 0 | 0 | 1 | 4 | 3 | .238 | .360 | .381 | .741 | .143 | 13.3% | 
+Lennard Pietersz |  | 24 | 22 | 7 | 1 | 0 | 0 | 1 | 5 | .318 | .348 | .364 | .711 | .045 | 4.2% | 1
+Joey White | R | 3 | 3 | 1 | 0 | 0 | 0 | 0 | 1 | .333* | .333 | .333 | .667 | .000 | 0.0% | 
+Wade Mcconnon |  | 44 | 37 | 10 | 1 | 0 | 0 | 4 | 7 | .270 | .341 | .297 | .639 | .027 | 9.1% | 
+Lochlann O'Connor |  | 44 | 39 | 8 | 2 | 0 | 1 | 4 | 13 | .205 | .279 | .333 | .612 | .128 | 9.1% | 
+William Kent |  | 38 | 33 | 7 | 1 | 1 | 0 | 4 | 10 | .212 | .297 | .303 | .600 | .091 | 10.5% | 
+Lachlan Brennan |  | 22 | 20 | 4 | 2 | 0 | 0 | 2 | 7 | .200* | .273 | .300 | .573 | .100 | 9.1% | 
+Harvey Chinn |  | 39 | 36 | 7 | 1 | 0 | 0 | 3 | 11 | .194 | .256 | .222 | .479 | .028 | 7.7% | 1
+Angus Saggers |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | .000* | .000 | .000 | .000 | .000 | 0.0% | 
+Taylor Perrett | R | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | 
+Zachary Dawes |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | 
+TEAM TOTAL |  | 395 | 329 | 84 | 15 | 2 | 7 | 49 | 77 | .255 | .352 | .377 | .729 | .122 | 12.4% | 10
+
+PITCHING
+Player | IP | H | BB | SO | ER | ERA | WHIP | K/9 | BB/9 | K/BB
+Blake Mitchell | 0.2 | 1 | 0 | 1 | 0 | 0.00* | 1.50 | 13.50 | 0.00 | 0.00
+Angus Saggers | 7.2 | 9 | 1 | 2 | 3 | 3.52 | 1.30 | 2.35 | 1.17 | 2.00
+Taylor Perrett | 25.1 | 32 | 5 | 33 | 14 | 4.97 | 1.46 | 11.72 | 1.78 | 6.60
+Joey White | 22.1 | 31 | 16 | 26 | 19 | 7.66 | 2.10 | 10.48 | 6.45 | 1.63
+Max Saggers | 8.1 | 18 | 4 | 7 | 10 | 10.80 | 2.64 | 7.56 | 4.32 | 1.75
+Charles Chislett | 10.1 | 14 | 16 | 5 | 16 | 13.94 | 2.90 | 4.35 | 13.94 | 0.31
+Simon Fitzmaurice | 6.1 | 15 | 3 | 5 | 11 | 15.63 | 2.84 | 7.11 | 4.26 | 1.67
+Christian Caminiti | 1.1 | 4 | 1 | 0 | 3 | 20.25* | 3.75 | 0.00 | 6.75 | 0.00
+Henry Mcintyre | 1.0 | 3 | 6 | 0 | 3 | 27.00* | 9.00 | 0.00 | 54.00 | 0.00
+TEAM TOTAL | 83.1 | 127 | 52 | 79 | 79 | 8.53 | 2.15 | 8.53 | 5.62 | 1.52
+
+COACHING NOTES
+Malvern 9–8 win (Nov 24): 9 hits, including Zak Skinner 4-for-4 (double, home run, five RBI and steal); Wade Mcconnon two hits, two runs; Blake Mitchell three walks, two runs.
+Game-level discipline: six walks and two HBP helped create traffic with only three strikeouts. This alone does not establish pitch selection without video or the lineup card.
+Staff threw five documented innings and allowed eight runs, all earned, on eight hits and eight walks. Charles Chislett: 2.1 IP, 3 H, 6 BB, 6 R/ER. Walk prevention should be a primary coaching emphasis.
+Joey White recorded 1.0 scoreless IP (1 H, 1 BB, 1 SO); Max Saggers: 1.2 IP, 4 H, 1 BB, 1 SO, 2 R/ER. Do not infer appearance order or current rest from a batting/pitching summary alone.
+Skinner's 18 cumulative PA and 1.222 estimated OPS are promising but still a limited batting sample for Melbourne's 24-PA AVG qualification. Zak's 4 PA/4 AB and one listed sacrifice bunt conflict in the source.
+Official 5-6-1 record, 9th place, RF 67, RA 89 remains unchanged: the Malvern victory was included in the league ladder before player stats arrived. Melbourne sits one spot outside the top-eight playoff cutoff.
+
+Nov24 Malvern: 9 R, 9 H, 6 BB, 3 SO, 1 SB; pitching 5.0 IP, 8 H, 8 BB, 3 SO, 8 R/ER. Source Zak Skinner sac-bunt/PA issue and older game caveats persist.
