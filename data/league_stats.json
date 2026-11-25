@@ -483,7 +483,8 @@
       "sourceCaveat": "Raw player-run totals differ slightly from official ladder; do not force reconciliation"
     },
     "melbourneGame12Imported": true,
-    "melbourneGame12Source": "data/melbourne_malvern_game12_20261124.json"
+    "melbourneGame12Source": "data/melbourne_malvern_game12_20261124.json",
+    "lastMelbourneWeeklyReport": "text_reports/Melbourne_Weekly_Season_Tendencies_2026-11-25.md"
   },
   "melbourne": {
     "batting": [
@@ -6847,6 +6848,12 @@
     ]
   },
   "reports": [
+    {
+      "title": "Melbourne Season Stats — 12 Supplied Games (Malvern 9–8 Win)",
+      "file": "reports/Melbourne_Season_Stats_Through_Game12_Malvern_Updated.pdf",
+      "text": "text_reports/Melbourne_Season_Stats_Through_Game12_Malvern_Updated.txt",
+      "category": "Melbourne"
+    },
     {
       "title": "Fitzroy Advance Scouting — Preliminary (Dec 1)",
       "file": "reports/Melbourne_vs_Fitzroy_Advance_Scouting_Preliminary_Dec01_2026.pdf",
