@@ -18,6 +18,8 @@ A public-facing dashboard for exploring player performance, team tendencies, opp
 | **Regular-season schedule** | Approximately 30 Melbourne games |
 | **Publishing approach** | Manual, source-checked game uploads and GitHub-hosted reports |
 
+The Visual Insights tab also shows **Melbourne Hit Distribution** (single/double/triple/home-run proportions) and **Melbourne Hit Leaders** (top eight players by cumulative hits, each subdivided by hit type). Singles are calculated as H−2B−3B−HR and the team and player totals currently reconcile. These are not field-location spray charts: batted-ball coordinates and directional hit data have not been supplied. The new visuals refresh automatically from the same JSON and do not affect original scouting or player tables.
+
 Visual Insights charts read from the existing `data/league_stats.json` file at page load; they do not store duplicate or manually maintained chart values. Official W–L–D and runs scored/allowed come from the official standings; player leaderboards use Melbourne's existing PA and pitching-out qualification rules. Pooled league comparisons use only uploaded team totals (currently 10 teams, Melbourne included), so they should not be described as complete official 16-team benchmarks. Historical estimated OBP/OPS and provisional source limitations remain. Do not add game-by-game trend lines until complete verified game-level data support them.
 
 The **live website** is the best place to explore the project. This repository documents its data, production workflow and archived outputs.

@@ -97,6 +97,90 @@
     return result;
   }
 
+  // Cumulative hit-type breakdowns; no ball-flight or spray coordinates are implied.
+  const hitKinds = [
+    { key: 'single', short: '1B', title: 'Singles' },
+    { key: 'double', short: '2B', title: 'Doubles' },
+    { key: 'triple', short: '3B', title: 'Triples' },
+    { key: 'homeRun', short: 'HR', title: 'Home Runs' }
+  ];
+
+  function hitCounts(row) {
+    const hits = value(row.H);
+    const doubles = value(row['2B']);
+    const triples = value(row['3B']);
+    const homeRuns = value(row.HR);
+    if ([hits, doubles, triples, homeRuns].some(function (v) {
+      return v === null || v < 0 || !Number.isInteger(v);
+    })) return null;
+    const singles = hits - doubles - triples - homeRuns;
+    if (singles < 0) return null;
+    return { hits: hits, single: singles, double: doubles, triple: triples, homeRun: homeRuns };
+  }
+
+  function hitSegments(counts, denominator) {
+    if (!counts || !denominator) return '';
+    return hitKinds.map(function (type) {
+      const count = counts[type.key];
+      if (count === 0) return '';
+      return '<span class="vis-hit-segment vis-hit-' + type.key +
+        '" style="width:' + (count * 100 / denominator).toFixed(3) +
+        '%" title="' + text(type.title + ': ' + count) + '"></span>';
+    }).join('');
+  }
+
+  function hitLegend(counts) {
+    return '<div class="vis-hit-legend">' + hitKinds.map(function (type) {
+      const count = counts[type.key];
+      return '<span><i class="vis-hit-key vis-hit-' + type.key +
+        '"></i><strong>' + text(type.short) + '</strong> ' + text(count) +
+        ' <span class="muted">(' + (count * 100 / counts.hits).toFixed(1) +
+        '%)</span></span>';
+    }).join('') + '</div>';
+  }
+
+  function renderHitBreakdown(teamRow) {
+    const counts = hitCounts(teamRow);
+    if (!counts || counts.hits === 0) {
+      return '<p class="muted">No valid team hit breakdown is available.</p>';
+    }
+    return '<p class="vis-hit-summary"><strong>' + text(counts.hits) +
+      ' Hits</strong> · ' + text(counts.single + counts.double + counts.triple + counts.homeRun) +
+      ' Recorded by Hit Type</p>' +
+      '<div class="vis-hit-track vis-hit-team" role="img" aria-label="' +
+      text(hitKinds.map(function (type) { return type.title + ': ' + counts[type.key]; }).join(', ')) +
+      '">' + hitSegments(counts, counts.hits) + '</div>' + hitLegend(counts) +
+      '<p class="muted">Singles = Total Hits − Doubles − Triples − Home Runs.</p>';
+  }
+
+  function renderHitLeaders(batters) {
+    const players = batters
+      .filter(function (r) { return !r['Team Total']; })
+      .map(function (r) { return { row: r, counts: hitCounts(r) }; })
+      .filter(function (r) { return r.counts && r.counts.hits > 0; })
+      .sort(function (a, b) {
+        return b.counts.hits - a.counts.hits ||
+          String(a.row.Player).localeCompare(String(b.row.Player));
+      }).slice(0, 8);
+    if (!players.length) return '<p class="muted">No player hits are currently available.</p>';
+    const maxHits = players[0].counts.hits;
+    return '<div class="vis-hit-players">' + players.map(function (p) {
+      const player = String(p.row.Player);
+      const pa = value(p.row.PA);
+      const name = player + (pa === null ? '' : ' · ' + pa + ' PA');
+      return '<div class="vis-hit-player"><span class="vis-hit-player-name">' +
+        text(name) + '</span><span class="vis-hit-track" role="img" aria-label="' +
+        text(player + ': ' + p.counts.hits + ' hits; ' +
+          hitKinds.map(function (kind) { return kind.title + ': ' + p.counts[kind.key]; }).join(', ')) +
+        '">' + hitSegments(p.counts, maxHits) + '</span><strong class="vis-number">' +
+        text(p.counts.hits) + ' H</strong></div>';
+    }).join('') + '</div><div class="vis-hit-legend vis-hit-legend-compact">' +
+    hitKinds.map(function (type) {
+      return '<span><i class="vis-hit-key vis-hit-' + type.key +
+        '"></i>' + text(type.short) + '</span>';
+    }).join('') + '</div>';
+  }
+
   function renderMelbourneVisuals(d) {
     const root = document.getElementById('melbourneVisualsContent');
     if (!root) return;
@@ -194,7 +278,13 @@
         'Top six by OPS; at least ' + minPa + ' PA (2 PA per Melbourne game). Includes qualified players only.', hitterRows, false) +
       card('Qualified Melbourne Pitchers - ERA',
         'Sorted by ERA; at least ' + minOuts + ' recorded outs (' + Math.floor(minOuts / 3) +
-        '.' + (minOuts % 3) + ' IP).', pitcherRows, false);
+        '.' + (minOuts % 3) + ' IP).', pitcherRows, false) +
+      card('Melbourne Hit Distribution',
+        'Season hit types from the Melbourne cumulative batting totals.',
+        renderHitBreakdown(mb), false) +
+      card('Melbourne Hit Leaders',
+        'Top eight players by hits; bars show singles, doubles, triples and home runs.',
+        renderHitLeaders(batters), false);
 
     const note = document.getElementById('melbourneVisualsSources');
     if (note) {
