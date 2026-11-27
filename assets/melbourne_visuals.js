@@ -43,15 +43,20 @@
       body + '</section>';
   }
 
-  function paired(label, melbourne, pooled, digits, lowerBetter) {
+  // Baseball-style rates display .255 and .729 rather than 0.255 and 0.729.
+  function displayRate(amount, digits, baseballRate) {
+    const result = amount.toFixed(digits);
+    return baseballRate && result.startsWith('0.') ? result.slice(1) : result;
+  }
+
+  function paired(label, melbourne, pooled, digits, baseballRate) {
     if (melbourne === null || pooled === null || pooled <= 0) {
       return '<p class="muted">This comparison needs more verified team-level data.</p>';
     }
     const scale = Math.max(melbourne, pooled) * 1.07;
-    return '<div class="vis-comparison"><h4>' + text(label) +
-      ' <span class="muted">(' + (lowerBetter ? 'lower' : 'higher') + ' is better)</span></h4>' +
-      bar('Melbourne', melbourne, scale, melbourne.toFixed(digits), false) +
-      bar('Uploaded teams', pooled, scale, pooled.toFixed(digits), true) + '</div>';
+    return '<div class="vis-comparison"><h4>' + text(label) + '</h4>' +
+      bar('Melbourne', melbourne, scale, displayRate(melbourne, digits, baseballRate), false) +
+      bar('League', pooled, scale, displayRate(pooled, digits, baseballRate), true) + '</div>';
   }
 
   function peopleRows(rows, metric, limit, extras, ascending) {
@@ -65,13 +70,22 @@
         return diff || String(a.Player).localeCompare(String(b.Player));
       })
       .slice(0, limit);
-    if (!eligible.length) return '<p class="muted">No players currently meet this qualification threshold.</p>';
-    const scale = Math.max.apply(null, eligible.map(function (p) { return value(p[metric]); })) * 1.07 || 1;
-    return eligible.map(function (p) {
+    const leagueValue = extras.leagueValue;
+    const hasLeague = Number.isFinite(leagueValue);
+    const amounts = eligible.map(function (p) { return value(p[metric]); });
+    if (hasLeague) amounts.push(leagueValue);
+    const scale = (amounts.length ? Math.max.apply(null, amounts) : 1) * 1.07 || 1;
+    let result = eligible.length ? eligible.map(function (p) {
       const amount = value(p[metric]);
       return bar(String(p.Player) + ' · ' + extras.sample(p), amount, scale,
-        amount.toFixed(extras.decimals), false);
-    }).join('');
+        displayRate(amount, extras.decimals, extras.baseballRate), false);
+    }).join('') : '<p class="muted">No players currently meet this qualification threshold.</p>';
+    if (hasLeague) {
+      result += '<div class="vis-league-row">' +
+        bar('League ' + metric, leagueValue, scale,
+          displayRate(leagueValue, extras.decimals, extras.baseballRate), true) + '</div>';
+    }
+    return result;
   }
 
   function renderMelbourneVisuals(d) {
@@ -127,53 +141,57 @@
         '<span class="vis-wins" style="width:' + (100 * wins / n).toFixed(1) + '%"></span>' +
         '<span class="vis-losses" style="width:' + (100 * losses / n).toFixed(1) + '%"></span>' +
         '<span class="vis-draws" style="width:' + (100 * draws / n).toFixed(1) + '%"></span></div>' +
-        '<p class="vis-legend"><span><i class="vis-key vis-wins"></i>' + wins + ' wins</span>' +
-        '<span><i class="vis-key vis-losses"></i>' + losses + ' losses</span>' +
-        '<span><i class="vis-key vis-draws"></i>' + draws + ' draws</span></p>';
+        '<p class="vis-legend"><span><i class="vis-key vis-wins"></i>' + wins + ' Wins</span>' +
+        '<span><i class="vis-key vis-losses"></i>' + losses + ' Losses</span>' +
+        '<span><i class="vis-key vis-draws"></i>' + draws + ' Draws</span></p>';
     }
     if (rf !== null && ra !== null) {
       const made = rf / games, allowed = ra / games, scale = Math.max(made, allowed) * 1.07;
-      season += '<h4>Runs per official game</h4>' +
+      season += '<h4>Runs per Official Game</h4>' +
         bar('Scored', made, scale, made.toFixed(2), false) +
         bar('Allowed', allowed, scale, allowed.toFixed(2), true) +
-        '<p class="muted">Run differential: ' + (rf - ra > 0 ? '+' : '') + text(rf - ra) +
+        '<p class="muted">Run Differential: ' + (rf - ra > 0 ? '+' : '') + text(rf - ra) +
         ' across ' + text(games) + ' games. Official ladder data, not summed partial boxes.</p>';
     }
 
-    const battingCompare = paired('OPS (estimated)', value(mb.OPS), pooledOps, 3, false) +
-      paired('AVG', value(mb.AVG), pooledAvg, 3, false);
-    const pitchingCompare = paired('ERA', value(mp.ERA), pooledEra, 2, true) +
-      paired('WHIP', value(mp.WHIP), pooledWhip, 2, true);
+    const battingCompare = paired('OPS', value(mb.OPS), pooledOps, 3, true) +
+      paired('AVG', value(mb.AVG), pooledAvg, 3, true);
+    const pitchingCompare = paired('ERA', value(mp.ERA), pooledEra, 2, false) +
+      paired('WHIP', value(mp.WHIP), pooledWhip, 2, false);
     const minPa = Math.ceil(2 * games);
     const minOuts = Math.ceil(games);
     const hitterRows = peopleRows(batters, 'OPS', 6, {
       qualifies: function (r) { return value(r.PA) >= minPa; },
       sample: function (r) { return String(r.PA) + ' PA'; },
-      decimals: 3
+      decimals: 3,
+      baseballRate: true,
+      leagueValue: pooledOps
     }, false);
     const pitcherRows = peopleRows(pitchers, 'ERA', 6, {
       qualifies: function (r) { return outs(r.IP) !== null && outs(r.IP) >= minOuts; },
       sample: function (r) { return String(r.IP) + ' IP'; },
-      decimals: 2
+      decimals: 2,
+      baseballRate: false,
+      leagueValue: pooledEra
     }, true);
 
     root.innerHTML =
-      card('Season record & run balance', 'Official standings through ' + games + ' games.', season, true) +
-      card('Melbourne batting vs uploaded teams',
-        'Team AVG and estimated OPS. Higher is better.', battingCompare, false) +
-      card('Melbourne pitching vs uploaded teams',
-        'Team ERA and WHIP. Lower is better.', pitchingCompare, false) +
-      card('Qualified Melbourne hitters · OPS',
+      card('Season Record & Run Balance', 'Official standings through ' + games + ' games.', season, true) +
+      card('Melbourne Batting vs. Uploaded Teams',
+        'Team AVG and OPS compared with the League.', battingCompare, false) +
+      card('Melbourne Pitching vs. Uploaded Teams',
+        'Team ERA and WHIP compared with the League.', pitchingCompare, false) +
+      card('Qualified Melbourne Hitters - OPS',
         'Top six by OPS; at least ' + minPa + ' PA (2 PA per Melbourne game). Includes qualified players only.', hitterRows, false) +
-      card('Qualified Melbourne pitchers · ERA',
-        'Lowest ERA first; at least ' + minOuts + ' recorded outs (' + Math.floor(minOuts / 3) +
-        '.' + (minOuts % 3) + ' IP). Smaller ERA is better.', pitcherRows, false);
+      card('Qualified Melbourne Pitchers - ERA',
+        'Sorted by ERA; at least ' + minOuts + ' recorded outs (' + Math.floor(minOuts / 3) +
+        '.' + (minOuts % 3) + ' IP).', pitcherRows, false);
 
     const note = document.getElementById('melbourneVisualsSources');
     if (note) {
-      note.textContent = 'Charts recalculate from the current uploaded data. Pooled comparisons use ' +
+      note.textContent = 'Charts recalculate from the current uploaded data. League comparisons use ' +
         teamBat.length + ' uploaded team totals, including Melbourne, not all 16 VSBL teams. ' +
-        'Historical OBP/OPS estimates, incomplete opponent game coverage, provisional early-game pitching, ' +
+        'Historical OBP/OPS calculation limitations, incomplete opponent game coverage, provisional early-game pitching, ' +
         'and small samples affect interpretation. No unsupported game-by-game trends are shown.';
     }
   }
