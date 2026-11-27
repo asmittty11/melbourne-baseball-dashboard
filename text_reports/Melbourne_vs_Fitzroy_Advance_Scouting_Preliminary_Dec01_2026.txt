@@ -1,35 +1,36 @@
 MELBOURNE vs FITZROY | PRELIMINARY | 01 DEC 2026
 Fitzroy 12th 4-7-0; 11 official, 48 RF/62 RA/-14. Melbourne 9th 5-6-1; 12 official 67 RF/89 RA/-22.
-Ten supplied Fitzroy player-stat batches; Nov24 12-0 already in official standings but player box missing; Nov28 result/player stats pending.
+Eleven supplied Fitzroy player-stat batches; Nov24 12-0 newly added to player stats but already in official 11-game ladder. Nov28 pending.
 
-BATTING | 10 SUPPLIED GAME BATCHES / 11 OFFICIAL / OPS - HIGH TO LOW
+BATTING | 11 SUPPLIED GAME BATCHES / 11 OFFICIAL / OPS - HIGH TO LOW
 Player | Bats | PA | AB | R | H | 1B | 2B | 3B | HR | RBI | BB | HBP | SO | SB | AVG | OBP | SLG | OPS | ISO | BB% | Scouting Read
+Kazutomo Iguchi |  | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1.000* | 1.000 | 1.000 | 2.000 | .000 | 0.0% | LIMITED
+Tom Dicker |  | 10 | 8 | 3 | 5 | 3 | 2 | 0 | 0 | 2 | 1 | 0 | 0 | 0 | .625 | .667 | .875 | 1.542 | .250 | 10.0% | THREAT
+Oscar Naughton |  | 4 | 4 | 1 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .500* | .500 | .500 | 1.000 | .000 | 0.0% | LIMITED
 Brock Pawley |  | 16 | 11 | 1 | 4 | 4 | 0 | 0 | 0 | 1 | 4 | 1 | 2 | 0 | .364 | .562 | .364 | .926 | .000 | 25.0% | THREAT
-Sodai Shimizu |  | 44 | 37 | 6 | 12 | 7 | 5 | 0 | 0 | 5 | 3 | 3 | 4 | 3 | .324 | .419 | .459 | .878 | .135 | 6.8% | CAUTION
-Daniel Huryn |  | 36 | 25 | 3 | 7 | 5 | 2 | 0 | 0 | 3 | 9 | 2 | 2 | 1 | .280 | .500 | .360 | .860 | .080 | 25.0% | CAUTION
+Sodai Shimizu |  | 49 | 42 | 8 | 14 | 8 | 6 | 0 | 0 | 6 | 3 | 3 | 5 | 3 | .333 | .417 | .476 | .893 | .143 | 6.1% | CAUTION
+Daniel Huryn |  | 40 | 29 | 4 | 9 | 7 | 2 | 0 | 0 | 4 | 9 | 2 | 2 | 1 | .310 | .500 | .379 | .879 | .069 | 22.5% | CAUTION
+Kodai Hamaya |  | 19 | 17 | 1 | 6 | 4 | 2 | 0 | 0 | 4 | 1 | 0 | 6 | 1 | .353 | .368 | .471 | .839 | .118 | 5.3% | CAUTION
 Cameron Deeble |  | 36 | 31 | 2 | 10 | 8 | 2 | 0 | 0 | 7 | 3 | 2 | 7 | 0 | .323 | .417 | .387 | .804 | .065 | 8.3% | CAUTION
 Kalan Ellis |  | 31 | 27 | 3 | 8 | 6 | 2 | 0 | 0 | 2 | 2 | 1 | 7 | 2 | .296 | .367 | .370 | .737 | .074 | 6.5% | CAUTION
-Kodai Hamaya |  | 15 | 14 | 1 | 4 | 4 | 0 | 0 | 0 | 3 | 1 | 0 | 6 | 1 | .286 | .333 | .286 | .619 | .000 | 6.7% | ATTACK
-Mitchell Legge |  | 40 | 32 | 3 | 7 | 7 | 0 | 0 | 0 | 2 | 6 | 1 | 4 | 1 | .219 | .359 | .219 | .578 | .000 | 15.0% | ATTACK
-Billy Findlay |  | 39 | 36 | 5 | 8 | 6 | 2 | 0 | 0 | 1 | 1 | 2 | 5 | 2 | .222 | .282 | .278 | .560 | .056 | 2.6% | ATTACK
+Mitchell Legge |  | 44 | 36 | 5 | 9 | 8 | 1 | 0 | 0 | 5 | 6 | 1 | 4 | 1 | .250 | .372 | .278 | .650 | .028 | 13.6% | ATTACK
+Billy Findlay |  | 43 | 38 | 7 | 8 | 6 | 2 | 0 | 0 | 2 | 1 | 3 | 5 | 2 | .211 | .279 | .263 | .542 | .053 | 2.3% | ATTACK
 Damian Preston |  | 15 | 15 | 0 | 4 | 4 | 0 | 0 | 0 | 2 | 0 | 0 | 2 | 0 | .267 | .267 | .267 | .533 | .000 | 0.0% | ATTACK
-Luke Williams |  | 16 | 13 | 3 | 2 | 2 | 0 | 0 | 0 | 3 | 0 | 3 | 5 | 0 | .154 | .312 | .154 | .466 | .000 | 0.0% | ATTACK
-Zachary Breen |  | 27 | 26 | 2 | 5 | 5 | 0 | 0 | 0 | 0 | 1 | 0 | 8 | 0 | .192 | .222 | .192 | .415 | .000 | 3.7% | ATTACK
-Danny King |  | 20 | 19 | 4 | 2 | 2 | 0 | 0 | 0 | 2 | 1 | 0 | 6 | 0 | .105 | .150 | .105 | .255 | .000 | 5.0% | ATTACK
-Tom Dicker |  | 7 | 6 | 2 | 4 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | .667* | .667 | .833 | 1.500 | .167 | 0.0% | LIMITED
-Oscar Naughton |  | 3 | 3 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .333* | .333 | .333 | .667 | .000 | 0.0% | LIMITED
+Zachary Breen |  | 31 | 29 | 3 | 6 | 6 | 0 | 0 | 0 | 1 | 2 | 0 | 8 | 0 | .207 | .258 | .207 | .465 | .000 | 6.5% | ATTACK
+Luke Williams |  | 19 | 15 | 3 | 2 | 2 | 0 | 0 | 0 | 5 | 1 | 3 | 5 | 0 | .133 | .316 | .133 | .449 | .000 | 5.3% | ATTACK
 Motoki Sato |  | 8 | 7 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | .143* | .250 | .143 | .393 | .000 | 12.5% | LIMITED
-Eli Gunther |  | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | LIMITED
+Danny King |  | 23 | 21 | 6 | 3 | 3 | 0 | 0 | 0 | 2 | 2 | 0 | 7 | 0 | .143 | .217 | .143 | .360 | .000 | 8.7% | ATTACK
+Eli Gunther |  | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | LIMITED
 Glenn Farrell |  | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | LIMITED
 Oliver Reid |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | .000* | .000 | .000 | .000 | .000 | 0.0% | LIMITED
-TEAM TOTAL |  | 360 | 309 | 37 | 79 | 65 | 14 | 0 | 0 | 31 | 32 | 15 | 68 | 10 | .256 | .354 | .301 | .655 | .045 | 8.9% | Below Average
+TEAM TOTAL |  | 397 | 339 | 49 | 92 | 73 | 19 | 0 | 0 | 43 | 36 | 16 | 70 | 10 | .271 | .366 | .327 | .694 | .056 | 9.1% | Below Average
 
 PITCHING
 QUALIFIED PITCHERS | ERA
 Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Scouting Read
 Kazutomo Iguchi | R | 14.0 | 7 | 2 | 1 | 1 | 0 | 21 | 0.64 | 0.57 | 13.50 | 0.64 | STRONG
-Kodai Hamaya | L | 18.0 | 11 | 2 | 2 | 5 | 0 | 30 | 1.00 | 0.89 | 15.00 | 2.50 | STRONG
-Billy Findlay |  | 4.2 | 6 | 3 | 3 | 1 | 1 | 2 | 5.79 | 1.50 | 3.86 | 1.93 | CAUTION
+Kodai Hamaya | L | 22.0 | 14 | 2 | 2 | 5 | 0 | 35 | 0.82 | 0.86 | 14.32 | 2.05 | STRONG
+Billy Findlay |  | 7.2 | 6 | 3 | 3 | 2 | 1 | 6 | 3.52 | 1.04 | 7.04 | 2.35 | CAUTION
 Aoi Nakaza |  | 7.1 | 14 | 6 | 6 | 1 | 0 | 7 | 7.36 | 2.05 | 8.59 | 1.23 | ATTACK
 Sam Bucello |  | 17.2 | 25 | 22 | 16 | 7 | 8 | 7 | 8.15 | 1.81 | 3.57 | 3.57 | ATTACK
 Matthew Holmes |  | 9.1 | 17 | 17 | 10 | 3 | 4 | 0 | 9.64 | 2.14 | 0.00 | 2.89 | ATTACK
@@ -39,19 +40,19 @@ Player | Throws | IP | H | R | ER | BB | HBP | SO | ERA | WHIP | K/9 | BB/9 | Sc
 Glenn Farrell |  | 2.0 | 1 | 0 | 0 | 2 | 0 | 0 | 0.00* | 1.50 | 0.00 | 9.00 | LIMITED
 Kenichiro Tanaka |  | 3.1 | 3 | 7 | 7 | 3 | 0 | 1 | 18.90* | 1.80 | 2.70 | 8.10 | LIMITED
 Brock Pawley |  | 0.0 | 1 | 1 | 1 | 0 | 2 | 0 |  |  |  |  | LIMITED
-TEAM TOTAL |  | 76.1 | 85 | 60 | 46 | 23 | 15 | 68 | 5.42 | 1.41 | 8.02 | 2.71 | Average
+TEAM TOTAL |  | 83.1 | 88 | 60 | 46 | 24 | 15 | 77 | 4.97 | 1.34 | 8.32 | 2.59 | Average
 
 LINEUP & COACHING USAGE
-1. Daniel Huryn and Sodai Shimizu each appear in all ten supplied batting batches; Billy Findlay, Kalan Ellis and Mitchell Legge in nine; Cameron Deeble and Zachary Breen in eight. These are playing-frequency trends, not a verified upcoming batting order.
-2. Among qualified batters Brock Pawley (.926 OPS, 16 PA) is THREAT. Sodai Shimizu (.878 OPS, 44 PA), Daniel Huryn (.860 OPS, 36 PA) and Cameron Deeble (.804 OPS, 36 PA and 7 RBI) merit CAUTION. Tom Dicker (1.500 OPS) has only 7 PA and correctly remains LIMITED.
-3. The ten supplied boxes have 14 doubles, no recorded HR, 32 walks, 15 HBP and 10 stolen bases. Prepare for pressure from contact, runners in motion and advancement; unknown per-game strategies should not be asserted without video.
-4. Hamaya (18.0 IP, 30 SO, 2 ER) and Iguchi (14.0 IP, 21 SO, 1 ER) account for 51 of the staff's 68 available strikeouts. Their high-level careers and efficiency require a disciplined two-strike approach; pitch shape and velocity are NOT known from this data.
-5. The remaining supplied pitcher sample has uneven run prevention. Bucello (17.2 IP, 16 ER), Holmes (9.1 IP, 10 ER), and Nakaza (7.1 IP, 6 ER) are possible attack opportunities depending on actual availability and sequence.
-6. Hamaya and Iguchi are associated with Melbourne Aces, but availability for December 1 must not be inferred. Update probable starter, recent pitch counts and bullpen use after Nov 24 and Nov 28 boxes are published.
-7. Four supplied batter lines have PA breakdown discrepancies and supplied batting R differs by one from the inferred official pre-Nov24 total. Avoid false precision and recheck the most recent official scorer posts.
+1. Daniel Huryn and Sodai Shimizu have now appeared in eleven supplied batting batches each; Billy Findlay and Mitchell Legge in ten, while Zachary Breen appears in nine. These are player appearances within supplied boxes, not a confirmed December 1 lineup order.
+2. Kodai Hamaya had two doubles at the plate and 4.0 IP/3 H/5 SO with no walks or runs allowed on November 24. His cumulative 22.0 IP, 35 SO and 0.82 ERA make him a clear STRONG pitching threat; verify his availability before Dec 1.
+3. Billy Findlay supplied 3.0 scoreless innings with 4 SO and one walk, bringing him to 7.2 IP. Kazutomo Iguchi remains a high-experience right-handed pitching STRONG but made only a one-PA batting appearance in the new supplied game.
+4. Tom Dicker's latest double and walk lift him to ten PA, qualifying his batting AVG and THREAT scouting read on this sample. The one-PA, 1-for-1 Kazutomo Iguchi batting line remains LIMITED despite an inflated small-sample OPS.
+5. The eleven supplied games feature 19 doubles, no home runs, 36 BB, 16 HBP and 10 documented steals. Emphasize preventing free bases and hard contact while confirming actual running and lineup tendencies with video.
+6. Former NPB pitchers Hamaya and Iguchi have high-level professional experience, but team-game box scores cannot confirm who starts December 1. Check current pitching availability and actual usage before the matchup.
+7. Source player totals after adding November 24 are 49 batting runs versus 48 official RF (+1), and 60 pitching runs allowed versus 62 official RA (-2). The new 12-0 box itself reconciles; earlier one-run and two-run source mismatches remain open.
 
 EXPERIENCE
-Kodai Hamaya former NPB and ABL LHP; Kazutomo Iguchi former NPB 2016 Japan Series champion RHP. See PDF for URLs.
+Kodai Hamaya former NPB / ABL LHP; Kazutomo Iguchi former NPB / 2016 Japan Series champion RHP. See PDF sources.
 
 DATA QUALITY
-Player batting R37 vs implied pre-Nov24 R36; pitcher R60 vs official 11-game RA62. Nov24 and Nov28 individual data pending.
+Nov24 12-0 player game added once; sample batting R49 vs official RF48 and pitching R60 vs official RA62; historical scoring/PA issues unresolved. Nov28 pending.
