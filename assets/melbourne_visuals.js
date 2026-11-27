@@ -40,8 +40,8 @@
       '<strong class="vis-number">' + text(displayed) + '</strong></div>';
   }
 
-  function card(title, explanation, body, full) {
-    return '<section class="card vis-card' + (full ? ' vis-full' : '') + '">' +
+  function card(title, explanation, body, full, centered) {
+    return '<section class="card vis-card' + (full ? ' vis-full' : '') + (centered ? ' vis-centered-leaders' : '') + '">' +
       '<h3>' + text(title) + '</h3><p class="muted">' + text(explanation) + '</p>' +
       body + '</section>';
   }
@@ -279,12 +279,9 @@
       card('Qualified Melbourne Pitchers - ERA',
         'Sorted by ERA; at least ' + minOuts + ' recorded outs (' + Math.floor(minOuts / 3) +
         '.' + (minOuts % 3) + ' IP).', pitcherRows, false) +
-      card('Melbourne Hit Distribution',
-        'Season hit types from the Melbourne cumulative batting totals.',
-        renderHitBreakdown(mb), false) +
       card('Melbourne Hit Leaders',
         'Top eight players by hits; bars show singles, doubles, triples and home runs.',
-        renderHitLeaders(batters), false);
+        renderHitLeaders(batters), true, true);
 
     const note = document.getElementById('melbourneVisualsSources');
     if (note) {
