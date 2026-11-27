@@ -18,6 +18,8 @@ A public-facing dashboard for exploring player performance, team tendencies, opp
 | **Regular-season schedule** | Approximately 30 Melbourne games |
 | **Publishing approach** | Manual, source-checked game uploads and GitHub-hosted reports |
 
+Visual Insights charts read from the existing `data/league_stats.json` file at page load; they do not store duplicate or manually maintained chart values. Official W–L–D and runs scored/allowed come from the official standings; player leaderboards use Melbourne's existing PA and pitching-out qualification rules. Pooled league comparisons use only uploaded team totals (currently 10 teams, Melbourne included), so they should not be described as complete official 16-team benchmarks. Historical estimated OBP/OPS and provisional source limitations remain. Do not add game-by-game trend lines until complete verified game-level data support them.
+
 The **live website** is the best place to explore the project. This repository documents its data, production workflow and archived outputs.
 
 ## What the Website Includes
@@ -26,6 +28,7 @@ The **live website** is the best place to explore the project. This repository d
 | :--- | :--- |
 | **Overview** | Official standings, season results, top-eight playoff cutoff and direct links into the analysis |
 | **Melbourne Players** | Sortable cumulative batting and pitching, advanced rates and independent TEAM TOTAL rows |
+| **Visual Insights** | Responsive, source-derived season W–L–D and run balance, uploaded-league batting/pitching benchmarks, and qualified Melbourne player OPS/ERA leaderboards |
 | **Opponent Batting** | Filterable hitter performance and color-coded scouting assessments |
 | **Opponent Pitching** | Pitcher usage, ERA, WHIP, strikeout/walk rates and scouting assessments |
 | **League Comparison** | Combined uploaded statistical samples across Melbourne and scouted opponents |
