@@ -27,10 +27,13 @@
       ? null : vals.reduce(function (a, b) { return a + b; }, 0);
   }
 
-  function bar(label, amount, scale, displayed, alternate) {
+  function bar(label, amount, scale, displayed, alternate, performance) {
     if (!Number.isFinite(amount)) return '';
     const width = Math.max(0, Math.min(100, 100 * amount / Math.max(scale, 0.001)));
-    const kind = alternate ? ' vis-muted-fill' : '';
+    const kind = alternate ? ' vis-muted-fill' :
+      performance === 'better' ? ' vis-better-fill' :
+      performance === 'worse' ? ' vis-worse-fill' :
+      performance === 'equal' ? ' vis-muted-fill' : '';
     return '<div class="vis-bar-row"><span class="vis-label">' + text(label) +
       '</span><span class="vis-track" aria-hidden="true"><span class="vis-fill' + kind +
       '" style="width:' + width.toFixed(1) + '%"></span></span>' +
@@ -77,8 +80,14 @@
     const scale = (amounts.length ? Math.max.apply(null, amounts) : 1) * 1.07 || 1;
     let result = eligible.length ? eligible.map(function (p) {
       const amount = value(p[metric]);
+      // Qualified hitters: OPS above League is green. Qualified pitchers:
+      // ERA below League is green. Worse results are red, ties are gray.
+      const performance = hasLeague
+        ? (amount === leagueValue ? 'equal' :
+          ((ascending ? amount < leagueValue : amount > leagueValue) ? 'better' : 'worse'))
+        : null;
       return bar(String(p.Player) + ' · ' + extras.sample(p), amount, scale,
-        displayRate(amount, extras.decimals, extras.baseballRate), false);
+        displayRate(amount, extras.decimals, extras.baseballRate), false, performance);
     }).join('') : '<p class="muted">No players currently meet this qualification threshold.</p>';
     if (hasLeague) {
       result += '<div class="vis-league-row">' +
@@ -177,10 +186,10 @@
 
     root.innerHTML =
       card('Season Record & Run Balance', 'Official standings through ' + games + ' games.', season, true) +
-      card('Melbourne Batting vs. Uploaded Teams',
-        'Team AVG and OPS compared with the League.', battingCompare, false) +
-      card('Melbourne Pitching vs. Uploaded Teams',
-        'Team ERA and WHIP compared with the League.', pitchingCompare, false) +
+      card('Melbourne Batting vs. League',
+        'Team AVG & OPS compared to league totals', battingCompare, false) +
+      card('Melbourne Pitching vs. League',
+        'Team ERA & WHIP compared to league totals', pitchingCompare, false) +
       card('Qualified Melbourne Hitters - OPS',
         'Top six by OPS; at least ' + minPa + ' PA (2 PA per Melbourne game). Includes qualified players only.', hitterRows, false) +
       card('Qualified Melbourne Pitchers - ERA',
